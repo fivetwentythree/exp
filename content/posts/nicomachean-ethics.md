@@ -1,12 +1,12 @@
 ---
-title: "Aristotle's Nicomachean Ethics"
+title: " Aristotle's Nicomachean Ethics, Or: How to Not Be a Jerk"
 date: 2023-10-28T12:00:00-07:00
 draft: false
 description: "Aristotle's 2,300-year-old guide to not being a jerk. A look at the 'Nicomachean Ethics,' the pursuit of happiness (eudaimonia), and why virtue is like portfolio optimization for your character."
 images: ["/images/good_laugh.webp"]
 ---
 
-# Aristotle's Nicomachean Ethics, Or: How to Not Be a Jerk
+![](/images/zero.webp)
 
 ## Programming Note
 
@@ -28,7 +28,7 @@ So what's virtue? Aristotle divides it into two buckets, like a philosophical as
 
 **Moral virtues** are things like courage, temperance, and justice. You get these by practice and habit. These are more like muscle memory, or how a trader develops an instinct for when a deal smells funny. You can't learn courage from a book any more than you can learn to ride a bike from a PowerPoint presentation.
 
-The clever bit—and this is peak Aristotle—is that moral virtues are all about finding the _mean_ between extremes. Not "mean" like average, but mean like the sweet spot. It's portfolio optimization for your character.
+The clever bit—and this is peak Aristotle—is that moral virtues are all about finding the _mean_ between extremes. Not "mean" like average, but mean like the [sweet spot](<https://en.wikipedia.org/wiki/Flow_(psychology)>). It's portfolio optimization for your character.
 
 Take courage. Too little and you're a coward. Too much and you're reckless, probably running a crypto exchange. The virtue is in the middle: being appropriately afraid of actually scary things (bankruptcy, death, regulators) while not being afraid of things that aren't actually scary (public speaking, commitment, switching to dark mode).
 
@@ -76,9 +76,9 @@ Real friendship—virtue friendship—requires that both people are actually vir
 
 ## The Practical Wisdom Arbitrage
 
-The linchpin of the whole system is _phronesis_[](https://en.wikipedia.org/wiki/Phronesis), or practical wisdom. This is the intellectual virtue that lets you figure out what the virtuous action is in any particular situation. It's like judgment, but for your entire life instead of just for bond trading.
+The linchpin of the whole system is [_phronesis_](https://en.wikipedia.org/wiki/Phronesis), or practical wisdom. This is the intellectual virtue that lets you figure out what the virtuous action is in any particular situation. It's like judgment, but for your entire life instead of just for bond trading.
 
-The problem is you can't develop practical wisdom without already being virtuous, but you can't reliably be virtuous without practical wisdom. This is Aristotle's version of "you need experience to get a job, but you need a job to get experience." His solution is that you start by imitating virtuous people and following good rules, and eventually you develop the judgment to know when to break the rules.
+The problem is you can't develop [practical wisdom](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) without already being virtuous, but you can't reliably be virtuous without practical wisdom. This is Aristotle's version of "you need experience to get a job, but you need a job to get experience." His solution is that you start by imitating virtuous people and following good rules, and eventually you develop the judgment to know when to break the rules.
 
 This is actually how a lot of professional development works. Junior bankers start by following templates and checklists. Eventually they develop the judgment to know when the template doesn't apply. Then they become MDs and forget everything they learned, but that's a different problem.
 
@@ -108,8 +108,6 @@ But it's also the product of a very different world. Aristotle thought some peop
 Still, the basic framework—that virtue is about finding the right balance, that happiness comes from activity not passivity, that you need friends to flourish—remains surprisingly relevant. It's like double-entry bookkeeping: invented ages ago, seems primitive, but actually still the foundation of everything.
 
 Plus, unlike most ancient philosophy, it's genuinely practical. Aristotle isn't trying to prove that motion is impossible or that everything is made of water. He's just trying to figure out how to live well. Which, let's be honest, most of us could use some help with.
-
----
 
 [^1]: This is unfair. Some of them work at private equity firms.
 
