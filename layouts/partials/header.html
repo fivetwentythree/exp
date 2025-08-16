@@ -1,10 +1,15 @@
 <nav>
     <div class="flex align-center">
-        <a href="{{ .Site.Home.RelPermalink }}" class="plain flex-grow font-medium">
-            {{ .Site.Title }}
-        </a>
+        <div class="flex-grow font-medium">
+            <a href="{{ .Site.Home.RelPermalink }}" class="plain">{{ .Site.Title }}</a>
 
-        <!-- NEW and IMPROVED Theme Toggle HTML -->
+            {{/* NEW: Add this block to show the current section */}} {{ if and .Section
+            (not .IsHome) }}
+            <span class="muted"> / {{ .Section | humanize | title }}</span>
+            {{ end }}
+        </div>
+
+        <!-- Theme Toggle HTML -->
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
             <svg
                 class="sun"
