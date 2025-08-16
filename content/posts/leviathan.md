@@ -6,7 +6,7 @@ draft: false
 
 ## The Context, or Why Everyone Was So Upset
 
-So it's 1651 and Thomas Hobbes has just watched England tear itself apart for like a decade. The English Civil War (1642-1651)[](https://www.britannica.com/event/English-Civil-Wars) was basically what happens when you take the question "who should be in charge?" and answer it with "let's find out with swords." King Charles I thought God wanted him to run everything. Parliament thought, no, actually, we should have a say. The Puritans thought everyone else was doing Christianity wrong. The Catholics were nervous. The Scots were involved somehow. It was a mess.
+So it's 1651 and Thomas Hobbes has just watched England tear itself apart for like a decade.The English Civil War (1642-1651)[](https://www.britannica.com/event/English-Civil-Wars) was basically what happens when you take the question "who should be in charge?" and answer it with "let's find out with swords." King Charles I thought God wanted him to run everything. Parliament thought, no, actually, we should have a say. The Puritans thought everyone else was doing Christianity wrong. The Catholics were nervous. The Scots were involved somehow. It was a mess.
 
 Imagine if Twitter disputes could kill you. That was basically England in the 1640s.
 
