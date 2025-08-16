@@ -1724,3 +1724,76 @@ select {
         text-align: center;
     }
 }
+
+//* --- Bookshelf Page --- */
+
+
+/* NEW: Intro text with regular font and NO box */
+.bookshelf-intro {
+    font-family: var(--font-content); /* Use regular system font */
+    margin-bottom: 3rem; /* Keep some space above the table */
+    /* Ensure no box styles are applied */
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.bookshelf-intro p {
+    margin: 0;
+}
+
+/* ... (the rest of your bookshelf styles for the table) ... */
+
+.bookshelf-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 2em;
+    margin-top: 2rem;
+}
+
+.bookshelf-table th {
+    text-align: left;
+    font-weight: 500;
+    color: var(--color-tx-muted);
+    border-bottom: 1px solid var(--color-ui-normal);
+    padding-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.bookshelf-table td {
+    padding: 0 1em;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+.bookshelf-table .book-cover {
+    width: 200px;
+    padding-right: 2em;
+    padding-left: 0;
+}
+
+.bookshelf-table .book-cover img {
+    max-width: 100%;
+    border-radius: var(--border-radius);
+    margin-bottom: 1em;
+}
+
+.bookshelf-table .book-learnings ul {
+    margin: 0;
+    padding-left: 1.5em;
+    font-family: var(--font-content);
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+}
+
+.bookshelf-table .book-learnings li {
+    padding-bottom: 0.75em;
+}
+
+.bookshelf-table .book-learnings li:last-child {
+    padding-bottom: 0;
+}
+
+.nav-links {
+    margin-right: 1.5em;
+}

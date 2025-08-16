@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="bookshelf-page">
+    <h1>{{ .Title }}</h1>
+    <div class="bookshelf-intro">{{ .Content }}</div>
+
+    <table class="bookshelf-table">
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>What I Learned</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Pages.ByDate.Reverse }} {{/* Save the page context to a variable
+            named $page */}} {{ $page := . }}
+            <tr>
+                <td class="book-cover">
+                    {{ with .Params.cover_image }} {{/* Use $page.Title here to access
+                    the book's title */}}
+                    <img src="{{ . | relURL }}" alt="Cover of {{ $page.Title }}" />
+                    {{ end }}
+                    <strong>{{ .Title }}</strong>
+                    <div class="small muted">{{ .Params.author }}</div>
+                </td>
+                <td class="book-learnings">{{ .Content }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</article>
+{{ end }}
