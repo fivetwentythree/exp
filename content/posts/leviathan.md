@@ -47,7 +47,7 @@ It's like if everyone in a bar fight simultaneously realized that bar fights are
 
 ## The Sovereign, or Why Your King Can Do Whatever He Wants
 
-Here's where Hobbes gets controversial (well, more controversial). He argues the sovereign—whether it's a king, parliament, or whatever—should have basically unlimited power. The sovereign can't commit injustice against the subjects because the sovereign _defines_ what justice is. The sovereign is above the law because the sovereign _makes_ the law.
+Here's where Hobbes gets controversial (well, more controversial). He argues the sovereign, whether it's a king, parliament, or whatever should have basically unlimited power. The sovereign can't commit injustice against the subjects because the sovereign _defines_ what justice is. The sovereign is above the law because the sovereign _makes_ the law.
 
 Modern readers usually go: "Wait, what about checks and balances? What about human rights? What about constitutional limits?"
 
@@ -78,7 +78,7 @@ It's like writing a book today that simultaneously argues for and against every 
 
 Here's the thing: nobody really buys Hobbes's whole program anymore. We don't think absolute sovereignty is necessary. We've figured out ways to have functioning governments with checks and balances.[^3] We don't even really buy his super pessimistic view of human nature.
 
-But Hobbes gave us the tools to think about political authority without invoking God or tradition. He made us think about what we're really agreeing to when we accept government authority. And his basic insight—that the alternative to government might be really, really bad—still resonates when you look at failed states and civil wars.
+But Hobbes gave us the tools to think about political authority without invoking God or tradition. He made us think about what we're really agreeing to when we accept government authority. And his basic insight that the alternative to government might be really, really bad, still resonates when you look at failed states and civil wars.
 
 Plus, his writing is weirdly compelling for a 17th-century philosophy text. The man could turn a phrase. "Nasty, brutish, and short" is honestly great copy.
 

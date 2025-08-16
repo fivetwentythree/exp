@@ -16,7 +16,7 @@ If you're reading this expecting tips on tax-efficient charitable giving strateg
 
 Look, here's the fundamental problem Aristotle was trying to solve. Everyone wants to be happy, right? But nobody can agree on what happiness _is_. Some people think happiness is money. These people work at investment banks.[^1] Other people think happiness is pleasure. These people also work at investment banks, but in different departments. Still others think happiness is honor, which, I mean, good luck with that in 2024.
 
-Aristotle's insight—and this is why people still read this stuff 2,300 years later—is that happiness (_eudaimonia_ if you want to impress people at parties[^2]) isn't a feeling or a thing you get. It's an _activity_. Specifically, it's the activity of living excellently according to virtue.
+Aristotle's insight and this is why people still read this stuff 2,300 years later, is that happiness (_eudaimonia_ if you want to impress people at parties[^2]) isn't a feeling or a thing you get. It's an _activity_. Specifically, it's the activity of living excellently according to virtue.
 
 This is like saying the point of basketball isn't to feel good about basketball or to own basketballs; it's to play basketball well. Except instead of basketball, it's your entire life. No pressure.
 
@@ -28,7 +28,7 @@ So what's virtue? Aristotle divides it into two buckets, like a philosophical as
 
 **Moral virtues** are things like courage, temperance, and justice. You get these by practice and habit. These are more like muscle memory, or how a trader develops an instinct for when a deal smells funny. You can't learn courage from a book any more than you can learn to ride a bike from a PowerPoint presentation.
 
-The clever bit—and this is peak Aristotle—is that moral virtues are all about finding the _mean_ between extremes. Not "mean" like average, but mean like the [sweet spot](<https://en.wikipedia.org/wiki/Flow_(psychology)>). It's portfolio optimization for your character.
+The clever bit (and this is peak Aristotle) is that moral virtues are all about finding the _mean_ between extremes. Not "mean" like average, but mean like the [sweet spot](<https://en.wikipedia.org/wiki/Flow_(psychology)>). It's portfolio optimization for your character.
 
 Take courage. Too little and you're a coward. Too much and you're reckless, probably running a crypto exchange. The virtue is in the middle: being appropriately afraid of actually scary things (bankruptcy, death, regulators) while not being afraid of things that aren't actually scary (public speaking, commitment, switching to dark mode).
 
@@ -105,7 +105,7 @@ The Nicomachean Ethics is basically Aristotle's attempt to create a systematic f
 
 But it's also the product of a very different world. Aristotle thought some people were natural slaves, that women were inferior to men, and that the best life was sitting around thinking about philosophy. (Okay, that last one might be right.)
 
-Still, the basic framework—that virtue is about finding the right balance, that happiness comes from activity not passivity, that you need friends to flourish—remains surprisingly relevant. It's like double-entry bookkeeping: invented ages ago, seems primitive, but actually still the foundation of everything.
+Still, the basic framework, that virtue is about finding the right balance, that happiness comes from activity not passivity, that you need friends to flourish remains surprisingly relevant. It's like double-entry bookkeeping: invented ages ago, seems primitive, but actually still the foundation of everything.
 
 Plus, unlike most ancient philosophy, it's genuinely practical. Aristotle isn't trying to prove that motion is impossible or that everything is made of water. He's just trying to figure out how to live well. Which, let's be honest, most of us could use some help with.
 

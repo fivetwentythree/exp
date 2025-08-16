@@ -11,11 +11,11 @@ images: ["/images/test.webp"]
 
 {{< youtube Rzr3AOtFA8o >}}
 
-So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you're thinking: "Why do I care what some 19th-century French aristocrat thought about America?" But here's the thing — the guy basically invented political science Twitter 200 years early.
+So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you're thinking: "Why do I care what some 19th-century French aristocrat thought about America?" But here's the thing, the guy basically invented political science Twitter 200 years early.
 
 ## Everyone's Equal But Also Not
 
-The main thing Tocqueville noticed was that Americans were _obsessed_ with equality. Not like "everyone has the same stuff" equality — Americans were definitely trying to get rich — but more like "nobody's inherently better than anyone else" equality. No aristocrats! No inherited titles! Your dad could be a farmer and you could become president! (Or, more realistically, open a small business that fails, but still.)
+The main thing Tocqueville noticed was that Americans were _obsessed_ with equality. Not like "everyone has the same stuff" equality Americans were definitely trying to get rich, but more like "nobody's inherently better than anyone else" equality. No aristocrats! No inherited titles! Your dad could be a farmer and you could become president! (Or, more realistically, open a small business that fails, but still.)
 
 This is weird! Most of human history is just, like, "some people are nobles and some people are peasants and that's how it is." Americans were like, "what if... not that?" Revolutionary, literally.
 
@@ -27,7 +27,7 @@ Okay so here's my favorite Tocqueville observation. In France, if people wanted 
 
 This sounds dumb but it's actually genius? Like, instead of waiting for the government to solve problems, Americans just got together and solved them. It's basically decentralized problem-solving. Very Web3, if you think about it. (I'm kidding. Sort of.)
 
-The voluntary association thing is _everywhere_ in American life. Churches, bowling leagues, PTAs, HOAs that tell you your mailbox is the wrong shade of beige — it's all the same impulse. Tocqueville thought this was America's superpower: you don't need a strong government if everyone's constantly forming little governments.
+The voluntary association thing is _everywhere_ in American life. Churches, bowling leagues, PTAs, HOAs that tell you your mailbox is the wrong shade of beige, it's all the same impulse. Tocqueville thought this was America's superpower: you don't need a strong government if everyone's constantly forming little governments.
 
 ## The Majority Can Be Terrifying, Actually
 
@@ -76,7 +76,7 @@ For democracy to work, you need:
 - Balance between equality and freedom (you need both)
 - Constant vigilance against becoming either anarchic OR despotic
 
-The thing is, American democracy wasn't perfect — it was deeply flawed, actually — but it was _interesting_. It was trying something new. And Tocqueville was like a management consultant showing up to study this weird startup called America and being like, "your business model makes no sense but somehow you're growing 30% year-over-year?"
+The thing is, American democracy wasn't perfect, it was deeply flawed, actually, but it was _interesting_. It was trying something new. And Tocqueville was like a management consultant showing up to study this weird startup called America and being like, "your business model makes no sense but somehow you're growing 30% year-over-year?"
 
 The meta-lesson is: democracy is weird, America is weirder, and somehow it kind of works? But also might not? But probably will? Unless it doesn't?
 
