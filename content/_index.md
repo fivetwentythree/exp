@@ -2,4 +2,4 @@
 title = 'welcome'
 +++
 
-Hi and welcome
+Welcome
