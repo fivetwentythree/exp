@@ -23,6 +23,8 @@
             {{ block "main" . }}{{ end }}
         </main>
 
+        {{ partial "footer.html" . }}
+
         <!-- We will add the theme-toggle script here -->
         <script>
             const themeToggle = document.getElementById("theme-toggle");

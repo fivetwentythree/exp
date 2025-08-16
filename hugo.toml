@@ -6,3 +6,9 @@ title = 'Lochana Perera'
 description = "A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom"
 keywords = "philosophy, ethics, virtue, wisdom, blog"
 author = "Lochana Perera"
+
+[params.social]
+twitter = "YourTwitterHandle" # Your Twitter/X username (without the @)
+# You can add more here later, like:
+github = "fivetwentythree"
+# linkedin = "YourLinkedInHandle"
