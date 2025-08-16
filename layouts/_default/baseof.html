@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+        <!-- Link to our stylesheet -->
+        {{ $styles := resources.Get "styles.css" }}
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+    </head>
+    <body class="">
+        <!-- The class will be managed by JavaScript for dark mode -->
+
+        <!-- We will add a header partial here later -->
+        {{ partial "header.html" . }}
+
+        <main>
+            <!-- This is where page-specific content will be injected -->
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <!-- We will add the theme-toggle script here -->
+        <script>
+            const themeToggle = document.getElementById("theme-toggle");
+            const body = document.body;
+
+            // Function to set the theme
+            const setTheme = (theme) => {
+                if (theme === "dark") {
+                    body.classList.add("theme-dark");
+                    localStorage.setItem("theme", "dark");
+                } else {
+                    body.classList.remove("theme-dark");
+                    localStorage.setItem("theme", "light");
+                }
+            };
+
+            // Check for saved theme in localStorage or user's system preference
+            const savedTheme = localStorage.getItem("theme");
+            const prefersDark = window.matchMedia(
+                "(prefers-color-scheme: dark)",
+            ).matches;
+
+            if (savedTheme) {
+                setTheme(savedTheme);
+            } else if (prefersDark) {
+                setTheme("dark");
+            }
+
+            // Add click event listener to the toggle
+            if (themeToggle) {
+                themeToggle.addEventListener("click", () => {
+                    if (body.classList.contains("theme-dark")) {
+                        setTheme("light");
+                    } else {
+                        setTheme("dark");
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

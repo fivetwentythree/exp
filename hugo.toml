@@ -1,0 +1,9 @@
+baseURL = "https://fivetwentythree.github.io/exp/"
+canonifyURLs = true                                # Forces all URLs to be absolute with baseURL
+languageCode = 'en-us'
+title = 'Lochana Perera'
+[params]
+description = "A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom"
+keywords = "philosophy, ethics, virtue, wisdom, blog"
+author = "Lochana Perera"
+ogImage = "/images/astro.webp"

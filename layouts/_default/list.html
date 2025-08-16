@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    <!-- List all the regular pages in this section -->
+    <h2 class="mn2">Writings</h2>
+    <ul>
+        {{ range .Pages }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="muted"> - {{ .Date.Format "January 2, 2006" }}</span>
+        </li>
+        {{ end }}
+    </ul>
+</article>
+{{ end }}

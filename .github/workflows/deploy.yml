@@ -1,0 +1,53 @@
+# Name of the workflow
+name: Deploy Hugo Site to Pages
+
+# Controls when the action will run.
+on:
+    # Triggers the workflow on push events but only for the main branch
+    push:
+        branches:
+            - main
+
+    # Allows you to run this workflow manually from the Actions tab on GitHub
+    workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+    # This workflow contains a single job called "deploy"
+    deploy:
+        runs-on: ubuntu-latest
+
+        # Grant GITHUB_TOKEN the permissions required to deploy to GitHub Pages
+        permissions:
+            contents: read
+            pages: write
+            id-token: write
+
+        # Steps represent a sequence of tasks that will be executed as part of the job
+        steps:
+            # Step 1: Check out your repository under $GITHUB_WORKSPACE, so your job can access it
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  submodules: true # Fetch any git submodules (if you have them)
+
+            # Step 2: Setup Hugo
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v3
+              with:
+                  hugo-version: "latest" # Uses the latest version of Hugo
+
+            # Step 3: Build the site
+            - name: Build
+              run: hugo --minify # The hugo command builds the site and places it in the public directory
+
+            # Step 4: Upload the built site artifacts
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./public
+
+            # Step 5: Deploy to GitHub Pages
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
