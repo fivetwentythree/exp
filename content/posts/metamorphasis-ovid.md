@@ -6,7 +6,7 @@ draft: false
 
 Look, so around 8 CE, Publius Ovidius Naso—Ovid to his friends, probably "that guy who won't shut up about Zeus turning into animals" to everyone else—finished writing what is essentially the world's most ambitious mythological cinematic universe. The _Metamorphoses_ is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.
 
-![](/images/ovid-meta.webp)
+![](/images/ovid.webp)
 
 ## The Context Is Everything
 
