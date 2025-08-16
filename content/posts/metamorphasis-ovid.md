@@ -2,6 +2,8 @@
 title: "Ovid's Metamorphoses, or: How to Get Exiled for Writing Fanfiction"
 date: 2023-10-28T12:00:00-07:00
 draft: false
+description: "How Ovid's epic poem of chaotic transformations served as a brilliant critique of Augustan Rome and got him exiled for writing the world's most influential fanfiction."
+images: ["/images/appollo-daphne-resized.webp"]
 ---
 
 Look, so around 8 CE, Publius Ovidius Naso—Ovid to his friends, probably "that guy who won't shut up about Zeus turning into animals" to everyone else—finished writing what is essentially the world's most ambitious mythological cinematic universe. The _Metamorphoses_ is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.
