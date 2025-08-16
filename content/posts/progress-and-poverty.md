@@ -53,6 +53,11 @@ It's like if every time you got a raise, your landlord somehow knew about it and
 
 George called this the "law of rent" and honestly? Kind of checks out.
 
+| Scenario            | Worker (Makes Widgets)                                                                 | Business (Sells Widgets)                                                                       | Landowner (Owns the Dirt)                                                                                         |
+| :------------------ | :------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **Before Progress** | Earns a basic wage                                                                     | Makes a standard profit                                                                        | Collects a standard rent                                                                                          |
+| **After Progress**  | Gets a small raise, but cost of living (rent) goes up by the same amount. No net gain. | Makes more profit initially, but has to pay higher rent for their factory/office. No net gain. | Does nothing. Raises the rent to capture all the new value created by the workers and businesses. Gets very rich. |
+
 ## The Solution (This Is Where It Gets Spicy)[^1]
 
 Now, most economists who notice a problem go: "Well, that's unfortunate, but what can you do? Market forces, invisible hand, etc."
@@ -70,6 +75,15 @@ The logic is actually pretty elegant:
 It's simultaneously the most radical and most conservative idea ever. Radical because it would completely reshape property rights. Conservative because it's basically just making markets work better by removing a massive source of rent-seeking (literally).
 
 ## Why This Matters Now (Spoiler: Everything Is Still Exactly The Same)
+
+| Economic Factor            | 1870s San Francisco             | 2020s Tech Hubs (SF, Austin, etc.)                    |
+| :------------------------- | :------------------------------ | :---------------------------------------------------- |
+| **Source of Progress**     | Railroads, Telegraph, Factories | Internet, AI, Software                                |
+| **Impact on Productivity** | Massive Increase                | Massive Increase                                      |
+| **Primary Beneficiary**    | Landowners                      | Landowners & Real Estate Investors                    |
+| **Worker Experience**      | Wages stagnate as rents rise    | Salaries feel stagnant as housing costs consume gains |
+| **The Hot Commodity**      | Urban Land                      | Urban Land                                            |
+| **The Public Cry**         | "The Rent Is Too Damn High!"    | "The Rent Is Too Damn High!"                          |
 
 Here's the thing that's absolutely bananas about "Progress and Poverty": George was describing 1870s San Francisco, but he could have been describing 2020s San Francisco and basically nothing would need to change.
 
