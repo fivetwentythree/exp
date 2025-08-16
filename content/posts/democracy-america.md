@@ -6,6 +6,8 @@ draft: false
 
 ## Democracy in America Is Weird
 
+{{< youtube Rzr3AOtFA8o >}}
+
 So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you're thinking: "Why do I care what some 19th-century French aristocrat thought about America?" But here's the thing — the guy basically invented political science Twitter 200 years early.
 
 ## Everyone's Equal But Also Not
