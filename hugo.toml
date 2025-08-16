@@ -6,10 +6,3 @@ title = 'Lochana Perera'
 description = "A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom"
 keywords = "philosophy, ethics, virtue, wisdom, blog"
 author = "Lochana Perera"
-# Add these new lines for social cards
-images = [
-    "/images/default-social-card.png",
-] # Path to a default image in your static folder
-
-[params.social]
-twitter = "YourTwitterHandle" # Your Twitter/X username (without the @)
