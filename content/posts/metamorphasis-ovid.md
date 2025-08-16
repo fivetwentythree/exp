@@ -8,7 +8,7 @@ images: ["/images/appollo-daphne-resized.webp"]
 
 Look, so around 8 CE, Publius Ovidius Naso, Ovid to his friends, probably "that guy who won't shut up about Zeus turning into animals" to everyone else finished writing what is essentially the world's most ambitious mythological cinematic universe. The _Metamorphoses_ is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.
 
-![](/images/ovid.webp)
+![](/images/ovid.webp "Ovid side profile")
 
 ## The Context Is Everything
 
@@ -43,7 +43,7 @@ Here's what's actually clever about the _Metamorphoses_: Ovid took every myth an
 
 The transitions between stories are _incredible_. He'll be telling you about someone turning into a bird, and then mention that this bird flew over a place where oh, funny story about that place, actually and before you know it you're 300 lines into a completely different myth. It's the narrative equivalent of [Wikipedia rabbit holes](https://xkcd.com/214/), except intentional and in Latin.
 
-![](/images/1200px-Wikipedia_Rabbit_Hole.webp)
+![](/images/1200px-Wikipedia_Rabbit_Hole.webp "wikipedia rabbit hole")
 
 ## Risk Management
 
@@ -57,7 +57,7 @@ Look, the weird thing about the _Metamorphoses_ is that it won. Augustus wanted 
 
 Shakespeare stole from it constantly. Dante made Ovid one of his guides. Bernini sculpted Apollo and Daphne mid-transformation. The whole Western canon is basically [Ovid fanfiction](https://tvtropes.org/pmwiki/pmwiki.php/Main/AllMythsAreTrue) all the way down.
 
-![](/images/appollo-daphne-resized.webp)
+![](/images/appollo-daphne-resized.webp "this is on every version of this book")
 
 ## The Lesson
 

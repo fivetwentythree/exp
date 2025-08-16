@@ -8,7 +8,7 @@ images: ["/images/robber-barons.webp"]
 
 ## [The Rent Is Too Damn High](https://www.youtube.com/watch?v=OUx_32ABtw4) (1879 Edition)
 
-![](/images/robber-barons.webp)
+![](/images/robber-barons.webp "Robber barrons eating the world or America at the time")
 
 So here's a weird thing that happened in 1879. A guy named Henry George looked around San Francisco, hich was having a absolutely bonkers real estate boom thanks to railroads and gold and general Western expansion vibes and asked a question that sounds extremely familiar: Why is it that the more prosperous society gets, the more impossible it becomes for regular people to afford anything?
 

@@ -6,7 +6,7 @@ description: "Aristotle's 2,300-year-old guide to not being a jerk. A look at th
 images: ["/images/good_laugh.webp"]
 ---
 
-![](/images/zero.webp)
+![](/images/zero.webp "Ethics or what?")
 
 ## Programming Note
 
@@ -72,7 +72,7 @@ The first two types are unstable. Once the utility disappears or the pleasure fa
 
 Real friendship—virtue friendship—requires that both people are actually virtuous, which is already a high bar, and that they spend time together, which in our remote-work world is an even higher bar. Aristotle thought you could only have a few real friends, which anticipated Dunbar's number by two millennia.
 
-![image of two women laughing and one feeding a baby](/images/good_laugh.webp)
+![image of two women laughing and one feeding a baby](/images/good_laugh.webp "what a beautiful world")
 
 ## The Practical Wisdom Arbitrage
 

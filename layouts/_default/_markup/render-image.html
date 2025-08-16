@@ -1,12 +1,6 @@
-<img
-    src="{{ .Destination | relURL }}"
-    alt="{{ .Text }}"
-    {{
-    with
-    .Title
-    }}
-    title="{{ . }}"
-    {{
-    end
-    }}
-/>
+<figure>
+    <img src="{{ .Destination | relURL }}" alt="{{ .Text }}" />
+    {{ with .Title }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>

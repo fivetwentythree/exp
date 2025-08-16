@@ -6,7 +6,7 @@ description: "Everyone knows Machiavelli for 'The Prince,' but his real masterpi
 images: ["/images/mach.webp"]
 ---
 
-![](/images/mach.webp)
+![](/images/mach.webp "Machiavelli and his domain")
 
 ## The Context Thing
 

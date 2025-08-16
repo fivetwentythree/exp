@@ -7,7 +7,7 @@ description: "Critical view of then France and the rest of the world."
 images: ["/images/fortune-teller.webp"]
 ---
 
-![](/images/fortune-teller.webp)
+![](/images/fortune-teller.webp "A fortune teller reading cards")
 
 If you were a Protestant intellectual in 1690s France, you had basically three career options: (1) convert to Catholicism, (2) flee to Holland, or (3) get thrown in prison. Pierre Bayle went with option two, which turned out great for the history of Western thought because what he did next was absolutely bonkers. He wrote a dictionary.
 

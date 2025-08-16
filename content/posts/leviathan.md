@@ -13,7 +13,7 @@ So it's 1651 and Thomas Hobbes has just watched England tear itself apart for li
 
 Imagine if Twitter disputes could kill you. That was basically England in the 1640s.
 
-![The English Civil War](/images/eng-civil-war.webp)
+![The English Civil War](/images/eng-civil-war.webp "English Civil War")
 
 Hobbes, who was hanging out in Paris because England was too stabby, watched all this and thought: "You know what? This is what happens when you don't have clear rules about who's the boss." So he wrote _Leviathan_, which is essentially a very long argument that goes: Look, humans are terrible, and without a really strong government, we'll all murder each other over stupid stuff. So let's agree to have an absolute sovereign, because even tyranny is better than civil war.
 
@@ -74,7 +74,7 @@ It's like writing a book today that simultaneously argues for and against every 
 
 ## The Legacy, or Why We Still Read This Thing
 
-![](/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498.webp)
+![](/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498.webp "Leviathan")
 
 Here's the thing: nobody really buys Hobbes's whole program anymore. We don't think absolute sovereignty is necessary. We've figured out ways to have functioning governments with checks and balances.[^3] We don't even really buy his super pessimistic view of human nature.
 
