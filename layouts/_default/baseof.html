@@ -19,8 +19,12 @@
         "_internal/twitter_cards.html" . -}}
 
         <!-- Link to our stylesheet -->
-        {{ $styles := resources.Get "styles.css" }}
-        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }}
+        <link
+            rel="stylesheet"
+            href="{{ $styles.RelPermalink }}"
+            integrity="{{ $styles.Data.Integrity }}"
+        />
     </head>
     <body class="">
         <!-- The class will be managed by JavaScript for dark mode -->
