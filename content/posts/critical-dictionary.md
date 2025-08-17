@@ -17,6 +17,10 @@ Not just any dictionary! A dictionary that was supposedly about historical figur
 
 Here's the basic setup. Louis XIV had just revoked the Edict of Nantes in 1685, which was basically France saying "actually we've changed our minds about religious tolerance, Protestant rights are canceled, please leave immediately or convert, thanks." Bayle, being a Huguenot (French Protestant), relocated to Rotterdam where he was teaching philosophy and presumably thinking: "You know what would really show them? A comprehensive reference work."
 
+{{< note >}}
+Reading Bayle's Dictionary was the 18th-century equivalent of playing an open-world video game where you ignore the main quest. The biographical entry is the boring tutorial: "Go fetch three facts about Epicurus." But then you click on footnote and suddenly you're on a 10,000-word side-quest about whether a god who allows evil can be considered good, unlocking the secret 'Radical Doubt' achievement. You’d go in looking for a date and come out three days later questioning the fabric of reality.
+{{< /note >}}
+
 But here's the genius move: Bayle didn't write an angry pamphlet about religious persecution, which would have been the obvious play. No, he wrote a _dictionary_. A boring, respectable dictionary of biographical entries. "Oh, you want to know about Achilles? Let me tell you about Achilles. Also in this footnote let me explain why everything you believe about certainty, religious authority, and the nature of truth is probably wrong."
 
 The whole thing was structured like regulatory arbitrage for ideas. The main text would be some innocuous biography, "King David was a biblical figure" and then there'd be a footnote longer than this entire newsletter explaining why actually the story of David was morally complex and by the way have you considered that atheists might be capable of virtue? Footnote D would argue with Footnote C, Footnote F would provide citations that undermined the whole entry, and before you knew it you were deep in radical skepticism territory.

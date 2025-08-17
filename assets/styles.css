@@ -1806,3 +1806,23 @@ select {
 .nav-links {
     margin-right: 1.5em;
 }
+
+/* --- Note Box Shortcode --- */
+.note-box {
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-ui-normal);
+    padding: 1.5em;
+    border-radius: var(--border-radius);
+    margin: 2em 0;
+    font-size: var(--font-small); /* A bit smaller than body text */
+    color: var(--color-tx-muted); /* Same color as image captions */
+}
+
+/* Remove extra margins from paragraphs inside the note box */
+.note-box p:first-child {
+    margin-top: 0;
+}
+
+.note-box p:last-child {
+    margin-bottom: 0;
+}
