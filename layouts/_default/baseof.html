@@ -25,10 +25,9 @@
         {{ $styles := resources.Get "styles.css" | resources.Fingerprint }} {{- /* Load
         CSS asynchronously to prevent render-blocking */}}
         <link
-            rel="preload"
+            rel="stylesheet"
             href="{{ $styles.RelPermalink }}"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
+            integrity="{{ $styles.Data.Integrity }}"
         />
         <noscript><link rel="stylesheet" href="{{ $styles.RelPermalink }}" /></noscript>
     </head>
