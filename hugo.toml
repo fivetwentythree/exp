@@ -6,6 +6,29 @@ title = 'Lochana Perera'
 description = "A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom"
 keywords = "philosophy, ethics, virtue, wisdom, blog"
 author = "Lochana Perera"
+# Add this to your hugo.toml file
+
+[build]
+writeStats = true # You already have this, make sure it's there
+
+[assets]
+[assets.postcss]
+# This tells Hugo to use the postcss-cli installed in your project
+use = "postcss-cli"
+
+[assets.postcss.plugins]
+[assets.postcss.plugins."@fullhuman/postcss-purgecss"]
+# Options for purgecss
+[assets.postcss.plugins."@fullhuman/postcss-purgecss".options]
+content = ["hugo_stats.json"]
+# Hugo has a special extractor for its stats file!
+defaultExtractor = "hugo_stats"
+[assets.postcss.plugins."@fullhuman/postcss-purgecss".options.safelist]
+standard = ["theme-dark"]
+
+[assets.postcss.plugins.autoprefixer]
+# No options needed for autoprefixer
+# The presence of the key is enough
 
 [params.social]
 twitter = "YourTwitterHandle" # Your Twitter/X username (without the @)
