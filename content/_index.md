@@ -9,7 +9,7 @@ I spent my days turning chromatograms into cash flow and my nights turning sprea
 
 here is my [CV📃](/personal/cv.pdf)
 
-culture (~~instagram~~,~~ticktock~~) [artvee](https://artvee.com/)
+(~~instagram~~,~~ticktock~~) [artvee](https://artvee.com/)
 
 Here are some of my ideas on [Machiavelli](/posts/discourses-on-livy), [Aristotle](/posts/nicomachean-ethics) and [Tocqueville](/posts/democracy-america).
 
