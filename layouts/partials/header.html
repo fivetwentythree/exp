@@ -9,11 +9,11 @@
             {{ end }}
         </div>
 
-        {{/* NEW: Main navigation links */}}
-                    <div class="nav-links small">
-                        <a href="{{ ( .Site.GetPage "section" "bookshelf").RelPermalink }}" class="plain">Bookshelf</a>
-                    </div>
-
+        {{/* Main navigation links */}}
+        <div class="nav-links small">
+                                <a href="{{ ( .Site.GetPage "section" "bookshelf").RelPermalink }}" class="plain" style="margin-right: 1.5em;">Bookshelf</a>
+                                <a href="{{ ( .Site.GetPage "section" "recommendations").RelPermalink }}" class="plain">Recs</a>
+                            </div>
         <!-- Theme Toggle HTML -->
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
             <svg
