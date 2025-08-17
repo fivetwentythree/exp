@@ -107,4 +107,6 @@ Like: "Hey, if we're all getting so much richer, why is everyone still poor?"
 
 Sometimes the answer is complicated. Sometimes it's just rent.
 
+By the way I decided take this very issue with chatGPT and you can find the discussion [here](https://chatgpt.com/share/68a178e6-876c-800f-9405-9617356234e1) with Australia as the context, very interesting one indeed.
+
 [^1]: Disclaimer: This is not investment advice. Unless you're investing in land, in which case Henry George would like a word. Also, past performance of 19th-century economic theories does not guarantee future results. The value of your land may go up or down, but probably up, which is kind of the whole problem.
