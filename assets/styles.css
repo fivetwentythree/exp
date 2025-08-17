@@ -1290,6 +1290,7 @@ h6 .anchor:focus {
 }
 img {
     max-width: 100%;
+    height: auto;
     display: block;
     border-radius: var(--image-radius);
 }

@@ -1,0 +1,46 @@
+{{/* This partial generates a responsive, lazy-loaded, WebP-first image. It expects a
+dictionary of parameters to be passed to it. Example usage: {{ partial "image.html"
+(dict "src" .Params.cover_image "alt" .Title "class" "some-class") }} */}} {{- $src :=
+.src -}} {{- $alt := .alt | default "" -}} {{- $class := .class | default "" -}} {{- /*
+Get the image resource from the assets directory. */}} {{- $image := resources.Get $src
+-}} {{- if $image -}} {{- /* --- Define Image Sizes --- Define the different widths you
+want Hugo to generate. Adjust these based on your site's design. For a blog, 480px
+(mobile), 800px (content), and 1200px (large) are good starts. */}} {{- $small :=
+$image.Resize "480x" -}} {{- $medium := $image.Resize "800x" -}} {{- $large :=
+$image.Resize "1200x" -}} {{- /* --- Define Compression/Quality Settings --- This is
+where you control the compression. "q75" means 75% quality. Good balance for web. WebP
+generally looks great at 75. JPEG at 80-85. */}} {{- $webpOptions := "q75" -}} {{-
+$jpegOptions := "q85" -}} {{- /* Generate WebP versions of each size */}} {{- $smallWebp
+:= $small.Process (printf "webp %s" $webpOptions) -}} {{- $mediumWebp := $medium.Process
+(printf "webp %s" $webpOptions) -}} {{- $largeWebp := $large.Process (printf "webp %s"
+$webpOptions) -}} {{- /* Generate JPEG fallbacks for older browsers */}} {{- $smallJpeg
+:= $small.Process (printf "jpeg %s" $jpegOptions) -}} {{- $mediumJpeg := $medium.Process
+(printf "jpeg %s" $jpegOptions) -}} {{- $largeJpeg := $large.Process (printf "jpeg %s"
+$jpegOptions) -}}
+
+<picture>
+    {{- /* WebP sources: The browser will pick the first format it supports. */}}
+    <source
+        type="image/webp"
+        srcset="{{ $smallWebp.RelPermalink }} 480w, {{ $mediumWebp.RelPermalink }} 800w, {{ $largeWebp.RelPermalink }} 1200w"
+        sizes="(max-width: 800px) 90vw, 800px"
+    />
+
+    {{- /* JPEG sources as a fallback */}}
+    <source
+        type="image/jpeg"
+        srcset="{{ $smallJpeg.RelPermalink }} 480w, {{ $mediumJpeg.RelPermalink }} 800w, {{ $largeJpeg.RelPermalink }} 1200w"
+        sizes="(max-width: 800px) 90vw, 800px"
+    />
+
+    {{- /* The final <img /> tag */}}
+    <img
+        src="{{ $mediumJpeg.RelPermalink }}"
+        alt="{{ $alt }}"
+        class="{{ $class }}"
+        width="{{ $medium.Width }}"
+        height="{{ $medium.Height }}"
+        loading="lazy"
+    />
+</picture>
+{{- else -}} {{- warnf "Image not found: %s" $src -}} {{- end -}}

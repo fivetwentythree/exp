@@ -1,6 +1,8 @@
+{{/* layouts/_default/_markup/render-image.html */}}
+
 <figure>
-    <img src="{{ .Destination | relURL }}" alt="{{ .Text }}" />
-    {{ with .Title }}
+    {{ partial "image.html" (dict "src" .Destination "alt" .Text "class" "" ) }} {{ with
+    .Title }}
     <figcaption>{{ . }}</figcaption>
     {{ end }}
 </figure>
