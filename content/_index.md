@@ -3,12 +3,12 @@ title = 'Notes'
 
 +++
 
-Let's be honest: most classical philosophy is presented as if it were a user agreement for software you'll never use. It's dense, dry, and you're tempted to just scroll to the bottom and click "I Agree" without reading a word.
+### About Me
 
-But what if those texts aren't dusty relics? What if they're actually a series of surprisingly sharp, funny, and ruthless strategy memos from the original consultants who built Western civilization?
+I spent my days turning chromatograms into cash flow and my nights turning spreadsheets into rent checks. The lab taught me that a well-tuned HPLC column is really just a tiny factory for separating noise from signal, the real estate taught me that same principle applies to cash-on-cash returns. Now I'm teaching Python to do both at once, which turns out to be the same thing as teaching it to find money that other people can't see.
 
-This project is an experiment in testing that theory. Here, we treat thinkers like [Machiavelli](/posts/discourses-on-livy), [Aristotle](/posts/nicomachean-ethics), and [Tocqueville](/posts/democracy-america) not as historical artifacts, but as the senior partners at a very, very old firm. They have some... unconventional ideas about management, risk, and how to keep your colleagues from murdering you over market share (or, you know, political power).
+### Small Project
 
-So, welcome. Let's see what we can learn.
+Here are some of my ideas on [Machiavelli](/posts/discourses-on-livy), [Aristotle](/posts/nicomachean-ethics) and [Tocqueville](/posts/democracy-america).
 
 ![](/images/nature-small.webp)
