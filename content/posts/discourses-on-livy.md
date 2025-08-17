@@ -12,7 +12,7 @@ images: ["/images/mach.webp"]
 
 So here's a fun story about Niccolò Machiavelli. Everyone knows him as the "ends justify the means" guy who wrote _The Prince_, that cynical handbook about how to be a ruthless dictator. But here's the thing: Machiavelli actually preferred republics! I know! The guy whose name literally became an adjective for scheming political manipulation spent most of his intellectual energy writing a massive love letter to republican government. It's like finding out that Gordon Gekko's favorite book was actually about credit unions.
 
-The book is called _Discourses on the First Ten Books of Titus Livy_, which, okay, is not exactly a beach read title. Machiavelli wrote it between 1513 and 1519, roughly the same time as _The Prince_, but the circumstances matter here. See, Machiavelli had what we in the finance industry call a "career event." In 1512, the Medici family rolled back into Florence after the republican government collapsed, and Machiavelli – who'd been Secretary to the Second Chancery of the Republic of Florence, basically a senior bureaucrat and diplomat – was immediately:
+The book is called _Discourses on the First Ten Books of Titus Livy_, which, okay, is not exactly a beach read title. Machiavelli wrote it between 1513 and 1519, roughly the same time as _The Prince_, but the circumstances matter here. See, Machiavelli had what we in the finance industry call a "career event." In 1512, the Medici family rolled back into Florence after the republican government collapsed, and Machiavelli, who'd been Secretary to the Second Chancery of the Republic of Florence, basically a senior bureaucrat and diplomat was immediately:
 
 1. Fired
 2. Exiled
@@ -25,7 +25,7 @@ This is sub-optimal career progression.
 
 So there's Machiavelli, sitting on his farm, professionally destroyed, personally humiliated, and what does he do? He writes TWO books about politics. It's like getting fired from Goldman Sachs and immediately starting a Substack about optimal banking regulation.
 
-_The Prince_ was his job application – dedicated to Lorenzo de' Medici, essentially saying "hey, I know you guys tortured me, but I'm really good at this politics stuff, maybe hire me?" (Spoiler: they didn't.) But the _Discourses_ was different. This was Machiavelli writing for his friends, for posterity, for the sheer intellectual pleasure of figuring out how republics actually work.
+_The Prince_ was his job application dedicated to Lorenzo de' Medici, essentially saying "hey, I know you guys tortured me, but I'm really good at this politics stuff, maybe hire me?" (Spoiler: they didn't.) But the _Discourses_ was different. This was Machiavelli writing for his friends, for posterity, for the sheer intellectual pleasure of figuring out how republics actually work.
 
 The structure is delightfully weird. Livy was a Roman historian who wrote about the early Roman Republic, and Machiavelli uses Livy's history as a jumping-off point to talk about... everything. It's like if someone today wrote a book called "Thoughts on Reading Michael Lewis" and used it to explain their entire theory of financial markets. Actually, that's not a bad idea.
 
@@ -41,7 +41,7 @@ The basic Machiavellian insight about republics goes like this: You know how in 
 
 It's like checks and balances, but messier and more honest about human nature. Machiavelli looks at Rome and says: "These guys were constantly having internal conflicts between patricians and plebeians, and that's WHY they succeeded, not despite it."[](https://www.historyskills.com/classroom/ancient-history/anc-conflict-of-the-orders-reading/?srsltid=AfmBOorfPhbn1DorhVCrgu-mZbEDhU0NqkDZFypa_fGheiVJB13snlx0)
 
-This is counterintuitive! The conventional wisdom in Machiavelli's time (and honestly, in our time too) is that you want unity, harmony, everyone pulling in the same direction. Machiavelli is like: "No, no, no – you want productive tension. You want the investment bankers and the regulators to be in permanent conflict, because that's how you get a system that actually works."
+This is counterintuitive! The conventional wisdom in Machiavelli's time (and honestly, in our time too) is that you want unity, harmony, everyone pulling in the same direction. Machiavelli is like: "No, no, no you want productive tension. You want the investment bankers and the regulators to be in permanent conflict, because that's how you get a system that actually works."
 
 ## The Startup Founder's Guide to Ancient Rome
 
@@ -66,7 +66,7 @@ But in the _Discourses_, he's like: "Actually, good institutions can hedge again
 
 Look, the reason people should care about the _Discourses_ today isn't because we need another take on Roman history. It's because Machiavelli is asking the fundamental question: How do you build political systems that account for the fact that people are, generally speaking, the worst?
 
-His answer – republics with lots of institutional conflict, checks on power, and channels for ambition – feels weirdly modern. Or maybe modern democracy feels weirdly Machiavellian. Either way, the _Discourses_ is Machiavelli saying: "Look, I told you how the sausage gets made in _The Prince_, but if you actually want good governance that lasts, you need a republic."
+His answer which is republics with lots of institutional conflict, checks on power, and channels for ambition feels weirdly modern. Or maybe modern democracy feels weirdly Machiavellian. Either way, the _Discourses_ is Machiavelli saying: "Look, I told you how the sausage gets made in _The Prince_, but if you actually want good governance that lasts, you need a republic."
 
 The irony is delicious. The guy whose name means "evil schemer" actually thought the best government was one where no single schemer could win. It's like if Bernie Madoff's secret passion project was designing better SEC regulations.
 
