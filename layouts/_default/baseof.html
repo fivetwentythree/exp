@@ -22,12 +22,15 @@
         "_internal/twitter_cards.html" . -}}
 
         <!-- Link to our stylesheet -->
-        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }}
+        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }} {{- /* Load
+        CSS asynchronously to prevent render-blocking */}}
         <link
-            rel="stylesheet"
+            rel="preload"
             href="{{ $styles.RelPermalink }}"
-            integrity="{{ $styles.Data.Integrity }}"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
         />
+        <noscript><link rel="stylesheet" href="{{ $styles.RelPermalink }}" /></noscript>
     </head>
     <body class="">
         <!-- The class will be managed by JavaScript for dark mode -->
