@@ -22,11 +22,8 @@
         "_internal/twitter_cards.html" . -}}
 
         <!-- Link to our stylesheet -->
-        {{ $styles := "" }} {{ if hugo.IsProduction }} {{/* For the production build,
-        process with PostCSS */}} {{ $styles = resources.Get "styles.css" | postCSS |
-        resources.Fingerprint }} {{ else }} {{/* For local development, just load the
-        raw CSS */}} {{ $styles = resources.Get "styles.css" | resources.Fingerprint }}
-        {{ end }} {{- /* Load CSS asynchronously to prevent render-blocking */}}
+        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }} {{- /* Load
+        CSS asynchronously to prevent render-blocking */}}
         <link
             rel="stylesheet"
             href="{{ $styles.RelPermalink }}"
