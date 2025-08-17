@@ -12,5 +12,3 @@ here is my [CV📃](/personal/cv.pdf)
 (~~instagram~~,~~ticktock~~) [artvee](https://artvee.com/)
 
 Here are some of my ideas on [Machiavelli](/posts/discourses-on-livy), [Aristotle](/posts/nicomachean-ethics) and [Tocqueville](/posts/democracy-america).
-
-![](/images/nature-small.webp)
