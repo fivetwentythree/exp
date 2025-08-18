@@ -1,5 +1,5 @@
 baseURL = "https://fivetwentythree.github.io/exp/"
-canonifyURLs = true                                # Forces all URLs to be absolute with baseURL
+canonifyURLs = false                               # Forces all URLs to be absolute with baseURL
 languageCode = 'en-us'
 title = 'Lochana Perera'
 [params]

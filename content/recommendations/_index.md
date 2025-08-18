@@ -5,6 +5,8 @@ draft: false
 
 Here are some links that have shaped my thinking. For each, I've offered a simple reason to read it, and a sometimes a deeper, more "Straussian" reason why it's truly valuable.
 
+(~~instagram~~,~~ticktock~~) [artvee](https://artvee.com/)
+
 great book shelves- [arun rao](https://raohacker.com/best-books-of-2024-loners-and-fellowships/)
 [gleech](https://www.gleech.org/technicalities/)
 [nabokov](http://wmjas.wikidot.com/nabokov-s-recommendations)
