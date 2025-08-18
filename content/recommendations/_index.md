@@ -1,5 +1,5 @@
 ---
-title: "Recommendations"
+title: "Picks"
 draft: false
 ---
 
