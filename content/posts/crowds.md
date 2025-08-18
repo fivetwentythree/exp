@@ -8,7 +8,7 @@ images: ["/images/crowds.webp"]
 ---
 
 ![image of a vast crowd](/images/crowds.webp "crowds")
-So here's a fun thing about human nature: Elias Canetti spent thirty-five years _thirty-five years!_ writing a book about why people in groups act completely insane. This seems like a long time to think about crowd behavior, but then again, Canetti lived through both World Wars, saw the rise of Hitler, Stalin, and Mussolini, and watched millions of seemingly rational individuals turn into howling mobs. So, you know, he had some material to work with.
+So here's a fun thing about human nature, Elias Canetti spent thirty-five years _thirty-five years!_ writing a book about why people in groups act completely insane. This seems like a long time to think about crowd behavior, but then again, Canetti lived through both World Wars, saw the rise of Hitler, Stalin, and Mussolini, and watched millions of seemingly rational individuals turn into howling mobs. So, you know, he had some material to work with.
 
 "Crowds and Power" (1960) is basically Canetti's attempt to explain why your neighbor Steve, who normally just wants to talk about lawn care, will suddenly paint his face and scream at a football game. Or, more darkly, why that same Steve might have joined the Nazi Party in 1933. [Same psychological mechanisms!](https://en.wikipedia.org/wiki/The_Crowd:_A_Study_of_the_Popular_Mind). By the way Susan Sontag has to share one or two about this [guy](https://www.nybooks.com/articles/1980/09/25/mind-as-passion/).
 

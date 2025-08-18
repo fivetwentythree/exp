@@ -1,5 +1,5 @@
 ---
-title: "Pierre Bayle's Dictionary or: How to Subtweet the Entire 17th Century"
+title: "Pierre Bayle's Dictionary or How to Subtweet the Entire 17th Century"
 date: 2025-02-28T12:00:00-07:00
 draft: false
 description: "Critical view of then France and the rest of the world."

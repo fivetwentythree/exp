@@ -1,5 +1,5 @@
 ---
-title: " Aristotle's Nicomachean Ethics, Or: How to Not Be a Jerk"
+title: " Aristotle's Nicomachean Ethics or How to Not Be a Jerk"
 date: 2023-10-28T12:00:00-07:00
 draft: false
 description: "Aristotle's 2,300-year-old guide to not being a jerk. A look at the 'Nicomachean Ethics,' the pursuit of happiness (eudaimonia), and why virtue is like portfolio optimization for your character."

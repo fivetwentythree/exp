@@ -1,5 +1,5 @@
 ---
-title: "Progress and Poverty Or: Why Does Everything Get Worse When It Gets Better?"
+title: "Progress and Poverty or Why Does Everything Get Worse When It Gets Better?"
 date: 2024-10-28T12:00:00-07:00
 draft: false
 description: "somthing about Progress and Poverty"
