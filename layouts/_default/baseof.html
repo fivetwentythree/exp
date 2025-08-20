@@ -25,14 +25,17 @@
         <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .RelPermalink }}" />
         {{- end }}
 
-        <!-- Favicon links (CORRECTED) -->
-               <link rel="icon" href="{{ "/favicon.ico" | relLangURL }}" sizes="any" />
-               <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relLangURL }}" />
-               <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relLangURL }}" />
-               <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relLangURL }}" />
-               <link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | relLangURL }}" color="#5bbad5" />
-               <meta name="theme-color" content="#ffffff" />
+        <!-- Your existing code -->
+        <link rel="icon" href="{{ "/favicon.ico" | relLangURL }}" sizes="any" />
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relLangURL }}" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relLangURL }}" />
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relLangURL }}" />
+        <link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | relLangURL }}" color="#5bbad5" />
 
+        <!-- Additional recommended tags -->
+        <link rel="manifest" href="{{ "/site.webmanifest" | relLangURL }}" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
         <!-- Your existing (and better) CSS method -->
         {{ $styles := resources.Get "styles.css" | resources.Fingerprint }}
         <link
