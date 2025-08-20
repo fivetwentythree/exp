@@ -1,4 +1,4 @@
-<!-- FILE: layouts/partials/twitter-cards.html -->
+<!-- FILE: layouts/partials/twitter-cards.html (FIXED) -->
 
 <!-- The type of card to display. "summary_large_image" is best for articles. -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -29,7 +29,15 @@
 {{ end }}
 
 <!-- Find and process the image for the social card -->
-{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
+{{- $imagePath := "" -}}
+{{- if .Params.images -}}
+    {{- /* Use the first image from the 'images' array */ -}}
+    {{- $imagePath = index .Params.images 0 -}}
+{{- else -}}
+    {{- /* Fallback to the default site image */ -}}
+    {{- $imagePath = .Site.Params.defaultTwitterImage | default .Site.Params.defaultSocialImage -}}
+{{- end -}}
+
 {{- if $imagePath -}}
   {{- $image := resources.Get $imagePath -}}
   {{- if $image -}}

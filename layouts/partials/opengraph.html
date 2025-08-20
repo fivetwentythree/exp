@@ -1,4 +1,4 @@
-<!-- FILE: layouts/partials/opengraph.html -->
+<!-- FILE: layouts/partials/opengraph.html (FIXED) -->
 
 <!-- Sets the page type. "website" for the homepage, "article" for others. -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
@@ -19,7 +19,15 @@
 <meta property="og:locale" content="{{ .Site.LanguageCode | default "en_US" }}">
 
 <!-- Find and process the image for the social card -->
-{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
+{{- $imagePath := "" -}}
+{{- if .Params.images -}}
+    {{- /* Use the first image from the 'images' array */ -}}
+    {{- $imagePath = index .Params.images 0 -}}
+{{- else -}}
+    {{- /* Fallback to the default site image */ -}}
+    {{- $imagePath = .Site.Params.defaultSocialImage -}}
+{{- end -}}
+
 {{- if $imagePath -}}
     {{- $image := resources.Get $imagePath -}}
     {{- if $image -}}
