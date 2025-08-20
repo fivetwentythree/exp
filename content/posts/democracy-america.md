@@ -4,7 +4,7 @@ date: 2023-10-28T12:00:00-07:00
 draft: false
 description: "A modern look at Alexis de Tocqueville's surprising and timeless observations on equality, freedom, and the strange genius of American democracy."
 
-images: ["/images/test.webp"]
+images: ["images/social/democracy.jpeg"]
 ---
 
 ## Democracy in America Is Weird

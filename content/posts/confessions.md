@@ -4,7 +4,7 @@ date: 2024-12-28T12:00:00-07:00
 draft: false
 description: "A deep dive into Augustine's *Confessions*, exploring its historical context, literary innovations, and surprising relevance to modern life. It covers everything from teenage pear theft to the invention of the autobiography, framing Augustine as the original oversharer and his work as the foundational text for our modern obsession with the self"
 
-images: ["/images/pears.webp"]
+images: ["images/social/pears.jpeg"]
 ---
 
 ## The Deal
