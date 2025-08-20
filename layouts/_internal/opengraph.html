@@ -1,0 +1,48 @@
+{{- /* layouts/_internal/opengraph.html */ -}}
+
+<meta property="og:title" content="{{ .Title }}" />
+<meta
+    property="og:description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
+/>
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{- /* ========================================================================== */}}
+{{- /* CUSTOM IMAGE LOGIC FOR SOCIAL CARDS */}} {{- $ogImage := "" -}} {{-
+$imageResource := "" -}} {{- if .Params.images -}} {{- /* 1. Use image from front matter
+*/ -}} {{- $imagePath := index .Params.images 0 -}} {{- $imageResource = resources.Get
+$imagePath -}} {{- else if .Site.Params.defaultSocialImage -}} {{- /* 2. Fall back to
+default image from hugo.toml */ -}} {{- $imagePath := .Site.Params.defaultSocialImage
+-}} {{- $imageResource = resources.Get $imagePath -}} {{- end -}} {{- if $imageResource
+-}} {{- /* Process the image to 1200x630 Jpeg for max compatibility */ -}} {{- $ogImage
+= $imageResource.Resize "1200x630 Jpeg" -}} {{- end -}} {{- if $ogImage -}}
+<meta property="og:image" content="{{ $ogImage.Permalink }}" />
+<meta property="og:image:width" content="{{ $ogImage.Width }}" />
+<meta property="og:image:height" content="{{ $ogImage.Height }}" />
+{{- end -}} {{- /* END CUSTOM IMAGE LOGIC */}} {{- /*
+========================================================================== */}} {{- with
+.Params.audio }}
+<meta property="og:audio" content="{{ . | absURL }}" />
+{{- end }} {{- with .Params.locale }}
+<meta property="og:locale" content="{{ . }}" />
+{{- else }}{{ with .Site.Language.LanguageCode }}
+<meta property="og:locale" content="{{ . }}" />
+{{- end }}{{ end }} {{- with .Site.Title }}
+<meta property="og:site_name" content="{{ . }}" />
+{{- end }} {{- with .Params.videos }} {{- range . }}
+<meta property="og:video" content="{{ . | absURL }}" />
+{{- end }} {{- end }} {{- if .IsPage }} {{- with .Site.Params.facebook_admin }}
+<meta property="fb:admins" content="{{ . }}" />
+{{- end }} {{- if ne .Type "page" }} {{- with .Section }}<meta
+    property="article:section"
+    content="{{ . }}"
+/>{{ end }} {{- end }} {{- range .Params.tags }}
+<meta property="article:tag" content="{{ . }}" />
+{{- end }} {{- if isset .Params "date" -}}
+<meta property="article:published_time" content="{{ time .Date }}" />
+{{- end }} {{- if isset .Params "lastmod" -}}
+<meta property="article:modified_time" content="{{ time .Lastmod }}" />
+{{- else }}
+<meta property="article:modified_time" content="{{ time .Date }}" />
+{{- end }} {{- end -}}
