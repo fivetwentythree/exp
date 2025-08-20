@@ -4,7 +4,7 @@ date: 2025-03-28T12:00:00-07:00
 draft: false
 description: "explores Elias Canetti's influential book, Crowds and Power, to explain the peculiar dynamics of group behavior. It breaks down Canetti's theories on why individuals act differently in crowds and applies these insights to modern scenarios, from office meetings and social media mobs to stock market bubbles, revealing the hidden forces that shape our collective actions"
 
-images: ["images/social/crowds.png"]
+images: ["images/social/crowds.jpeg"]
 ---
 
 ![image of a vast crowd](/images/crowds.webp "crowds")

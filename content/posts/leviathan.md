@@ -3,8 +3,7 @@ title: "Hobbes's Leviathan or How to Not Murder Each Other Over Politics"
 date: 2023-10-28T12:00:00-07:00
 draft: false
 description: "Why did Thomas Hobbes argue for an all-powerful sovereign? A deep dive into the English Civil War, the 'nasty, brutish, and short' state of nature, and the book that annoyed everyone."
-images:
-    ["images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498.webp"]
+images: ["images/social/eng-civil-war.jpeg"]
 ---
 
 ## The Context, or Why Everyone Was So Upset

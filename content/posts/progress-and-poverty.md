@@ -3,7 +3,7 @@ title: "Progress and Poverty or Why Does Everything Get Worse When It Gets Bette
 date: 2024-10-28T12:00:00-07:00
 draft: false
 description: "somthing about Progress and Poverty"
-images: ["/images/robber-barons.webp"]
+images: ["images/social/robber-barons.jpeg"]
 ---
 
 ## [The Rent Is Too Damn High](https://www.youtube.com/watch?v=OUx_32ABtw4) (1879 Edition)

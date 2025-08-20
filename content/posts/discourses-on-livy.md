@@ -3,7 +3,7 @@ title: "Machiavelli's Other Book Is About Republics Actually"
 date: 2023-10-28T12:00:00-07:00
 draft: false
 description: "Everyone knows Machiavelli for 'The Prince,' but his real masterpiece is a love letter to republics. Discover the surprisingly modern guide to building a government that lasts."
-images: ["/images/mach.webp"]
+images: ["images/social/mach.jpeg"]
 ---
 
 ![](/images/mach.webp "Machiavelli and his domain")
