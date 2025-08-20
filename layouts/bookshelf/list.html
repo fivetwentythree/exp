@@ -15,8 +15,8 @@
             named $page */}} {{ $page := . }}
             <tr>
                 <td class="book-cover">
-                    {{ with .Params.cover_image }} {{ partial "image.html" (dict "src" .
-                    "alt" (printf "Cover of %s" $page.Title) "class" "" ) }} {{ end }}
+                    {{ with .Params.image }} {{ partial "image.html" (dict "src" . "alt"
+                    (printf "Cover of %s" $page.Title) "class" "" ) }} {{ end }}
                     <strong>{{ .Title }}</strong>
                     <div class="small muted">{{ .Params.author }}</div>
                 </td>
