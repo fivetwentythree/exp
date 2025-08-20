@@ -11,7 +11,7 @@ images: ["images/social/lucky.jpeg"]
 
 So there's this thing about Australia. In 1964, a journalist named Donald Horne wrote a book called "The Lucky Country[^1]" and here's the funny part, everyone thinks it's a compliment. It's not!. The whole point was that Australia was lucky, not good. Lucky is what you are when you're not particularly competent but things work out anyway. It's like being a hedge fund manager in a bull market.
 
-Horne's thesis, basically was Australia is run by second-rate people who are coasting on the country's natural advantages—massive mineral wealth, distance from world conflicts, nice beaches, scary animals that keep out the riffraff, etc. The full quote that everyone forgets the second half of is, "Australia is a lucky country run mainly by second-rate people who share its luck." Ouch!
+Horne's thesis, basically was Australia is run by second-rate people who are coasting on the country's natural advantages like massive mineral wealth, distance from world conflicts, nice beaches, scary animals that keep out the riffraff, etc. The full quote that everyone forgets the second half of is, "Australia is a lucky country run mainly by second-rate people who share its luck." Ouch!
 
 ![the cover of Donald Horne's book by Penguin](/images/lucky-country.webp "Lucky Country™")
 
