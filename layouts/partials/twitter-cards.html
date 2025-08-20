@@ -1,0 +1,32 @@
+<!-- FILE: layouts/partials/twitter-cards.html -->
+
+<!-- The type of card to display. "summary_large_image" is best for articles. -->
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- The canonical URL of your content -->
+<meta name="twitter:url" content="{{ .Permalink }}" />
+
+<!-- The title of your content -->
+<meta
+    name="twitter:title"
+    content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"
+/>
+
+<!-- A brief description -->
+<meta
+    name="twitter:description"
+    content="{{ .Description | default .Summary | default .Site.Params.description | plainify }}"
+/>
+
+<!-- The @username of the website's account -->
+{{ with .Site.Params.social.twitter }}<meta name="twitter:site" content="@{{ . }}" />{{
+end }}
+
+<!-- The @username of the content author -->
+{{ with .Site.Params.author }}<meta name="twitter:creator" content="{{ . }}" />{{ end }}
+
+<!-- Find and process the image for the social card -->
+{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}} {{- with
+resources.Get $imagePath -}} {{- $twitterImage := .Fill "1200x630 Center q85 jpg" -}}
+<meta name="twitter:image" content="{{ $twitterImage.Permalink }}" />
+{{- end -}}

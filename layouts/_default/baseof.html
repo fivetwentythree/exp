@@ -1,36 +1,55 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{{ .Title }} | {{ .Site.Title }}</title>
-        {{- /* NEW: Add Meta Description */}} {{- $description := .Description | default
-        .Site.Params.description -}}
-        <meta name="description" content="{{ $description }}" />
 
-        {{- /* Favicon links */ -}}
+        <!-- Primary Meta Tags -->
+        <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+        <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+        <meta name="description" content="{{ .Description | default .Summary | default .Site.Params.description | plainify }}" />
+        <meta name="author" content="{{ .Site.Params.author }}" />
+        <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}" />
+
+        <!-- Open Graph / Facebook -->
+        {{ partial "opengraph.html" . }}
+
+        <!-- Twitter -->
+        {{ partial "twitter-cards.html" . }}
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="{{ .Permalink }}" />
+
+        <!-- RSS Feed -->
+        {{ with .OutputFormats.Get "rss" -}}
+        <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .RelPermalink }}" />
+        {{- end }}
+
+        <!-- Favicon links (from your old file) -->
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        {{- /* Safari Pinned Tab Icon */ -}}
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        {{- /* Theme Color */ -}}
         <meta name="theme-color" content="#ffffff" />
 
-        {{- template "_internal/opengraph.html" . -}} {{- template
-        "_internal/twitter_cards.html" . -}}
-
-        <!-- Link to our stylesheet -->
-        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }} {{- /* Load
-        CSS asynchronously to prevent render-blocking */}}
+        <!-- Your existing (and better) CSS method -->
+        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }}
         <link
             rel="stylesheet"
             href="{{ $styles.RelPermalink }}"
             integrity="{{ $styles.Data.Integrity }}"
         />
         <noscript><link rel="stylesheet" href="{{ $styles.RelPermalink }}" /></noscript>
+
+        <!-- Preload critical images -->
+        {{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
+        {{- with resources.Get $imagePath -}}
+        {{- $processed := .Fill "1200x630 Center q85 jpg" -}}
+        <link rel="preload" as="image" href="{{ $processed.Permalink }}">
+        {{- end -}}
     </head>
+
     <body class="">
         <!-- The class will be managed by JavaScript for dark mode -->
 

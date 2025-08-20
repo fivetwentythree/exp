@@ -1,0 +1,28 @@
+<!-- FILE: layouts/partials/opengraph.html -->
+
+<!-- Sets the page type. "website" for the homepage, "article" for others. -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+
+<!-- The title of your content -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+
+<!-- A brief description -->
+<meta property="og:description" content="{{ .Description | default .Summary | default .Site.Params.description | plainify }}">
+
+<!-- The canonical URL of your content -->
+<meta property="og:url" content="{{ .Permalink }}">
+
+<!-- The name of your website -->
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- The locale these tags are marked up in -->
+<meta property="og:locale" content="{{ .Site.LanguageCode | default "en_US" }}">
+
+<!-- Find and process the image for the social card -->
+{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
+{{- with resources.Get $imagePath -}}
+    {{- $ogImage := .Fill "1200x630 Center q85 jpg" -}}
+    <meta property="og:image" content="{{ $ogImage.Permalink }}">
+    <meta property="og:image:width" content="{{ $ogImage.Width }}">
+    <meta property="og:image:height" content="{{ $ogImage.Height }}">
+{{- end -}}
