@@ -12,4 +12,4 @@ defaultSocialImage = "images/social/default-card.png"
 [params.social]
 twitter = "YourTwitterHandle" # Your Twitter/X username (without the @)
 # You can add more here later, like:
-github = "fivetwentythree"
+github = "github"
