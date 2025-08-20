@@ -2,7 +2,7 @@
 title = "Meditations"
 author = "Marcus Aurelius"
 date = 2024-05-20
-cover_image = "/images/covers/meditations.webp"
+cover_image = "images/covers/meditations.webp"
 draft = false
 +++
 
