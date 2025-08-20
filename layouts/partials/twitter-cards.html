@@ -19,14 +19,25 @@
 />
 
 <!-- The @username of the website's account -->
-{{ with .Site.Params.social.twitter }}<meta name="twitter:site" content="@{{ . }}" />{{
-end }}
+{{ with .Site.Params.social.twitter }}
+<meta name="twitter:site" content="@{{ . }}" />
+{{ end }}
 
 <!-- The @username of the content author -->
-{{ with .Site.Params.author }}<meta name="twitter:creator" content="{{ . }}" />{{ end }}
+{{ with .Site.Params.author }}
+<meta name="twitter:creator" content="{{ . }}" />
+{{ end }}
 
 <!-- Find and process the image for the social card -->
-{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}} {{- with
-resources.Get $imagePath -}} {{- $twitterImage := .Fill "1200x630 Center q85 jpg" -}}
-<meta name="twitter:image" content="{{ $twitterImage.Permalink }}" />
+{{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
+{{- if $imagePath -}}
+  {{- $image := resources.Get $imagePath -}}
+  {{- if $image -}}
+    {{- /* Image is in assets, so we can process it */ -}}
+    {{- $twitterImage := $image.Fill "1200x630 Center q85 jpg" -}}
+    <meta name="twitter:image" content="{{ $twitterImage.Permalink | absURL }}" />
+  {{- else -}}
+    {{- /* Image is not in assets, assume it's in static and link directly */ -}}
+    <meta name="twitter:image" content="{{ $imagePath | absURL }}" />
+  {{- end -}}
 {{- end -}}

@@ -6,7 +6,7 @@ title = 'Lochana Perera'
 description = "A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom"
 keywords = "philosophy, ethics, virtue, wisdom, blog"
 author = "Lochana Perera"
-defaultSocialImage = "images/social/og-deafult.jpg"
+defaultSocialImage = "images/social/og-default.jpg"
 defaultTwitterImage = "images/social/twitter-default.jpg"                                                # Can be same as OG
 # Add this to your hugo.toml file
 
