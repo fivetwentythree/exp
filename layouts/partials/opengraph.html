@@ -1,4 +1,4 @@
-<!-- FILE: layouts/partials/opengraph.html (FIXED) -->
+<!-- FILE: layouts/partials/opengraph.html (CORRECTED FOR ASSETS) -->
 
 <!-- Sets the page type. "website" for the homepage, "article" for others. -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
@@ -28,16 +28,13 @@
     {{- $imagePath = .Site.Params.defaultSocialImage -}}
 {{- end -}}
 
-{{- if $imagePath -}}
-    {{- $image := resources.Get $imagePath -}}
-    {{- if $image -}}
-        {{- /* Image is in assets, so we can process it */ -}}
-        {{- $ogImage := $image.Fill "1200x630 Center q85 jpg" -}}
+{{- with $imagePath -}}
+    {{- with resources.Get . -}}
+        {{- $ogImage := .Fill "1200x630 Center q85 jpg" -}}
         <meta property="og:image" content="{{ $ogImage.Permalink | absURL }}">
         <meta property="og:image:width" content="{{ $ogImage.Width }}">
         <meta property="og:image:height" content="{{ $ogImage.Height }}">
     {{- else -}}
-        {{- /* Image is not in assets, assume it's in static and link directly */ -}}
-        <meta property="og:image" content="{{ $imagePath | absURL }}">
+        {{- warnf "OG Image not found in assets: %s" . -}}
     {{- end -}}
 {{- end -}}

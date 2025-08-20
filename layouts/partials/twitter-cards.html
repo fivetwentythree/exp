@@ -1,4 +1,4 @@
-<!-- FILE: layouts/partials/twitter-cards.html (FIXED) -->
+<!-- FILE: layouts/partials/twitter-cards.html (CORRECTED FOR ASSETS) -->
 
 <!-- The type of card to display. "summary_large_image" is best for articles. -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -38,14 +38,11 @@
     {{- $imagePath = .Site.Params.defaultTwitterImage | default .Site.Params.defaultSocialImage -}}
 {{- end -}}
 
-{{- if $imagePath -}}
-  {{- $image := resources.Get $imagePath -}}
-  {{- if $image -}}
-    {{- /* Image is in assets, so we can process it */ -}}
-    {{- $twitterImage := $image.Fill "1200x630 Center q85 jpg" -}}
-    <meta name="twitter:image" content="{{ $twitterImage.Permalink | absURL }}" />
-  {{- else -}}
-    {{- /* Image is not in assets, assume it's in static and link directly */ -}}
-    <meta name="twitter:image" content="{{ $imagePath | absURL }}" />
-  {{- end -}}
+{{- with $imagePath -}}
+    {{- with resources.Get . -}}
+        {{- $twitterImage := .Fill "1200x630 Center q85 jpg" -}}
+        <meta name="twitter:image" content="{{ $twitterImage.Permalink | absURL }}" />
+    {{- else -}}
+        {{- warnf "Twitter Card Image not found in assets: %s" . -}}
+    {{- end -}}
 {{- end -}}
