@@ -1,6 +1,6 @@
 ---
 title: "Australia Is Running a Weird Experiment in Coasting"
-date: 2025-02-10T12:00:00-07:00
+date: 2024-05-10T12:00:00-07:00
 draft: false
 description: "An analysis of Donald Horne's book The Lucky Country, exploring his original critique of Australia as a nation coasting on luck and how this ironic insult was transformed into a national slogan."
 

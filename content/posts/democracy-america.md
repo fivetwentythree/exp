@@ -1,6 +1,6 @@
 ---
 title: "Democracy in America"
-date: 2023-10-28T12:00:00-07:00
+date: 2024-10-28T12:00:00-07:00
 draft: false
 description: "A modern look at Alexis de Tocqueville's surprising and timeless observations on equality, freedom, and the strange genius of American democracy."
 
@@ -9,7 +9,7 @@ images: ["images/social/democracy.jpeg"]
 
 ## Democracy in America Is Weird
 
-{{< youtube Rzr3AOtFA8o >}}
+![scene at the signing of the constitution of America](/images/sign.webp)
 
 So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you're thinking: "Why do I care what some 19th-century French aristocrat thought about America?" But here's the thing, the guy basically invented political science Twitter 200 years early.
 
@@ -52,6 +52,8 @@ It's like America was speedrunning every possible political contradiction at onc
 ## The Slavery Thing Is Going to Be a Problem
 
 Speaking of contradictions! Tocqueville took one look at slavery and was like, "guys, this is going to end badly." You can't have a democracy based on equality while literally owning people. The math doesn't math. He predicted this would cause, shall we say, some issues. (Spoiler alert: it did.)
+
+{{< youtube Rzr3AOtFA8o >}}
 
 ## Calling His Shots
 

@@ -1,6 +1,6 @@
 ---
 title: "Progress and Poverty or Why Does Everything Get Worse When It Gets Better?"
-date: 2024-10-28T12:00:00-07:00
+date: 2024-01-27T12:00:00-07:00
 draft: false
 description: "A summary of Henry George's Progress and Poverty exploring why economic progress often leads to increased wealth for landowners rather than workers, and how this 19th-century observation remains relevant in today's economy."
 images: ["images/social/robber-barons.jpeg"]
@@ -8,7 +8,7 @@ images: ["images/social/robber-barons.jpeg"]
 
 ## [The Rent Is Too Damn High](https://www.youtube.com/watch?v=OUx_32ABtw4) (1879 Edition)
 
-![](/images/robber-barons.webp "Robber barrons eating the world or America at the time")
+![Robber barrons eating the world or America at the time](/images/robber-barons.webp "Robber barrons eating the world or America at the time")
 
 So here's a weird thing that happened in 1879. A guy named Henry George looked around San Francisco, hich was having a absolutely bonkers real estate boom thanks to railroads and gold and general Western expansion vibes and asked a question that sounds extremely familiar: Why is it that the more prosperous society gets, the more impossible it becomes for regular people to afford anything?
 
