@@ -39,7 +39,7 @@ The basic Machiavellian insight about republics goes like this: You know how in 
 - The people (who want not to be oppressed)
 - Some kind of institutional structure that lets them fight it out without actually killing each other
 
-It's like checks and balances, but messier and more honest about human nature. Machiavelli looks at Rome and says: "These guys were constantly having internal conflicts between patricians and plebeians, and that's WHY they succeeded, not despite it."[](https://www.historyskills.com/classroom/ancient-history/anc-conflict-of-the-orders-reading/?srsltid=AfmBOorfPhbn1DorhVCrgu-mZbEDhU0NqkDZFypa_fGheiVJB13snlx0)
+It's like checks and balances, but messier and more honest about human nature. Machiavelli looks at Rome and says: "These guys were constantly having internal conflicts between patricians and plebeians, and that's [WHY they succeeded, not despite it"](https://www.historyskills.com/classroom/ancient-history/anc-conflict-of-the-orders-reading/?srsltid=AfmBOorfPhbn1DorhVCrgu-mZbEDhU0NqkDZFypa_fGheiVJB13snlx0)
 
 This is counterintuitive! The conventional wisdom in Machiavelli's time (and honestly, in our time too) is that you want unity, harmony, everyone pulling in the same direction. Machiavelli is like: "No, no, no you want productive tension. You want the investment bankers and the regulators to be in permanent conflict, because that's how you get a system that actually works."
 
