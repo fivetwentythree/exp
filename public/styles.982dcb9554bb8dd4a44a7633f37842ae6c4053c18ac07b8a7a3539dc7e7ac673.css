@@ -1687,13 +1687,6 @@ select {
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Google Sans';
-    src: url('/exp/fonts/GoogleSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
 
 /* --- New, Nicer Theme Toggle Styles --- */
 

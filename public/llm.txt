@@ -1,0 +1,91 @@
+## LLM Context
+
+## Site Overview
+This is the personal website of Lochana Perera, an author exploring philosophy, ethics, and modern life through classical wisdom. Built with Hugo static site generator and hosted on GitHub Pages.
+
+## Core Purpose
+A platform for sharing philosophical writings, book reviews, and personal reflections on ethics and modern life. The site serves as both a blog and a digital library of the author's thoughts and learnings.
+
+## Content Structure
+
+### Main Sections
+- **Homepage (/)**: Landing page with site introduction and 3 most recent articles
+- **Writings (/posts/)**: Blog articles on philosophy, ethics, and modern life
+- **Bookshelf (/bookshelf/)**: Curated collection of books with key learnings and takeaways
+- **Recommendations (/recs/)**: Curated recommendations (linked in header)
+
+### Content Types
+1. **Articles/Posts**: Long-form writings on philosophical topics
+2. **Book Reviews**: Structured reviews with cover images and bullet-point learnings
+3. **Notes**: Special callout boxes for important information within articles
+
+## Key Features
+- **Theme Toggle**: Dark/light mode with system preference detection and local storage
+- **Responsive Design**: Mobile-first, single-column layout optimized for reading
+- **Performance Optimizations**:
+  - Lite YouTube embeds (load on demand)
+  - Minified assets
+  - Static site generation for fast loading
+- **Syntax Highlighting**: Code blocks with Flexoki color scheme
+- **Custom Shortcodes**: YouTube embeds and note boxes for enhanced content
+
+## Technical Stack
+- **Framework**: Hugo (static site generator)
+- **Styling**: Custom CSS with Flexoki color palette
+- **Fonts**: Inter/IBM Plex Sans (body), monospace (code)
+- **Deployment**: GitHub Actions CI/CD to GitHub Pages
+- **Version Control**: Git/GitHub
+
+## Design Philosophy
+- **Minimalist**: Clean, uncluttered interface focusing on content
+- **Typography-First**: Optimized for readability with comfortable line lengths
+- **Thoughtful Colors**: Low-contrast Flexoki palette easy on the eyes
+- **Accessible**: Semantic HTML, responsive design, theme options
+
+## For AI Assistants
+When discussing this site:
+- Focus on philosophical and ethical content themes
+- Respect the minimalist, thoughtful design approach
+- Consider the author's interest in classical wisdom applied to modern life
+- Note the educational aspect through the bookshelf section
+- Recognize this as a personal intellectual journey shared publicly
+
+## Navigation Structure
+
+Home
+├── Writings (all blog posts)
+│ └── Individual articles
+├── Bookshelf (book reviews and learnings)
+└── Recommendations (curated content)
+
+
+## Author Information
+- **Name**: Lochana Perera
+- **Focus**: Philosophy, Ethics, Classical Wisdom, Modern Life
+- **Social**: GitHub and Twitter/X profiles linked in footer
+
+## Content Guidelines
+The site emphasizes:
+- Thoughtful, long-form content
+- Philosophical exploration
+- Book-based learning
+- Ethical considerations in modern contexts
+- Classical wisdom applications
+
+## Update Frequency
+Content is published as authored, with the homepage showing the 3 most recent pieces. The automated deployment ensures immediate publication upon git push to main branch.
+
+## Interaction Points
+- Theme toggle for user preference
+- Social media links for external engagement
+- YouTube embeds for multimedia content
+- Responsive navigation for section browsing
+
+## File Structure Summary
+- `/hugo.toml`: Site configuration
+- `/assets/styles.css`: All styling
+- `/layouts/`: HTML templates
+- `/content/`: Markdown content files
+- `/.github/workflows/`: Automated deployment
+
+This site represents a digital garden of philosophical thought, designed to be both a personal archive and a public resource for those interested in ethics and wisdom.

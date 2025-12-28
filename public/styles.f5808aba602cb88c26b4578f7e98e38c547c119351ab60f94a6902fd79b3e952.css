@@ -141,11 +141,11 @@ template {
 }
 :root {
     --font-content:
-        "Google Sans", "Josefin Sans", "Canela Light Web", "BBC Reith Sans Regular", "BBC Reith Sans", "Reith Sans Regular", "Reith Sans", "ReithSans", -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI,
+        "Reith Sans", -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI,
         Helvetica, Arial, sans-serif;
     --font-ui: var(--font-content);
     --font-mono:
-        "Berkeley Mono", ui-monospace, SFMono-Regular, "Cascadia Code", "IBM Plex Mono", "Roboto Mono",
+        ui-monospace, SFMono-Regular, "Cascadia Code", "IBM Plex Mono", "Roboto Mono",
         "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Consolas",
         "Source Code Pro", monospace;
     --border-radius: 4px;
@@ -652,7 +652,6 @@ body {
     text-rendering: optimizeLegibility;
     background-color: var(--color-bg-primary);
     font-family: var(--font-content);
-    font-weight: 400;
     margin: 2vw auto 0 auto;
     line-height: var(--line-height);
     padding: 2rem 0 24rem;
@@ -1639,58 +1638,9 @@ select {
 
 /* --- Font Faces --- */
 @font-face {
-    font-family: 'Canela Light Web';
-    src: url('/exp/fonts/Canela-Light-Web.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: 'Reith Sans';
-    src: local('Reith Sans'), local('ReithSans'), url('/exp/fonts/ReithSans_W_Rg.woff2') format('woff2');
+    src: url('/fonts/ReithSans_W_Rg.woff2') format('woff2');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Reith Sans Regular';
-    src: local('Reith Sans Regular'), local('ReithSans-Regular'), url('/exp/fonts/ReithSans_W_Rg.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'BBC Reith Sans';
-    src: local('BBC Reith Sans'), local('BBCReithSans'), url('/exp/fonts/ReithSans_W_Rg.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'BBC Reith Sans Regular';
-    src: local('BBC Reith Sans Regular'), local('BBCReithSans-Regular'), url('/exp/fonts/ReithSans_W_Rg.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Berkeley Mono';
-    src: url('/exp/fonts/BerkeleyMonoVariable-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('/exp/fonts/JosefinSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Google Sans';
-    src: url('/exp/fonts/GoogleSans-Regular.woff2') format('woff2');
-    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
