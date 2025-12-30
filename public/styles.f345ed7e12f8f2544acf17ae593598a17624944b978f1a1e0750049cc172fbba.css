@@ -658,7 +658,7 @@ body {
     line-height: var(--line-height);
     padding: 2rem 0 24rem;
     overflow-x: hidden;
-    font-size: 18px;
+    font-size: 17.6px;
     color: var(--color-tx-normal);
 }
 small,
@@ -1818,6 +1818,108 @@ select {
     }
     article {
         padding: 0 1rem;
+    }
+}
+
+/* Floating TOC Styles */
+.floating-rail {
+    position: fixed;
+    right: 12px;
+    top: 20vh;
+    z-index: 100;
+}
+
+.skeleton-trigger {
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-ui-normal);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    padding: 8px;
+    transition: background 0.2s;
+}
+
+.skeleton-trigger:hover {
+    background: var(--color-ui-hover);
+}
+
+.skeleton-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+}
+
+.bar {
+    height: 3px;
+    border-radius: 50%;
+    transition: opacity 0.2s;
+}
+
+.bar.h2 {
+    width: 24px;
+    background: var(--color-tx-normal);
+}
+
+.bar.h3 {
+    width: 12px;
+    background: var(--color-tx-muted);
+}
+
+.toc-popover {
+    position: fixed;
+    right: 60px;
+    top: 20vh;
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: var(--color-bg-primary);
+    border: 1px solid var(--color-ui-normal);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    z-index: 99;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.toc-popover:not([hidden]) {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.toc-popover nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc-popover nav ul ul {
+    padding-left: 1rem;
+}
+
+.toc-popover a {
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    color: var(--color-tx-normal);
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.toc-popover a:hover {
+    background: var(--color-ui-hover);
+}
+
+.toc-popover a.active {
+    font-weight: bold;
+    color: var(--color-action);
+    background: var(--color-highlight);
+}
+
+@media (max-width: 768px) {
+    .floating-rail,
+    .toc-popover {
+        display: none;
     }
 }
 
