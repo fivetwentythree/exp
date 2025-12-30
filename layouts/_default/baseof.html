@@ -11,6 +11,9 @@
         <meta name="author" content="{{ .Site.Params.author }}" />
         <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}" />
 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+
         <!-- Open Graph / Facebook -->
         {{ partial "opengraph.html" . }}
 
@@ -105,5 +108,8 @@
                 });
             }
         </script>
+
+        <!-- Three.js for 3D effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     </body>
 </html>

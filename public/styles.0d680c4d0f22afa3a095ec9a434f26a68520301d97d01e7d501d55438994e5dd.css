@@ -761,7 +761,6 @@ article {
     width: var(--wrap-normal);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 6rem;
 }
 article img {
     margin-bottom: 0.5em;

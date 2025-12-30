@@ -301,7 +301,8 @@ template {
     --color-bg-primary-rgb: var(--flexoki-paper-rgb);
     --color-inverted-rgb: var(--flexoki-black-rgb);
     --color-bg-secondary: var(--flexoki-50);
-    --color-tx-normal: #000000;
+    --color-tx-normal: var(--flexoki-black);
+    --color-tx-normal-rgb: var(--flexoki-black-rgb);
     --color-tx-muted: var(--flexoki-600);
     --color-tx-faint: var(--flexoki-300);
     --color-ui-normal: var(--flexoki-100);
@@ -656,7 +657,7 @@ body {
     line-height: var(--line-height);
     padding: 2rem 0 24rem;
     overflow-x: hidden;
-    font-size: 17.6px;
+    font-size: 1.75rem;
     color: var(--color-tx-normal);
 }
 small,
@@ -696,7 +697,7 @@ p {
     max-width: var(--wrap-normal);
 }
 blockquote {
-    padding-left: 2em;
+    padding-left: 1.5em;
     margin: 1.5em 0;
     border-left: 2px solid var(--color-tx-normal);
 }
@@ -761,7 +762,6 @@ article {
     width: var(--wrap-normal);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 6rem;
 }
 article img {
     margin-bottom: 0.5em;

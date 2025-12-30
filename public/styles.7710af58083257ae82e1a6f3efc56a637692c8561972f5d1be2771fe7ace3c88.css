@@ -654,7 +654,7 @@ body {
     font-weight: 400;
     margin: 2vw auto 0 auto;
     line-height: var(--line-height);
-    padding: 2rem 0 24rem;
+    padding: 2rem 6rem 24rem;
     overflow-x: hidden;
     font-size: 17.6px;
     color: var(--color-tx-normal);
@@ -761,7 +761,6 @@ article {
     width: var(--wrap-normal);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 6rem;
 }
 article img {
     margin-bottom: 0.5em;
