@@ -763,7 +763,7 @@ article {
     width: var(--wrap-normal);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 2rem;
+    padding: 0 6rem;
 }
 article img {
     margin-bottom: 0.5em;
@@ -1814,10 +1814,7 @@ select {
 
 @media (max-width: 600px) {
     :root {
-        --container-pad: 0.5rem;
-    }
-    article {
-        padding: 0 1rem;
+        --container-pad: 1rem;
     }
 }
 

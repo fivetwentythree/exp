@@ -157,7 +157,7 @@ template {
     --input-width: 20em;
     --image-radius: 6px;
     --line-height: 1.6;
-    --container-pad: 2rem;
+    --container-pad: clamp(1rem, 2vw, 3rem);
     --container-max: 860px;
 }
 @media (max-width: 860px) {
@@ -763,7 +763,7 @@ article {
     width: var(--wrap-normal);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 2rem;
+    padding: 0 6rem;
 }
 article img {
     margin-bottom: 0.5em;
@@ -1816,9 +1816,4 @@ select {
     :root {
         --container-pad: 0.5rem;
     }
-    article {
-        padding: 0 1rem;
-    }
 }
-
-
