@@ -9,3 +9,5 @@ images: ["/images/social/thinking-2025 Medium.jpeg"]
 I don’t know where to start, but lets say this is not something I need to write but I think circumstances asked for it.
 
 ![this is how this year feels like](/images/thinking-2025.webp)
+
+{{< spotify album "71nSsMDGcGFwHqknIELTe8" >}}

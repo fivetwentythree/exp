@@ -1,0 +1,14 @@
+{{- $type := .Get 0 -}}
+{{- $id := .Get 1 -}}
+{{- $width := .Get 2 | default "300" -}}
+{{- $height := .Get 3 | default "380" -}}
+
+<iframe
+  src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}"
+  width="{{ $width }}"
+  height="{{ $height }}"
+  frameborder="0"
+  allowtransparency="true"
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+></iframe>
