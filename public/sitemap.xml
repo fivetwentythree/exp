@@ -2,46 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3662/exp/posts/crowds/</loc>
+    <loc>http://localhost:1313/exp/posts/crowds/</loc>
     <lastmod>2025-03-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/</loc>
+    <loc>http://localhost:1313/exp/</loc>
     <lastmod>2025-03-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/</loc>
+    <loc>http://localhost:1313/exp/posts/</loc>
     <lastmod>2025-03-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/critical-dictionary/</loc>
+    <loc>http://localhost:1313/exp/posts/critical-dictionary/</loc>
     <lastmod>2025-02-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/confessions/</loc>
+    <loc>http://localhost:1313/exp/posts/confessions/</loc>
     <lastmod>2024-12-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/democracy-america/</loc>
+    <loc>http://localhost:1313/exp/posts/democracy-america/</loc>
     <lastmod>2024-10-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/discourses-on-livy/</loc>
+    <loc>http://localhost:1313/exp/posts/discourses-on-livy/</loc>
     <lastmod>2024-08-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/leviathan/</loc>
+    <loc>http://localhost:1313/exp/posts/leviathan/</loc>
     <lastmod>2024-06-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/lucky-country/</loc>
+    <loc>http://localhost:1313/exp/posts/my-thinking/</loc>
+    <lastmod>2024-06-28T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/exp/posts/lucky-country/</loc>
     <lastmod>2024-05-10T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/metamorphasis-ovid/</loc>
+    <loc>http://localhost:1313/exp/posts/metamorphasis-ovid/</loc>
     <lastmod>2024-04-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/nicomachean-ethics/</loc>
+    <loc>http://localhost:1313/exp/posts/nicomachean-ethics/</loc>
     <lastmod>2024-03-28T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/posts/progress-and-poverty/</loc>
+    <loc>http://localhost:1313/exp/posts/progress-and-poverty/</loc>
     <lastmod>2024-01-27T12:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:3662/exp/categories/</loc>
+    <loc>http://localhost:1313/exp/categories/</loc>
   </url><url>
-    <loc>http://localhost:3662/exp/recommendations/</loc>
+    <loc>http://localhost:1313/exp/recommendations/</loc>
   </url><url>
-    <loc>http://localhost:3662/exp/tags/</loc>
+    <loc>http://localhost:1313/exp/tags/</loc>
   </url>
 </urlset>
