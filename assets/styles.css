@@ -658,7 +658,7 @@ body {
     line-height: var(--line-height);
     padding: 2rem 0 24rem;
     overflow-x: hidden;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--color-tx-normal);
 }
 small,
