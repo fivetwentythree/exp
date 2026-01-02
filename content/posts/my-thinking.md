@@ -54,7 +54,7 @@ You have the concept exactly right! Here is the formula you should memorize:
 * **`git merge`**: This takes that fetched data and actually updates the code files you are looking at on your screen.
 * **`git pull`**: This is the "lazy" command that does both steps at once. It downloads the changes and immediately tries to force them into your files.
 
-![image of a handwritten goodnotes page](/assets/images/Li.jpeg "hand written goodnotes page can be nice input to gemini")
+![image of a handwritten goodnotes page](/assets/images/Li.webp "hand written goodnotes page can be nice a input to gemini")
 
 ### 4. Creating Branches
 > **Your notes:** "then if I need to make a new branch. I can do git -b branch-name"
