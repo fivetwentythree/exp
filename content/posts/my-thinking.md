@@ -23,12 +23,12 @@ Here is the breakdown:
 ### 1. The Staging and Committing Workflow
 > **Your notes:** "you add new files... git add . ... this is called staging process"
 
-✅ **Verdict: 100% Correct.**
+**Verdict: 100% Correct.**
 You are absolutely right. `git add` moves files into the **Staging Area**. Think of staging like packing a box before moving houses. You put items in the box (`git add`), but you haven't taped the box shut yet.
 
 > **Your notes:** "and if I need to commit this to the remote repository I need to commit these files with a message"
 
-⚠️ **Teacher’s Note:** You are *almost* there, but there is a crucial distinction.
+**Teacher’s Note:** You are *almost* there, but there is a crucial distinction.
 When you run `git commit -m "message"`, you are **not** saving to the remote repository yet. You are only saving that "box" permanently to your **local computer's** history.
 * **Correction:** `git commit` saves to your *local* repo. `git push` sends that commit to the *remote* repo.
 
@@ -54,10 +54,12 @@ You have the concept exactly right! Here is the formula you should memorize:
 * **`git merge`**: This takes that fetched data and actually updates the code files you are looking at on your screen.
 * **`git pull`**: This is the "lazy" command that does both steps at once. It downloads the changes and immediately tries to force them into your files.
 
+![image of a handwritten goodnotes page](/assets/images/Li.jpeg "hand written goodnotes page can be nice input to gemini")
+
 ### 4. Creating Branches
 > **Your notes:** "then if I need to make a new branch. I can do git -b branch-name"
 
-❌ **Correction:** The syntax here is slightly off.
+**Correction:** The syntax here is slightly off.
 To create a branch *and* switch to it immediately, the command is:
 `git checkout -b branch-name`
 
