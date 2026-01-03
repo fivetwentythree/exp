@@ -69,9 +69,10 @@
 
         {{ partial "footer.html" . }}
 
-        <!-- We will add the theme-toggle script here -->
+        <!-- Theme and Font Toggle Scripts -->
         <script>
             const themeToggle = document.getElementById("theme-toggle");
+            const fontToggle = document.getElementById("font-toggle");
             const body = document.body;
 
             // Function to set the theme
@@ -82,6 +83,17 @@
                 } else {
                     body.classList.remove("theme-dark");
                     localStorage.setItem("theme", "light");
+                }
+            };
+
+            // Function to set the font
+            const setFont = (font) => {
+                if (font === "sans") {
+                    body.classList.add("font-sans");
+                    localStorage.setItem("font", "sans");
+                } else {
+                    body.classList.remove("font-sans");
+                    localStorage.setItem("font", "serif");
                 }
             };
 
@@ -97,13 +109,32 @@
                 setTheme("dark");
             }
 
-            // Add click event listener to the toggle
+            // Check for saved font preference, default to serif
+            const savedFont = localStorage.getItem("font");
+            if (savedFont === "sans") {
+                setFont("sans");
+            } else {
+                setFont("serif");
+            }
+
+            // Add click event listener to theme toggle
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
                     if (body.classList.contains("theme-dark")) {
                         setTheme("light");
                     } else {
                         setTheme("dark");
+                    }
+                });
+            }
+
+            // Add click event listener to font toggle
+            if (fontToggle) {
+                fontToggle.addEventListener("click", () => {
+                    if (body.classList.contains("font-sans")) {
+                        setFont("serif");
+                    } else {
+                        setFont("sans");
                     }
                 });
             }

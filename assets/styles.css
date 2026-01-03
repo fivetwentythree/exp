@@ -140,10 +140,18 @@ template {
     display: none;
 }
 :root {
-    --font-content:
+    --font-serif:
         "Adobe Caslon Pro", "Lusitana", "Google Sans", "Josefin Sans", "Canela Light Web", "BBC Reith Sans Regular", "BBC Reith Sans", "Reith Sans Regular", "Reith Sans", "ReithSans", -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI,
+        Helvetica, Arial, serif;
+    --font-sans:
+        -apple-system, BlinkMacSystemFont, "Google Sans", "Josefin Sans", "BBC Reith Sans Regular", "BBC Reith Sans", "Reith Sans Regular", "Reith Sans", "ReithSans", "IBM Plex Sans", Segoe UI,
         Helvetica, Arial, sans-serif;
+    --font-content: var(--font-serif);
     --font-ui: var(--font-content);
+.font-sans {
+    --font-content: var(--font-sans);
+    --font-ui: var(--font-sans);
+}
     --font-mono:
         "Berkeley Mono", ui-monospace, SFMono-Regular, "Cascadia Code", "IBM Plex Mono", "Roboto Mono",
         "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Consolas",
@@ -1698,6 +1706,7 @@ select {
     font-display: swap;
 }
 
+
 /* --- New, Nicer Theme Toggle Styles --- */
 
 /* 1. Reset button styles and set up the container */
@@ -1748,6 +1757,55 @@ select {
 }
 .theme-dark .theme-toggle .moon {
     /* Show the moon in dark mode */
+    transform: rotate(0) scale(1);
+    opacity: 1;
+}
+
+/* --- Font Toggle Styles --- */
+
+.font-toggle {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    color: var(--color-tx-muted);
+    margin-left: 0.5rem;
+}
+.font-toggle:hover {
+    color: var(--color-tx-normal);
+    background-color: transparent;
+}
+
+.font-toggle svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.font-toggle .serif-icon {
+    /* Serif icon visible by default */
+    transform: rotate(0) scale(1);
+    opacity: 1;
+}
+.font-toggle .sans-icon {
+    /* Sans icon hidden by default */
+    transform: rotate(90deg) scale(0);
+    opacity: 0;
+}
+
+.font-sans .font-toggle .serif-icon {
+    /* Hide serif icon when sans is active */
+    transform: rotate(-90deg) scale(0);
+    opacity: 0;
+}
+.font-sans .font-toggle .sans-icon {
+    /* Show sans icon when sans is active */
     transform: rotate(0) scale(1);
     opacity: 1;
 }
