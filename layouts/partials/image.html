@@ -43,4 +43,6 @@ $jpegOptions) -}}
         loading="lazy"
     />
 </picture>
-{{- else -}} {{- warnf "Image not found: %s" $src -}} {{- end -}}
+{{- else -}}
+<img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" />
+{{- end -}}
