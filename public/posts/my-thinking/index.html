@@ -93,10 +93,10 @@
         
         <link
             rel="stylesheet"
-            href="/exp/styles.ac5a9c417f9cd71ba95cbd35271d99d757398c64595edf0b4403970290cd35fb.css"
-            integrity="sha256-rFqcQX&#43;c1xupXL01Jx2Z11c5jGRZXt8LRAOXApDNNfs="
+            href="/exp/styles.a2f62cf9b8f9155c0ed9b37459d79222d59a2e82a0f41e88c6e63fdf51d1aeee.css"
+            integrity="sha256-ovYs&#43;bj5FVwO2bN0WdeSItWaLoKg9B6IxuY/31HRru4="
         />
-        <noscript><link rel="stylesheet" href="/exp/styles.ac5a9c417f9cd71ba95cbd35271d99d757398c64595edf0b4403970290cd35fb.css" /></noscript>
+        <noscript><link rel="stylesheet" href="/exp/styles.a2f62cf9b8f9155c0ed9b37459d79222d59a2e82a0f41e88c6e63fdf51d1aeee.css" /></noscript>
 
         <link rel="preload" as="image" href="http://localhost:1313/exp/images/social/og-default_hu_a7feb6ba6a79035b.jpg"></head>
 
@@ -161,6 +161,33 @@
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
         </button>
+        
+        <button id="font-toggle" class="font-toggle" aria-label="Toggle font style">
+            <svg
+                class="serif-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <text x="12" y="16" text-anchor="middle" font-family="serif" font-size="14">S</text>
+            </svg>
+            <svg
+                class="sans-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <text x="12" y="16" text-anchor="middle" font-family="sans-serif" font-size="14">S</text>
+            </svg>
+        </button>
     </div>
 </nav>
 
@@ -207,8 +234,149 @@
   loading="lazy"
 ></iframe>
 <p>and this is how a github gist looks like</p>
-<script src="https://gist.github.com/fivetwentythree/19b8dcf358c6b7f2d7342ace979b2693.js"></script>
+<p>Hello! I have read your notes, and I have to say: <strong>you have excellent intuition for how Git works.</strong> You have correctly identified the core logic (the &ldquo;happy path&rdquo;) of saving work.</p>
+<p>As your teacher, I’m going to go through your points one by one to validate what you got right, make a few small but important corrections, and answer your specific questions.</p>
+<p>Here is the breakdown:</p>
+<h3 id="1-the-staging-and-committing-workflow">1. The Staging and Committing Workflow</h3>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;you add new files&hellip; git add . &hellip; this is called staging process&rdquo;</p></blockquote>
+<p><strong>Verdict: 100% Correct.</strong>
+You are absolutely right. <code>git add</code> moves files into the <strong>Staging Area</strong>. Think of staging like packing a box before moving houses. You put items in the box (<code>git add</code>), but you haven&rsquo;t taped the box shut yet.</p>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;and if I need to commit this to the remote repository I need to commit these files with a message&rdquo;</p></blockquote>
+<p><strong>Teacher’s Note:</strong> You are <em>almost</em> there, but there is a crucial distinction.
+When you run <code>git commit -m &quot;message&quot;</code>, you are <strong>not</strong> saving to the remote repository yet. You are only saving that &ldquo;box&rdquo; permanently to your <strong>local computer&rsquo;s</strong> history.</p>
+<ul>
+<li><strong>Correction:</strong> <code>git commit</code> saves to your <em>local</em> repo. <code>git push</code> sends that commit to the <em>remote</em> repo.</li>
+</ul>
+<h3 id="2-what-is-git-origin-main">2. &ldquo;What is <code>git origin main</code>?&rdquo;</h3>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;then what is git origin main?&rdquo;</p></blockquote>
+<p><strong>The Answer:</strong>
+This usually appears in the command <code>git push origin main</code>. Let&rsquo;s break it into two words:</p>
+<ol>
+<li><strong><code>origin</code></strong>: This is just a nickname for the URL of the remote repository (like GitHub or GitLab). Instead of typing <code>https://github.com/myname/project.git</code> every time, Git lets you just say <code>origin</code>.</li>
+<li><strong><code>main</code></strong>: This is the name of the specific branch you are pushing.</li>
+</ol>
+<p>So, <code>git push origin main</code> literally translates to: <em>&ldquo;Upload my changes to the server nicknamed <strong>origin</strong> and put them on the <strong>main</strong> branch.&rdquo;</em></p>
+<h3 id="3-fetch-vs-pull-the-intermediate-state">3. Fetch vs. Pull (The &ldquo;Intermediate State&rdquo;)</h3>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;what is git fetch. is it like intermediary state of git pull&hellip; like you fetch the remote repo to an intermediate state&hellip; I can do git pull ; is this correct ?&rdquo;</p></blockquote>
+<p><strong>The Answer:</strong>
+You have the concept exactly right! Here is the formula you should memorize:</p>
+<p><strong><code>git pull</code> = <code>git fetch</code> + <code>git merge</code></strong></p>
+<ul>
+<li><strong><code>git fetch</code></strong>: This goes to the remote server and says, &ldquo;Show me what has changed,&rdquo; but it <strong>does not touch your working files</strong>. It downloads the new data safely into a hidden folder so you can look at it first. (This is the &ldquo;intermediate state&rdquo; you mentioned).</li>
+<li><strong><code>git merge</code></strong>: This takes that fetched data and actually updates the code files you are looking at on your screen.</li>
+<li><strong><code>git pull</code></strong>: This is the &ldquo;lazy&rdquo; command that does both steps at once. It downloads the changes and immediately tries to force them into your files.</li>
+</ul>
+<p>
 
+<figure>
+    <picture>
+    <source
+        type="image/webp"
+        srcset="/exp/images/li_hu_22145ad01d67f407.webp 480w, /exp/images/li_hu_29890ec4ae595cb2.webp 800w, /exp/images/li_hu_cf744a573b162dbf.webp 1200w"
+        sizes="(max-width: 800px) 90vw, 800px"
+    />
+    <source
+        type="image/jpeg"
+        srcset="/exp/images/li_hu_c8d82c13ada993d8.jpg 480w, /exp/images/li_hu_523ea6b2388c730f.jpg 800w, /exp/images/li_hu_72560a7979718502.jpg 1200w"
+        sizes="(max-width: 800px) 90vw, 800px"
+    />
+    <img
+        src="/exp/images/li_hu_523ea6b2388c730f.jpg"
+        alt="image of a handwritten goodnotes page"
+        class=""
+        width="800"
+        height="1129"
+        loading="lazy"
+    />
+</picture> 
+    <figcaption>hand written goodnotes page can be nice a input to gemini</figcaption>
+    
+</figure>
+</p>
+<h3 id="4-creating-branches">4. Creating Branches</h3>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;then if I need to make a new branch. I can do git -b branch-name&rdquo;</p></blockquote>
+<p><strong>Correction:</strong> The syntax here is slightly off.
+To create a branch <em>and</em> switch to it immediately, the command is:
+<code>git checkout -b branch-name</code></p>
+<p>(Just <code>git -b</code> won&rsquo;t work).</p>
+<p><em>Note: In newer versions of Git, you can also use <code>git switch -c branch-name</code>.</em></p>
+<h3 id="5-what-about-git-checkout">5. &ldquo;What about <code>git checkout</code>?&rdquo;</h3>
+<blockquote>
+<p><strong>Your notes:</strong> &ldquo;then what about git checkout?&rdquo;</p></blockquote>
+<p><strong>The Answer:</strong>
+<code>git checkout</code> is the command used to <strong>switch focus</strong>.</p>
+<ul>
+<li><strong>Switching Branches:</strong> If you are on the <code>main</code> branch and want to work on <code>feature-A</code>, you type <code>git checkout feature-A</code>. Git replaces all the files in your folder with the version from that branch.</li>
+<li><strong>Time Travel:</strong> You can also checkout a specific point in time (a commit ID) to see what your project looked like last week!</li>
+</ul>
+<hr>
+<h3 id="summary-for-your-notes">Summary for your notes:</h3>
+<p>You are doing great. Your mental model is solid. Just remember: <strong>Committing is local (saving your work), Pushing is remote (sharing your work).</strong> Keep going!</p>
+<p>That is a fantastic set of follow-up questions! You have moved past the basics and are now asking the &ldquo;safety&rdquo; questions—how to fix mistakes and how to work with a team.</p>
+<p>Here is the breakdown, addressing your points and filling in the gaps.</p>
+<h3 id="1-how-to-undo-a-commit-you-already-pushed">1. How to undo a commit you already pushed?</h3>
+<p>This is the most dangerous scenario in Git, so listen closely! Since you have already <strong>pushed</strong> the commit to the remote repo (where others can see it), <strong>you should not delete it.</strong> If you delete it, you break the history for everyone else on your team.</p>
+<p>Instead, we create a <strong>new commit that is the exact opposite</strong> of the bad one. This is called a &ldquo;Revert.&rdquo;</p>
+<ul>
+<li><strong>The Command:</strong> <code>git revert &lt;commit-id&gt;</code></li>
+<li><strong>What it does:</strong> If your bad commit added a line of code, <code>git revert</code> creates a <em>new</em> commit that deletes that line. It preserves history so everyone can see &ldquo;Oh, he made a mistake, and here is the fix.&rdquo;</li>
+</ul>
+<p><strong>Teacher’s Tip:</strong> If you haven&rsquo;t pushed yet (it&rsquo;s only local), you can use <code>git reset</code>, but once you push, always use <code>git revert</code>.</p>
+<h3 id="2-how-to-do-time-travel">2. How to do &ldquo;Time Travel&rdquo;?</h3>
+<p>&ldquo;Time travel&rdquo; is useful if a bug appears and you want to see what the code looked like last week to figure out when it broke.</p>
+<ul>
+<li><strong>Step 1: Get the map.</strong>
+Run <code>git log</code>. This shows you a list of all commits. Each one has a weird ID code (called a hash), like <code>a1b2c3d...</code></li>
+<li><strong>Step 2: Go to the past.</strong>
+Run <code>git checkout &lt;commit-id&gt;</code> (e.g., <code>git checkout a1b2c3d</code>).</li>
+<li><strong>The Consequence (Detached HEAD):</strong>
+Git will warn you that you are in a &ldquo;Detached HEAD state.&rdquo; Don&rsquo;t panic! This just means you are in <strong>Museum Mode</strong>. You can look around and run the code, but you shouldn&rsquo;t save new changes here because they won&rsquo;t belong to any branch.</li>
+<li><strong>Step 3: Return to the present.</strong>
+Run <code>git checkout main</code>.</li>
+</ul>
+<h3 id="3-what-about-put-requests-correction-pull-requests">3. &ldquo;What about put requests?&rdquo; (Correction: Pull Requests)</h3>
+<p>I believe you mean <strong>Pull Requests (PRs)</strong>. (A &ldquo;Put request&rdquo; is a web development term, not a Git term).</p>
+<ul>
+<li><strong>What are they?</strong>
+A Pull Request is <strong>not</strong> a Git command. You cannot type <code>git pull-request</code> in your terminal. It is a feature on websites like GitHub or GitLab.</li>
+<li><strong>The Workflow:</strong>
+<ol>
+<li>You do work on your separate branch (<code>feature-login</code>).</li>
+<li>You push that branch to GitHub.</li>
+<li>On the GitHub website, you click &ldquo;Create Pull Request.&rdquo;</li>
+<li><strong>Meaning:</strong> You are saying to the project manager: <em>&ldquo;I have finished my work on my branch. I am <strong>Requesting</strong> that you <strong>Pull</strong> my code into the main branch.&rdquo;</em></li>
+<li>This allows your team to review your code, comment on it, and approve it before it merges.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h3 id="4-am-i-missing-something-please-list-all-of-them">4. &ldquo;Am I missing something? Please list all of them.&rdquo;</h3>
+<p>You have covered 90% of the daily workflow! However, there are <strong>three critical concepts</strong> missing from your notes that you <em>will</em> encounter eventually:</p>
+<h4 id="a-merge-conflicts-the-headache">A. Merge Conflicts (The Headache)</h4>
+<p>Sometimes, you edit line 10 of a file, and your teammate edits line 10 of the <em>same</em> file. When you try to merge or pull, Git panics because it doesn&rsquo;t know whose line is correct.</p>
+<ul>
+<li><strong>What happens:</strong> Git stops and asks you to manually open the file and choose which code to keep.</li>
+</ul>
+<h4 id="b-gitignore-the-bouncer">B. <code>.gitignore</code> (The Bouncer)</h4>
+<p>There are files you never want to upload to the internet (passwords, API keys, huge video files, temporary system files).</p>
+<ul>
+<li><strong>The solution:</strong> You create a simple text file named <code>.gitignore</code> and list the file names you want Git to ignore. Git will pretend they don&rsquo;t exist.</li>
+</ul>
+<h4 id="c-git-status-the-gps">C. <code>git status</code> (The GPS)</h4>
+<p>This is actually the command you will use more than any other.</p>
+<ul>
+<li><strong>The Command:</strong> <code>git status</code></li>
+<li><strong>What it does:</strong> It tells you exactly what is going on. Are files staged? Are they modified? What branch are you on?</li>
+<li><strong>Teacher&rsquo;s Rule:</strong> Whenever you feel lost, type <code>git status</code>.</li>
+</ul>
+<hr>
+<p><strong>Summary of your progress:</strong>
+You now understand the lifecycle (add/commit/push), the collaboration (fetch/pull/PRs), and the safety nets (revert/time travel). You are ready to start coding!</p>
 </div>
 </article>
 <script type="application/ld+json">
@@ -239,7 +407,7 @@
 
         <footer class="site-footer">
     <div class="small muted">
-        2025 ⁕ festina lente ⁕ Lochana Perera.
+        2026 ⁕ festina lente ⁕ Lochana Perera.
     </div>
 
     <div class="social-links">
@@ -296,6 +464,7 @@
         
         <script>
             const themeToggle = document.getElementById("theme-toggle");
+            const fontToggle = document.getElementById("font-toggle");
             const body = document.body;
 
             
@@ -306,6 +475,17 @@
                 } else {
                     body.classList.remove("theme-dark");
                     localStorage.setItem("theme", "light");
+                }
+            };
+
+            
+            const setFont = (font) => {
+                if (font === "sans") {
+                    body.classList.add("font-sans");
+                    localStorage.setItem("font", "sans");
+                } else {
+                    body.classList.remove("font-sans");
+                    localStorage.setItem("font", "serif");
                 }
             };
 
@@ -322,12 +502,31 @@
             }
 
             
+            const savedFont = localStorage.getItem("font");
+            if (savedFont === "sans") {
+                setFont("sans");
+            } else {
+                setFont("serif");
+            }
+
+            
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
                     if (body.classList.contains("theme-dark")) {
                         setTheme("light");
                     } else {
                         setTheme("dark");
+                    }
+                });
+            }
+
+            
+            if (fontToggle) {
+                fontToggle.addEventListener("click", () => {
+                    if (body.classList.contains("font-sans")) {
+                        setFont("serif");
+                    } else {
+                        setFont("sans");
                     }
                 });
             }
