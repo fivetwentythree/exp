@@ -1,0 +1,337 @@
+<!-- Quote Share Feature - Substack-style text snippet sharing -->
+
+<!-- Share popup that appears on text selection -->
+<div id="quote-share-popup" class="quote-share-popup hidden">
+    <button id="quote-share-btn" class="quote-share-btn" title="Share this quote">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+            <polyline points="16 6 12 2 8 6"/>
+            <line x1="12" y1="2" x2="12" y2="15"/>
+        </svg>
+        <span>Share Quote</span>
+    </button>
+</div>
+
+<!-- Modal for quote image preview -->
+<div id="quote-share-modal" class="quote-share-modal hidden">
+    <div class="quote-share-modal-backdrop"></div>
+    <div class="quote-share-modal-content">
+        <button class="quote-share-modal-close" id="quote-modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+        
+        <h3 class="quote-share-title">Share this quote</h3>
+        
+        <!-- Canvas preview container -->
+        <div class="quote-preview-container">
+            <canvas id="quote-canvas" width="1200" height="630"></canvas>
+        </div>
+        
+        <!-- Share buttons -->
+        <div class="quote-share-actions">
+            <button id="quote-download-btn" class="quote-action-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download Image
+            </button>
+            <button id="quote-copy-btn" class="quote-action-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                </svg>
+                Copy Image
+            </button>
+            <button id="quote-twitter-btn" class="quote-action-btn quote-action-twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 6 6 18"/>
+                    <path d="m6 6 12 12"/>
+                </svg>
+                Share on X
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+    
+    // Only run on article pages
+    const article = document.querySelector('article');
+    if (!article) return;
+    
+    const popup = document.getElementById('quote-share-popup');
+    const shareBtn = document.getElementById('quote-share-btn');
+    const modal = document.getElementById('quote-share-modal');
+    const modalClose = document.getElementById('quote-modal-close');
+    const backdrop = document.querySelector('.quote-share-modal-backdrop');
+    const canvas = document.getElementById('quote-canvas');
+    const ctx = canvas.getContext('2d');
+    const downloadBtn = document.getElementById('quote-download-btn');
+    const copyBtn = document.getElementById('quote-copy-btn');
+    const twitterBtn = document.getElementById('quote-twitter-btn');
+    
+    let selectedText = '';
+    let pageTitle = document.querySelector('article h1')?.textContent || document.title;
+    let pageUrl = window.location.href;
+    
+    // Get the site's social image for blurred background
+    const socialImageUrl = document.querySelector('meta[property="og:image"]')?.content;
+    let socialImage = null;
+    
+    // Preload the social image
+    if (socialImageUrl) {
+        socialImage = new Image();
+        socialImage.crossOrigin = 'anonymous';
+        socialImage.src = socialImageUrl;
+    }
+    
+    // Show popup near selection
+    function showPopup(x, y) {
+        popup.classList.remove('hidden');
+        popup.style.left = `${x}px`;
+        popup.style.top = `${y - 50}px`;
+    }
+    
+    function hidePopup() {
+        popup.classList.add('hidden');
+    }
+    
+    function showModal() {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        
+        // Wait for OG image to load if available, then generate
+        if (socialImage && !socialImage.complete) {
+            socialImage.onload = generateQuoteImage;
+            socialImage.onerror = generateQuoteImage; // Generate with fallback on error
+        } else {
+            generateQuoteImage();
+        }
+    }
+    
+    function hideModal() {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+    
+    // Wrap text for canvas
+    function wrapText(context, text, maxWidth) {
+        const words = text.split(' ');
+        const lines = [];
+        let currentLine = '';
+        
+        for (let word of words) {
+            const testLine = currentLine ? `${currentLine} ${word}` : word;
+            const metrics = context.measureText(testLine);
+            
+            if (metrics.width > maxWidth && currentLine) {
+                lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = testLine;
+            }
+        }
+        if (currentLine) {
+            lines.push(currentLine);
+        }
+        return lines;
+    }
+    
+    // Generate the quote image on canvas
+    function generateQuoteImage() {
+        const width = 1200;
+        const height = 630;
+        canvas.width = width;
+        canvas.height = height;
+        
+        // Check if dark mode
+        const isDark = document.body.classList.contains('theme-dark');
+        
+        // Background colors based on theme
+        const bgColor = isDark ? '#1c1b1a' : '#fffcf0';
+        const textColor = isDark ? '#fffcf0' : '#100f0f';
+        const mutedColor = isDark ? '#878580' : '#6f6e69';
+        const accentColor = isDark ? '#d0a215' : '#ad8301';
+        
+        // Fill base background
+        ctx.fillStyle = bgColor;
+        ctx.fillRect(0, 0, width, height);
+        
+        // Draw blurred OG image as background if available
+        if (socialImage && socialImage.complete && socialImage.naturalWidth > 0) {
+            // Save context state
+            ctx.save();
+            
+            // Apply blur filter
+            ctx.filter = 'blur(30px)';
+            
+            // Draw image scaled to cover the canvas
+            const imgRatio = socialImage.naturalWidth / socialImage.naturalHeight;
+            const canvasRatio = width / height;
+            let drawWidth, drawHeight, drawX, drawY;
+            
+            if (imgRatio > canvasRatio) {
+                drawHeight = height + 60; // Extra to compensate for blur edges
+                drawWidth = drawHeight * imgRatio;
+                drawX = (width - drawWidth) / 2;
+                drawY = -30;
+            } else {
+                drawWidth = width + 60;
+                drawHeight = drawWidth / imgRatio;
+                drawX = -30;
+                drawY = (height - drawHeight) / 2;
+            }
+            
+            ctx.drawImage(socialImage, drawX, drawY, drawWidth, drawHeight);
+            
+            // Reset filter
+            ctx.filter = 'none';
+            ctx.restore();
+            
+            // Add dark overlay for better text readability
+            ctx.fillStyle = isDark ? 'rgba(16, 15, 15, 0.75)' : 'rgba(255, 252, 240, 0.8)';
+            ctx.fillRect(0, 0, width, height);
+        } else {
+            // Fallback gradient if no OG image
+            const gradient = ctx.createLinearGradient(0, 0, width, height);
+            if (isDark) {
+                gradient.addColorStop(0, 'rgba(208, 162, 21, 0.05)');
+                gradient.addColorStop(1, 'rgba(28, 27, 26, 0.3)');
+            } else {
+                gradient.addColorStop(0, 'rgba(173, 131, 1, 0.03)');
+                gradient.addColorStop(1, 'rgba(255, 252, 240, 0.5)');
+            }
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, width, height);
+        }
+        
+        // Add decorative quote marks
+        ctx.font = '200px Georgia, serif';
+        ctx.fillStyle = isDark ? 'rgba(208, 162, 21, 0.15)' : 'rgba(173, 131, 1, 0.1)';
+        ctx.fillText('"', 40, 180);
+        ctx.fillText('"', width - 140, height - 40);
+        
+        // Draw the quote text
+        const maxWidth = width - 160;
+        const fontSize = selectedText.length > 200 ? 32 : selectedText.length > 100 ? 40 : 48;
+        ctx.font = `italic ${fontSize}px Georgia, Lora, serif`;
+        ctx.fillStyle = textColor;
+        
+        const lines = wrapText(ctx, selectedText, maxWidth);
+        const lineHeight = fontSize * 1.5;
+        const textBlockHeight = lines.length * lineHeight;
+        const startY = (height - textBlockHeight) / 2 + 20;
+        
+        lines.forEach((line, index) => {
+            ctx.fillText(line, 80, startY + (index * lineHeight));
+        });
+        
+        // Draw the accent line
+        ctx.fillStyle = accentColor;
+        ctx.fillRect(80, height - 100, 60, 3);
+        
+        // Draw page title
+        ctx.font = '24px -apple-system, BlinkMacSystemFont, sans-serif';
+        ctx.fillStyle = mutedColor;
+        const titleText = pageTitle.length > 50 ? pageTitle.substring(0, 47) + '...' : pageTitle;
+        ctx.fillText(titleText, 80, height - 60);
+        
+        // Draw site name/URL
+        ctx.font = '18px -apple-system, BlinkMacSystemFont, sans-serif';
+        ctx.fillStyle = mutedColor;
+        const siteName = new URL(pageUrl).hostname;
+        ctx.textAlign = 'right';
+        ctx.fillText(siteName, width - 80, height - 60);
+        ctx.textAlign = 'left';
+    }
+    
+    // Handle text selection
+    document.addEventListener('mouseup', function(e) {
+        // Don't trigger in modal or popup
+        if (modal.contains(e.target) || popup.contains(e.target)) return;
+        
+        const selection = window.getSelection();
+        const text = selection.toString().trim();
+        
+        if (text.length > 10 && text.length < 500 && article.contains(selection.anchorNode)) {
+            selectedText = text;
+            const range = selection.getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+            showPopup(rect.left + rect.width / 2 - 60, rect.top + window.scrollY);
+        } else {
+            hidePopup();
+        }
+    });
+    
+    // Hide popup when clicking elsewhere
+    document.addEventListener('mousedown', function(e) {
+        if (!popup.contains(e.target) && !modal.contains(e.target)) {
+            hidePopup();
+        }
+    });
+    
+    // Share button click
+    shareBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        hidePopup();
+        showModal();
+    });
+    
+    // Close modal
+    modalClose.addEventListener('click', hideModal);
+    backdrop.addEventListener('click', hideModal);
+    
+    // Escape key closes modal
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            hideModal();
+        }
+    });
+    
+    // Download image
+    downloadBtn.addEventListener('click', function() {
+        const link = document.createElement('a');
+        link.download = 'quote-' + Date.now() + '.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    });
+    
+    // Copy image to clipboard
+    copyBtn.addEventListener('click', async function() {
+        try {
+            canvas.toBlob(async function(blob) {
+                await navigator.clipboard.write([
+                    new ClipboardItem({ 'image/png': blob })
+                ]);
+                copyBtn.textContent = 'Copied!';
+                setTimeout(() => {
+                    copyBtn.innerHTML = `
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                        </svg>
+                        Copy Image
+                    `;
+                }, 2000);
+            }, 'image/png');
+        } catch (err) {
+            console.error('Failed to copy:', err);
+            alert('Could not copy image. Try downloading instead.');
+        }
+    });
+    
+    // Share on Twitter/X
+    twitterBtn.addEventListener('click', function() {
+        const tweetText = `"${selectedText.substring(0, 200)}${selectedText.length > 200 ? '...' : ''}"`;
+        const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(pageUrl)}`;
+        window.open(tweetUrl, '_blank', 'width=550,height=420');
+    });
+})();
+</script>

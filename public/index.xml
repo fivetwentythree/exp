@@ -1,89 +1,1696 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on Lochana Perera</title>
     <link>http://localhost:1313/exp/</link>
-    <description>Recent content in Notes on Lochana Perera</description>
-    <generator>Hugo</generator>
+    <description>A thoughtful exploration of philosophy, ethics, and modern life through classical wisdom</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>Lochana Perera</managingEditor>
+    <webMaster>Lochana Perera</webMaster>
     <lastBuildDate>Fri, 28 Mar 2025 12:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/exp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crowds and Power or Why Everyone at Your Office Acts Weird in Meetings</title>
       <link>http://localhost:1313/exp/posts/crowds/</link>
-      <pubDate>Fri, 28 Mar 2025 12:00:00 -0700</pubDate>
+      <pubDate>Fri, 28 Mar 2025 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/crowds/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_5f034a0db2df6741.webp 480w, http://localhost:1313/exp/images/crowds_hu_1f35b67dcfab9e5.webp 800w, http://localhost:1313/exp/images/crowds_hu_55c08d8c9b8156a1.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_d2a68618e12f415d.jpg 480w, http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg 800w, http://localhost:1313/exp/images/crowds_hu_876aea591665ed43.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg&#34;&#xA;        alt=&#34;image of a vast crowd&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;400&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;crowds&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;So here&amp;rsquo;s a fun thing about human nature, Elias Canetti spent thirty-five years &lt;em&gt;thirty-five years!&lt;/em&gt; writing a book about why people in groups act completely insane. This seems like a long time to think about crowd behavior, but then again, Canetti lived through both World Wars, saw the rise of Hitler, Stalin, and Mussolini, and watched millions of seemingly rational individuals turn into howling mobs. So, you know, he had some material to work with.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_5f034a0db2df6741.webp 480w, http://localhost:1313/exp/images/crowds_hu_1f35b67dcfab9e5.webp 800w, http://localhost:1313/exp/images/crowds_hu_55c08d8c9b8156a1.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_d2a68618e12f415d.jpg 480w, http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg 800w, http://localhost:1313/exp/images/crowds_hu_876aea591665ed43.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg&#34;
+        alt=&#34;image of a vast crowd&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;400&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;crowds&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+So here&amp;rsquo;s a fun thing about human nature, Elias Canetti spent thirty-five years &lt;em&gt;thirty-five years!&lt;/em&gt; writing a book about why people in groups act completely insane. This seems like a long time to think about crowd behavior, but then again, Canetti lived through both World Wars, saw the rise of Hitler, Stalin, and Mussolini, and watched millions of seemingly rational individuals turn into howling mobs. So, you know, he had some material to work with.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_5f034a0db2df6741.webp 480w, http://localhost:1313/exp/images/crowds_hu_1f35b67dcfab9e5.webp 800w, http://localhost:1313/exp/images/crowds_hu_55c08d8c9b8156a1.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/crowds_hu_d2a68618e12f415d.jpg 480w, http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg 800w, http://localhost:1313/exp/images/crowds_hu_876aea591665ed43.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/crowds_hu_e987d8f664209732.jpg&#34;
+        alt=&#34;image of a vast crowd&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;400&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;crowds&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+So here&amp;rsquo;s a fun thing about human nature, Elias Canetti spent thirty-five years &lt;em&gt;thirty-five years!&lt;/em&gt; writing a book about why people in groups act completely insane. This seems like a long time to think about crowd behavior, but then again, Canetti lived through both World Wars, saw the rise of Hitler, Stalin, and Mussolini, and watched millions of seemingly rational individuals turn into howling mobs. So, you know, he had some material to work with.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Crowds and Power&amp;rdquo; (1960) is basically Canetti&amp;rsquo;s attempt to explain why your neighbor Steve, who normally just wants to talk about lawn care, will suddenly paint his face and scream at a football game. Or, more darkly, why that same Steve might have joined the Nazi Party in 1933.     &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Crowd:_A_Study_of_the_Popular_Mind&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Same psychological mechanisms!&lt;/a&gt;
+. By the way Susan Sontag has to share one or two about this     &lt;a href=&#34;https://www.nybooks.com/articles/1980/09/25/mind-as-passion/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guy&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;the-context-or-when-everyone-goes-crazy-at-once&#34;&gt;The Context or When Everyone Goes Crazy At Once&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the thing you need to understand about when Canetti was writing this: He started working on it in 1925, when he was literally watching crowds tear Vienna apart. He was a Bulgarian Jew living in Austria, which, timing-wise, was not ideal. He watched the July Revolt of 1927, where workers burned down the Palace of Justice. He watched the rise of fascism. He watched his entire world get swept up in mass movements that made absolutely no sense if you thought about them rationally, but made perfect sense if you understood crowds.&lt;/p&gt;
+&lt;p&gt;The standard explanation at the time was either (1) Marxist class struggle stuff, or (2) Freudian unconscious drives stuff. Canetti thought both explanations were, and I&amp;rsquo;m paraphrasing here, &amp;ldquo;missing the entire point.&amp;rdquo; His take was: crowds have their own logic, their own desires, their own weird internal dynamics that have nothing to do with economics or repressed sexuality. A crowd wants to grow. A crowd wants to destroy. A crowd wants to feel equal. These aren&amp;rsquo;t metaphors. These are, in Canetti&amp;rsquo;s view, actual properties of crowds as entities.&lt;/p&gt;
+&lt;h2 id=&#34;the-theory-or-your-meeting-is-actually-a-pack-hunt&#34;&gt;The Theory or Your Meeting Is Actually a Pack Hunt&lt;/h2&gt;
+&lt;p&gt;The basic Canetti thesis goes something like this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, there are four essential attributes of crowds:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Crowds always want to grow (this is why your book club now has 47 members)&lt;/li&gt;
+&lt;li&gt;Within crowds, there&amp;rsquo;s equality (suddenly the CEO and the intern are both just faces in the mob)&lt;/li&gt;
+&lt;li&gt;Crowds love density (mosh pits, basically)&lt;/li&gt;
+&lt;li&gt;Crowds need direction (toward the Capitol building, toward the referee, toward whatever)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Second&lt;/strong&gt;, power is basically about not being touched. Think about it: the king sits alone on his throne. The boss has the corner office. Social distance equals power. Meanwhile, in crowds, everyone&amp;rsquo;s squished together, which Canetti argues is actually the &lt;em&gt;point&lt;/em&gt; people join crowds to lose their fear of being touched, to dissolve boundaries. It&amp;rsquo;s weirdly liberating, which is why flash mobs were briefly a thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Third&lt;/strong&gt;, and this is where it gets dark, Canetti identifies what he calls the &amp;ldquo;survivor syndrome.&amp;rdquo; Leaders, especially paranoid dictators are essentially people who are very, very good at surviving while others die. Stalin didn&amp;rsquo;t just kill millions, he &lt;em&gt;survived&lt;/em&gt; millions dying. That&amp;rsquo;s the power move. The survivor stands alone among the corpses and feels mighty.&lt;/p&gt;
+&lt;h2 id=&#34;the-modern-application-or-why-your-zoom-call-is-basically-a-medieval-crowd&#34;&gt;The Modern Application or Why Your Zoom Call Is Basically a Medieval Crowd&lt;/h2&gt;
+&lt;p&gt;You might think, &amp;ldquo;Okay, but this was about Nazis and whatever, surely this doesn&amp;rsquo;t apply to my life.&amp;rdquo; Wrong! Dead wrong!&lt;/p&gt;
+&lt;p&gt;Consider the modern corporation. What is an all-hands meeting but a crowd formation ritual? The CEO stands at the front (power through isolation), everyone else sits together (crowd equality), and there&amp;rsquo;s a direction (usually &amp;ldquo;increase shareholder value&amp;rdquo; or &amp;ldquo;disrupt the widget industry&amp;rdquo;). The company off-site? That&amp;rsquo;s what Canetti would call a &amp;ldquo;feast crowd&amp;rdquo; temporary equality through shared consumption of mediocre conference food.&lt;/p&gt;
+&lt;p&gt;Or think about Twitter or X(I like twitter). What is a Twitter     &lt;a href=&#34;https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pile-on&lt;/a&gt;
+ but a &amp;ldquo;baiting crowd&amp;rdquo; in Canetti&amp;rsquo;s terminology? Everyone gets to feel equal by collectively destroying someone who tweeted something dumb about beans or whatever. The crowd forms, attacks, dissolves, reforms around a new target. The dynamics are identical to medieval mob justice, just with worse jokes.&lt;/p&gt;
+&lt;p&gt;Stock market bubbles? Classic crowd behavior. Everyone piles into GameStop not because of fundamental analysis but because the crowd wants to grow, wants direction (to the moon!), wants density (diamond hands together!). The crowd doesn&amp;rsquo;t care about efficient market hypothesis, the crowd wants to feel the dissolution of individual boundaries in the warm embrace of collective insanity.&lt;/p&gt;
+&lt;h2 id=&#34;the-punchline-or-were-all-still-crowds&#34;&gt;The Punchline or: We&amp;rsquo;re All Still Crowds&lt;/h2&gt;
+&lt;p&gt;The disturbing insight of Canetti&amp;rsquo;s work and why it took him 35 years to write it—is that crowd dynamics aren&amp;rsquo;t aberrations. They&amp;rsquo;re not what happens when civilization breaks down. They&amp;rsquo;re the foundation that civilization is built on. Every institution, every power structure, every social movement is just crowds and power dynamics in different costumes.&lt;/p&gt;
+&lt;p&gt;The paranoid dictator surviving while others die? That&amp;rsquo;s just an extreme version of every corporate layoff where the executive team stays intact. The mob destroying the palace? That&amp;rsquo;s your Twitter mentions when you defend the wrong Star Wars movie. The crowd seeking density and equality? That&amp;rsquo;s every music festival, every protest, every religious gathering, every sports event.&lt;/p&gt;
+&lt;p&gt;Canetti wrote &amp;ldquo;Crowds and Power&amp;rdquo; because he lived through the age when crowds got technological amplification, radio, mass media, modern propaganda techniques. He wanted to understand how millions of reasonable people could become unreasonable together. But here&amp;rsquo;s the thing, we&amp;rsquo;re living through an even more intense amplification. Social media is crowds at the speed of light. Meme stocks are crowd dynamics with leverage. QAnon is basically Canetti&amp;rsquo;s thesis with a Facebook account.&lt;/p&gt;
+&lt;p&gt;The book is deliberately anti-systematic. Canetti didn&amp;rsquo;t want to create a grand theory that explains everything, because that&amp;rsquo;s what crowds do. Instead, he collected examples, patterns, observations. He was suspicious of systems because systems become crowds, and crowds, as he spent 35 years documenting, are dangerous even when they&amp;rsquo;re just trying to pick a restaurant for lunch.&lt;/p&gt;
+&lt;p&gt;So next time you&amp;rsquo;re in a meeting and everyone suddenly agrees on something that made no sense five minutes ago, or you find yourself retweeting something you haven&amp;rsquo;t really thought about, or you wonder why the office holiday party feels weirdly aggressive, remember Canetti already explained this. You&amp;rsquo;re in a crowd. The crowd wants to grow. And somewhere, someone is using this moment to accumulate power by standing just a little bit apart from everyone else.&lt;/p&gt;
+&lt;p&gt;Anyway, calls on crowd dynamics, puts on individual rational thought. Risk management is when you recognize you&amp;rsquo;re in a crowd. Actual risk management is getting out before everyone else realizes they&amp;rsquo;re in one too.&lt;/p&gt;
+</content:encoded>
     </item>
     <item>
       <title>Pierre Bayle&#39;s Dictionary or How to Subtweet the Entire 17th Century</title>
       <link>http://localhost:1313/exp/posts/critical-dictionary/</link>
-      <pubDate>Fri, 28 Feb 2025 12:00:00 -0700</pubDate>
+      <pubDate>Fri, 28 Feb 2025 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/critical-dictionary/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_ff075d7177c3d284.webp 480w, http://localhost:1313/exp/images/fortune-teller_hu_7533a54ba40630ba.webp 800w, http://localhost:1313/exp/images/fortune-teller_hu_7d8e464182f960cd.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_7929b781e4fa8420.jpg 480w, http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg 800w, http://localhost:1313/exp/images/fortune-teller_hu_ada740a132b303c.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;661&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;A fortune teller reading cards&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;If you were a Protestant intellectual in 1690s France, you had basically three career options: (1) convert to Catholicism, (2) flee to Holland, or (3) get thrown in prison. Pierre Bayle went with option two, which turned out great for the history of Western thought because what he did next was absolutely bonkers. He wrote a dictionary.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_ff075d7177c3d284.webp 480w, http://localhost:1313/exp/images/fortune-teller_hu_7533a54ba40630ba.webp 800w, http://localhost:1313/exp/images/fortune-teller_hu_7d8e464182f960cd.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_7929b781e4fa8420.jpg 480w, http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg 800w, http://localhost:1313/exp/images/fortune-teller_hu_ada740a132b303c.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;661&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;A fortune teller reading cards&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If you were a Protestant intellectual in 1690s France, you had basically three career options: (1) convert to Catholicism, (2) flee to Holland, or (3) get thrown in prison. Pierre Bayle went with option two, which turned out great for the history of Western thought because what he did next was absolutely bonkers. He wrote a dictionary.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_ff075d7177c3d284.webp 480w, http://localhost:1313/exp/images/fortune-teller_hu_7533a54ba40630ba.webp 800w, http://localhost:1313/exp/images/fortune-teller_hu_7d8e464182f960cd.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/fortune-teller_hu_7929b781e4fa8420.jpg 480w, http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg 800w, http://localhost:1313/exp/images/fortune-teller_hu_ada740a132b303c.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/fortune-teller_hu_44a39e40cce674bf.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;661&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;A fortune teller reading cards&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;If you were a Protestant intellectual in 1690s France, you had basically three career options: (1) convert to Catholicism, (2) flee to Holland, or (3) get thrown in prison. Pierre Bayle went with option two, which turned out great for the history of Western thought because what he did next was absolutely bonkers. He wrote a dictionary.&lt;/p&gt;
+&lt;p&gt;Not just any dictionary! A dictionary that was supposedly about historical figures but was actually 90% footnotes arguing with everyone about everything. The text-to-footnote ratio was roughly 1:9, which, if you tried that today in a newspaper column, would get you a very concerned email from your editor.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-trade&#34;&gt;The Trade&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the basic setup. Louis XIV had just revoked the Edict of Nantes in 1685, which was basically France saying &amp;ldquo;actually we&amp;rsquo;ve changed our minds about religious tolerance, Protestant rights are canceled, please leave immediately or convert, thanks.&amp;rdquo; Bayle, being a Huguenot (French Protestant), relocated to Rotterdam where he was teaching philosophy and presumably thinking: &amp;ldquo;You know what would really show them? A comprehensive reference work.&amp;rdquo;&lt;/p&gt;
+&lt;div class=&#34;note-box&#34;&gt;Reading Bayle&amp;rsquo;s Dictionary was the 18th-century equivalent of playing an open-world video game where you ignore the main quest. The biographical entry is the boring tutorial: &amp;ldquo;Go fetch three facts about Epicurus.&amp;rdquo; But then you click on footnote and suddenly you&amp;rsquo;re on a 10,000-word side-quest about whether a god who allows evil can be considered good, unlocking the secret &amp;lsquo;Radical Doubt&amp;rsquo; achievement. You’d go in looking for a date and come out three days later questioning the fabric of reality.&lt;/div&gt;
+
+&lt;p&gt;But here&amp;rsquo;s the genius move: Bayle didn&amp;rsquo;t write an angry pamphlet about religious persecution, which would have been the obvious play. No, he wrote a &lt;em&gt;dictionary&lt;/em&gt;. A boring, respectable dictionary of biographical entries. &amp;ldquo;Oh, you want to know about Achilles? Let me tell you about Achilles. Also in this footnote let me explain why everything you believe about certainty, religious authority, and the nature of truth is probably wrong.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The whole thing was structured like regulatory arbitrage for ideas. The main text would be some innocuous biography, &amp;ldquo;King David was a biblical figure&amp;rdquo; and then there&amp;rsquo;d be a footnote longer than this entire newsletter explaining why actually the story of David was morally complex and by the way have you considered that atheists might be capable of virtue? Footnote D would argue with Footnote C, Footnote F would provide citations that undermined the whole entry, and before you knew it you were deep in radical skepticism territory.&lt;/p&gt;
+&lt;h2 id=&#34;the-information-asymmetry&#34;&gt;The Information Asymmetry&lt;/h2&gt;
+&lt;p&gt;The really beautiful thing about Bayle&amp;rsquo;s Dictionary is that it looked boring. Dictionaries are supposed to be boring! They&amp;rsquo;re reference works! Who&amp;rsquo;s going to censor a dictionary?&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;What are you working on, Pierre?&amp;rdquo;
+&amp;ldquo;Oh, just a historical dictionary. Very scholarly. Lots of citations.&amp;rdquo;
+&amp;ldquo;Sounds tedious.&amp;rdquo;
+&amp;ldquo;Extremely.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Meanwhile, he&amp;rsquo;s in there undermining the entire basis of religious certainty, suggesting that comets don&amp;rsquo;t cause disasters (controversial!), and arguing that a society of atheists could theoretically function just fine (extremely controversial!). The man was essentially running a philosophical Trojan horse operation, except the horse was a multi-volume reference work with endless recursive footnotes.&lt;/p&gt;
+&lt;p&gt;The Catholic Church eventually figured this out, of course, and put it on the Index of Prohibited Books, but by then it was too late. Everyone who mattered had already read it. Voltaire had a copy. So did basically every Enlightenment philosopher. Thomas Jefferson owned the 1734 English translation. The thing became the Wikipedia of skeptical philosophy for the 18th century, except with more jokes about obscure theological disputes.&lt;/p&gt;
+&lt;h2 id=&#34;the-market-dynamics&#34;&gt;The Market Dynamics&lt;/h2&gt;
+&lt;p&gt;Think about the market for ideas in the 1690s. You&amp;rsquo;ve got:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Official Catholic doctrine&lt;/strong&gt; (monopoly position, enforcement mechanism involves actual enforcement)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protestant theology&lt;/strong&gt; (competing product, market share varies by geography)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Underground radical philosophy&lt;/strong&gt; (high risk, high reward, distribution challenges)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bayle found a fourth category: reference works that accidentally-on-purpose contained radical philosophy. It&amp;rsquo;s like if someone today published a cookbook where every recipe contained a subversive political argument in the ingredients list. &amp;ldquo;To make a proper soufflé, you&amp;rsquo;ll need six eggs, two cups of flour, and by the way have you considered that religious revelation might not be a reliable source of knowledge?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The Dictionary was commercially successful too! It went through multiple editions, each one bigger than the last because Bayle kept adding more footnotes to argue with critics of his previous footnotes. The second edition (1702) was 40% larger than the first. It&amp;rsquo;s like responding to your reply-guys by publishing an expanded book where you reply-guy yourself harder.&lt;/p&gt;
+&lt;h2 id=&#34;the-intellectual-arbitrage&#34;&gt;The Intellectual Arbitrage&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what made Bayle&amp;rsquo;s project so effective: he wasn&amp;rsquo;t actually trying to win arguments. He was trying to show that most arguments couldn&amp;rsquo;t be definitively won. Every entry was an exercise in &amp;ldquo;well actually it&amp;rsquo;s complicated.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Take his entry on Pyrrhonian skepticism.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; A normal dictionary would say &amp;ldquo;philosophical school that advocated suspension of judgment.&amp;rdquo; Bayle&amp;rsquo;s entry was basically: &amp;ldquo;Here&amp;rsquo;s why these guys who thought we couldn&amp;rsquo;t know anything for certain might have had a point, here are seventeen arguments for and against their position, here&amp;rsquo;s why the arguments against them also prove their point, and by the way isn&amp;rsquo;t it interesting that being uncertain about everything doesn&amp;rsquo;t prevent you from living a normal life?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This was genuinely subversive stuff! The whole political and social order of 17th-century Europe was built on the idea that religious and political authorities had access to certain truth. And here&amp;rsquo;s Bayle in his dictionary, his DICTIONARY!, suggesting that actually certainty is overrated and maybe we should all calm down about having the right answers.&lt;/p&gt;
+&lt;h2 id=&#34;the-exit-strategy&#34;&gt;The Exit Strategy&lt;/h2&gt;
+&lt;p&gt;The beautiful thing is that Bayle&amp;rsquo;s approach created its own defensive moat. When critics attacked him, he could always say he was just being thorough. &amp;ldquo;I&amp;rsquo;m simply presenting all sides of the historical record! Would you prefer an incomplete dictionary?&amp;rdquo; It&amp;rsquo;s the scholarly equivalent of &amp;ldquo;I&amp;rsquo;m just asking questions.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Plus, the format made it nearly impossible to refute. How do you argue with a dictionary that argues with itself? Every criticism you might make was probably already in a footnote somewhere, followed by three counter-arguments and a joke in Latin.&lt;/p&gt;
+&lt;p&gt;The Dictionary became this weird recursive object that contained its own criticism, responses to that criticism, and criticism of those responses. It was like a Reddit thread that achieved consciousness and decided to get a philosophy degree.&lt;/p&gt;
+&lt;h2 id=&#34;the-liquidity-event&#34;&gt;The Liquidity Event&lt;/h2&gt;
+&lt;p&gt;Bayle died in 1706, but his Dictionary kept spreading ideas like some kind of intellectual virus. The Enlightenment philosophers strip-mined it for arguments. Hume probably got some of his skepticism about miracles from reading Bayle. Voltaire definitely got his tolerance arguments from there. The American founders were into it.&lt;/p&gt;
+&lt;p&gt;The Dictionary was basically the GitHub repository for Enlightenment skepticism. Everyone forked it for their own projects. And the wild thing is, this all started because one guy in Rotterdam decided that the best response to religious persecution was to write the world&amp;rsquo;s most subversive reference book.&lt;/p&gt;
+&lt;p&gt;In modern terms, Bayle did to 17th-century certainty what Wikipedia did to Encyclopedia Britannica, except he did it on purpose and with more jokes about obscure theological controversies. He took the most boring possible format, a biographical dictionary, and turned it into a machine for generating doubt about everything anyone had ever believed.&lt;/p&gt;
+&lt;p&gt;Look, if you&amp;rsquo;re going to undermine the entire basis of political and religious authority in Early Modern Europe, you might as well do it in alphabetical order.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Though to be fair, financial documents basically do this too. Ever read a bond prospectus? The footnotes have footnotes.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Not to be confused with Pyrrhic skepticism, which is when you win an argument but lose all your friends.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
     <item>
       <title>Augustine&#39;s Confessions or The First Guy to Write About His Feelings on the Internet</title>
       <link>http://localhost:1313/exp/posts/confessions/</link>
-      <pubDate>Sat, 28 Dec 2024 12:00:00 -0700</pubDate>
+      <pubDate>Sat, 28 Dec 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/confessions/</guid>
-      <description>&lt;h2 id=&#34;the-deal&#34;&gt;The Deal&lt;/h2&gt;&#xA;&lt;p&gt;So around 397 AD, this guy Augustine who is basically running the Catholic Church&amp;rsquo;s North Africa division from his office in Hippo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;—decides to write a book about all the terrible things he did before he became a bishop. This is weird! Imagine if Jamie Dimon wrote a 13-volume memoir that started with &amp;ldquo;Let me tell you about the time I stole some pears when I was sixteen, and boy, do I have &lt;em&gt;thoughts&lt;/em&gt; about it.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;the-deal&#34;&gt;The Deal&lt;/h2&gt;
+&lt;p&gt;So around 397 AD, this guy Augustine who is basically running the Catholic Church&amp;rsquo;s North Africa division from his office in Hippo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;—decides to write a book about all the terrible things he did before he became a bishop. This is weird! Imagine if Jamie Dimon wrote a 13-volume memoir that started with &amp;ldquo;Let me tell you about the time I stole some pears when I was sixteen, and boy, do I have &lt;em&gt;thoughts&lt;/em&gt; about it.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;the-deal&#34;&gt;The Deal&lt;/h2&gt;
+&lt;p&gt;So around 397 AD, this guy Augustine who is basically running the Catholic Church&amp;rsquo;s North Africa division from his office in Hippo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;—decides to write a book about all the terrible things he did before he became a bishop. This is weird! Imagine if Jamie Dimon wrote a 13-volume memoir that started with &amp;ldquo;Let me tell you about the time I stole some pears when I was sixteen, and boy, do I have &lt;em&gt;thoughts&lt;/em&gt; about it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing, Augustine basically invented the autobiography. Before him, if you wrote about yourself, you were either Julius Caesar explaining why conquering Gaul was actually good for everyone, or you were dead and someone else was writing nice things about you. Nobody sat down and wrote 130,000 words about their internal emotional state and their complicated relationship with their mother.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/pears_hu_a0ff2a19b88480db.webp 480w, http://localhost:1313/exp/images/pears_hu_5c4ec7630f6eee79.webp 800w, http://localhost:1313/exp/images/pears_hu_91485809f5df275c.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/pears_hu_89f2a1d24f5d6f36.jpg 480w, http://localhost:1313/exp/images/pears_hu_38f20ae007fff28c.jpg 800w, http://localhost:1313/exp/images/pears_hu_f6e311a9ef5cbc8c.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/pears_hu_38f20ae007fff28c.jpg&#34;
+        alt=&#34;some pears&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;462&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;three pears and a bird on ledge by Orsola Maddalena Caccia&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-context-or-why-this-guy-wont-stop-talking-about-pears&#34;&gt;The Context (or Why This Guy Won&amp;rsquo;t Stop Talking About Pears)&lt;/h2&gt;
+&lt;p&gt;Look, you have to understand what&amp;rsquo;s happening in 397. The Roman Empire is having what we might call &amp;ldquo;structural issues.&amp;rdquo; The Visigoths are doing hostile takeovers of various provinces. The whole administrative apparatus that ran everything from Britain to Syria is basically held together with duct tape and prayer. Christianity, which started as a scrappy startup, has recently gone through a massive IPO. Constantine made it the official imperial religion about 80 years earlier and now it needs to figure out its corporate governance.&lt;/p&gt;
+&lt;p&gt;Augustine is writing for an audience that&amp;rsquo;s extremely online, except &amp;ldquo;online&amp;rdquo; means &amp;ldquo;constantly arguing about theological minutiae in lengthy letters that take months to deliver.&amp;rdquo; There are competing franchises everywhere: Manicheans (Augustine&amp;rsquo;s former team), Donatists (the local competition in North Africa), various brands of pagans, and approximately seventeen different interpretations of what Christianity means. It&amp;rsquo;s like crypto Twitter but with eternal damnation.&lt;/p&gt;
+&lt;p&gt;The man has a problem. He&amp;rsquo;s trying to be the bishop of Hippo, which means he&amp;rsquo;s supposed to be morally authoritative, but everyone knows he spent his twenties living with a woman he wasn&amp;rsquo;t married to and his thirties as a professional rhetoric teacher, which was basically the ancient equivalent of being a corporate communications consultant. Not exactly saint material! So he does something genius, he writes a book where he admits to everything, but frames it as a demonstration of God&amp;rsquo;s grace. &amp;ldquo;Look how terrible I was,&amp;rdquo; he says, &amp;ldquo;and yet here I am, explaining Christianity to you. Must be divine intervention!&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;the-structure&#34;&gt;The Structure&lt;/h2&gt;
+&lt;p&gt;The book has thirteen sections, which Augustine calls &amp;ldquo;books,&amp;rdquo; because ancient people didn&amp;rsquo;t understand brevity. Books 1-9 are autobiography, Book 10 is about memory and how it works (spoiler: Augustine doesn&amp;rsquo;t know but has theories), and Books 11-13 are Biblical commentary on Genesis because Augustine apparently thought, &amp;ldquo;You know what this memoir needs? A lengthy digression about the nature of time.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The autobiographical part is actually riveting in a reality-TV way. Augustine tells us about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stealing pears as a teenager, not because he was hungry but because stealing was fun (he spends a &lt;em&gt;whole chapter&lt;/em&gt; on this)&lt;/li&gt;
+&lt;li&gt;Having a mistress for fifteen years and a son with her, then dumping her to get engaged to a ten-year-old&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; for career reasons&lt;/li&gt;
+&lt;li&gt;His extremely intense relationship with his mother Monica, who follows him around the Mediterranean trying to get him to convert to Christianity&lt;/li&gt;
+&lt;li&gt;Reading Cicero and having his mind blown&lt;/li&gt;
+&lt;li&gt;Becoming a Manichean, which was basically Scientology for late antiquity&lt;/li&gt;
+&lt;li&gt;His profound grief when his best friend dies&lt;/li&gt;
+&lt;li&gt;Moving to Rome to get away from his students in Carthage, who apparently sucked&lt;/li&gt;
+&lt;li&gt;Finally converting after hearing a child singing &amp;ldquo;take up and read&amp;rdquo; and randomly opening the Bible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But here&amp;rsquo;s what makes it work. Augustine doesn&amp;rsquo;t just tell you what happened. He tells you what he was thinking while it happened, what he thinks about it now, what he thinks about what he was thinking, and what God probably thinks about all of this thinking. It&amp;rsquo;s like reading someone&amp;rsquo;s therapy notes, except the therapist is God and the patient won&amp;rsquo;t stop making philosophical arguments.&lt;/p&gt;
+&lt;h2 id=&#34;the-innovation&#34;&gt;The Innovation&lt;/h2&gt;
+&lt;p&gt;Before Augustine, autobiography wasn&amp;rsquo;t really a thing, and interiority &lt;em&gt;definitely&lt;/em&gt; wasn&amp;rsquo;t a thing. Homer doesn&amp;rsquo;t tell you what Achilles is feeling he just has Achilles do stuff and you figure it out. Marcus Aurelius wrote notes to himself, but they were more like &amp;ldquo;remember to be stoic&amp;rdquo; than &amp;ldquo;let me unpack my complicated feelings about that time I cried at the theater.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Augustine invents the idea that your internal life is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Real and important&lt;/li&gt;
+&lt;li&gt;Chronologically structured&lt;/li&gt;
+&lt;li&gt;Worth examining in exhaustive detail&lt;/li&gt;
+&lt;li&gt;Universal enough that other people will care&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is huge! This is basically the operating system for all of Western literature. Without Augustine, you don&amp;rsquo;t get Rousseau, you don&amp;rsquo;t get Proust, you definitely don&amp;rsquo;t get autofiction, and you probably don&amp;rsquo;t get Twitter.&lt;/p&gt;
+&lt;h2 id=&#34;the-pear-thing-a-case-study-in-moral-accounting&#34;&gt;The Pear Thing (A Case Study in Moral Accounting)&lt;/h2&gt;
+&lt;p&gt;I need to talk about the pears because Augustine spends SO MUCH TIME on the pears. Here&amp;rsquo;s what happened: sixteen-year-old Augustine and his friends stole some pears from a neighbor&amp;rsquo;s tree. They didn&amp;rsquo;t eat them. They threw them to the pigs. That&amp;rsquo;s it. That&amp;rsquo;s the whole story.&lt;/p&gt;
+&lt;p&gt;Augustine spends pages analyzing this. Why did he do it? Not because he was hungry. Not because the pears were particularly nice (they weren&amp;rsquo;t). He did it because:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;His friends were doing it&lt;/li&gt;
+&lt;li&gt;It was wrong&lt;/li&gt;
+&lt;li&gt;The wrongness made it fun&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is Augustine&amp;rsquo;s whole theological innovation in a nutshell is sin isn&amp;rsquo;t just breaking rules or hurting people. Sin is &lt;em&gt;wanting to break rules because they&amp;rsquo;re rules&lt;/em&gt;. It&amp;rsquo;s the psychological equivalent of shorting a stock not because you think it&amp;rsquo;s overvalued but because you enjoy watching things burn. He&amp;rsquo;s basically describing teenage nihilism and then extrapolating an entire theory of human nature from it.&lt;/p&gt;
+&lt;h2 id=&#34;the-mom-situation&#34;&gt;The Mom Situation&lt;/h2&gt;
+&lt;p&gt;Monica, Augustine&amp;rsquo;s mother, is arguably the book&amp;rsquo;s most compelling character. She&amp;rsquo;s like a helicopter parent with theological convictions. She:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cries constantly about Augustine&amp;rsquo;s soul&lt;/li&gt;
+&lt;li&gt;Follows him from Africa to Italy&lt;/li&gt;
+&lt;li&gt;Arranges his engagement to the ten-year-old&lt;/li&gt;
+&lt;li&gt;Has prophetic dreams about his eventual conversion&lt;/li&gt;
+&lt;li&gt;Dies immediately after he converts, having achieved her life&amp;rsquo;s only goal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The relationship is&amp;hellip; intense. Augustine describes their final conversation, where they stand at a window in Ostia discussing the nature of eternal life, as basically the peak experience of his existence. Freud would have had a field day, but Freud wouldn&amp;rsquo;t exist without Augustine inventing the idea that your relationship with your parents determines your entire personality.&lt;/p&gt;
+&lt;h2 id=&#34;the-philosophy-parts-due-diligence-on-reality&#34;&gt;The Philosophy Parts (Due Diligence on Reality)&lt;/h2&gt;
+&lt;p&gt;The last three books are where Augustine goes full philosopher. He&amp;rsquo;s trying to answer questions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is time? (Nobody knows, but Augustine has ideas)&lt;/li&gt;
+&lt;li&gt;How can an eternal God create temporal things? (It&amp;rsquo;s complicated)&lt;/li&gt;
+&lt;li&gt;What does &amp;ldquo;In the beginning&amp;rdquo; actually mean? (Not what you think)&lt;/li&gt;
+&lt;li&gt;What was God doing before he created the universe? (Augustine says this is a dumb question but then answers it anyway)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The time stuff is actually brilliant. Augustine basically invents the idea that time is psychological, it only exists because we have memory and expectation. The present doesn&amp;rsquo;t really exist (it&amp;rsquo;s infinitely small), the past doesn&amp;rsquo;t exist (it&amp;rsquo;s gone), and the future doesn&amp;rsquo;t exist (hasn&amp;rsquo;t happened yet). So time is just our consciousness creating continuity out of nothing. This is both obviously wrong and deeply influential on literally all of subsequent Western philosophy.&lt;/p&gt;
+&lt;h2 id=&#34;the-business-model&#34;&gt;The Business Model&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s genius about the &lt;em&gt;Confessions&lt;/em&gt;: it works on multiple levels. It&amp;rsquo;s:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;A conversion story&lt;/strong&gt; for potential Christians (&amp;ldquo;Look, even this libertine intellectual could be saved!&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A philosophical treatise&lt;/strong&gt; for nerds (&amp;ldquo;Let me explain the nature of time using grammar&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A devotional text&lt;/strong&gt; for believers (&amp;ldquo;Every page is basically a prayer&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A literary experiment&lt;/strong&gt; for writers (&amp;ldquo;Check out this new genre I invented&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A political document&lt;/strong&gt; for his rivals (&amp;ldquo;Yes, I did all those things you heard about, but actually that makes me MORE qualified&amp;rdquo;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s like if someone wrote a memoir that was simultaneously a TED talk, a legal brief, a love letter, and a technical manual. The market for any one of these might be limited, but everyone finds something.&lt;/p&gt;
+&lt;h2 id=&#34;the-legacy-return-on-investment&#34;&gt;The Legacy (Return on Investment)&lt;/h2&gt;
+&lt;p&gt;The &lt;em&gt;Confessions&lt;/em&gt; basically invents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autobiography as we know it&lt;/li&gt;
+&lt;li&gt;The idea that childhood matters&lt;/li&gt;
+&lt;li&gt;Psychological interiority&lt;/li&gt;
+&lt;li&gt;The conversion narrative&lt;/li&gt;
+&lt;li&gt;The philosophical memoir&lt;/li&gt;
+&lt;li&gt;Maternal guilt as a literary device&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Without it, you don&amp;rsquo;t get:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The entire tradition of confessional literature&lt;/li&gt;
+&lt;li&gt;Psychoanalysis (which is just secular Augustinianism)&lt;/li&gt;
+&lt;li&gt;The bildungsroman&lt;/li&gt;
+&lt;li&gt;Most of modern philosophy&amp;rsquo;s obsession with consciousness&lt;/li&gt;
+&lt;li&gt;Basically any book where someone talks about their feelings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-lessons-for-today&#34;&gt;The Lessons for Today&lt;/h2&gt;
+&lt;p&gt;So what does a 1,600-year-old book by a North African bishop tell us about modern life? More than you&amp;rsquo;d think!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, Augustine basically invented oversharing. He tells us about his sex life, his petty thefts, his academic jealousies, his digestive issues basically everything. But he makes it work by connecting his personal embarrassments to universal human experiences. This is the prototype for every personal essay ever written: &amp;ldquo;Let me tell you about my specific humiliation in a way that makes you think about your own life.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Second&lt;/strong&gt;, he understands that confession is a power move. By admitting to everything preemptively, he controls the narrative. You can&amp;rsquo;t scandal-monger about someone who&amp;rsquo;s already published a bestseller about their own scandals. It&amp;rsquo;s like doing your own opposition research and then publishing it as literature.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Third&lt;/strong&gt;, he gets that interiority is the killer app. Before Augustine, you had to do things to matter. After Augustine, thinking about things is enough. This is huge! This is why we have novels, psychology, and people who Instagram their therapy breakthroughs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fourth&lt;/strong&gt;, the book is essentially about optimization, how to optimize your soul for salvation. Augustine treats his past self like a badly-run company that needs restructuring. Each sin is analyzed for its root causes, each conversion attempt is assessed for why it failed.&lt;/p&gt;
+&lt;h2 id=&#34;the-bottom-line&#34;&gt;The Bottom Line&lt;/h2&gt;
+&lt;p&gt;Look, the &lt;em&gt;Confessions&lt;/em&gt; is weird. It&amp;rsquo;s too long, the pear thing goes on forever, the philosophy parts are dense, and Augustine&amp;rsquo;s relationship with his mother needs its own trigger warning. But it&amp;rsquo;s also the foundational text for how we think about ourselves as individuals with inner lives that matter.&lt;/p&gt;
+&lt;p&gt;Augustine took the technology of classical rhetoric and philosophical argument and applied it to his own feelings and memories. That&amp;rsquo;s innovation! He created a new product category, the literary exploration of the self and then dominated that market for roughly a thousand years.&lt;/p&gt;
+&lt;p&gt;Is it relevant today? I mean, we live in a world where everyone is constantly confessing everything to everyone all the time. Instagram is just &lt;em&gt;Confessions&lt;/em&gt; with better production values and worse theology. Every memoir, every personal essay, every Twitter thread that starts with &amp;ldquo;A thread on why I&amp;rsquo;m leaving tech&amp;hellip;&amp;rdquo; is working with tools Augustine invented.&lt;/p&gt;
+&lt;p&gt;The book asks the fundamental question: How did I become who I am? And then it spends 130,000 words demonstrating that this question is both impossible to answer and impossible not to ask. That&amp;rsquo;s not bad for a guy whose biggest scandal was stealing some pears.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Yes, the city was actually called Hippo. Specifically Hippo Regius. The Romans were not always creative with place names.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;This was apparently normal-ish for the time, though the engagement fell through when Augustine converted and decided celibacy was the way to go. The ten-year-old was probably relieved.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
     <item>
       <title>Democracy in America</title>
       <link>http://localhost:1313/exp/posts/democracy-america/</link>
-      <pubDate>Mon, 28 Oct 2024 12:00:00 -0700</pubDate>
+      <pubDate>Mon, 28 Oct 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/democracy-america/</guid>
-      <description>&lt;h2 id=&#34;democracy-in-america-is-weird&#34;&gt;Democracy in America Is Weird&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/sign_hu_7d7f73842b470d92.webp 480w, http://localhost:1313/exp/images/sign_hu_c2a38f7f4fbb5b11.webp 800w, http://localhost:1313/exp/images/sign_hu_3d9e7ad49ba7333.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/sign_hu_265192f4929ec7fa.jpg 480w, http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg 800w, http://localhost:1313/exp/images/sign_hu_454a4b8c109a8cb5.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg&#34;&#xA;        alt=&#34;scene at the signing of the constitution of America&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;515&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you&amp;rsquo;re thinking: &amp;ldquo;Why do I care what some 19th-century French aristocrat thought about America?&amp;rdquo; But here&amp;rsquo;s the thing, the guy basically invented political science Twitter 200 years early.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;democracy-in-america-is-weird&#34;&gt;Democracy in America Is Weird&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/sign_hu_7d7f73842b470d92.webp 480w, http://localhost:1313/exp/images/sign_hu_c2a38f7f4fbb5b11.webp 800w, http://localhost:1313/exp/images/sign_hu_3d9e7ad49ba7333.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/sign_hu_265192f4929ec7fa.jpg 480w, http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg 800w, http://localhost:1313/exp/images/sign_hu_454a4b8c109a8cb5.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg&#34;
+        alt=&#34;scene at the signing of the constitution of America&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;515&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you&amp;rsquo;re thinking: &amp;ldquo;Why do I care what some 19th-century French aristocrat thought about America?&amp;rdquo; But here&amp;rsquo;s the thing, the guy basically invented political science Twitter 200 years early.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;democracy-in-america-is-weird&#34;&gt;Democracy in America Is Weird&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/sign_hu_7d7f73842b470d92.webp 480w, http://localhost:1313/exp/images/sign_hu_c2a38f7f4fbb5b11.webp 800w, http://localhost:1313/exp/images/sign_hu_3d9e7ad49ba7333.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/sign_hu_265192f4929ec7fa.jpg 480w, http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg 800w, http://localhost:1313/exp/images/sign_hu_454a4b8c109a8cb5.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/sign_hu_3aab832bdc50c377.jpg&#34;
+        alt=&#34;scene at the signing of the constitution of America&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;515&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So there was this French guy, Alexis de Tocqueville, who showed up in America in 1831, supposedly to look at prisons but really to figure out what the deal was with democracy. And look, I know what you&amp;rsquo;re thinking: &amp;ldquo;Why do I care what some 19th-century French aristocrat thought about America?&amp;rdquo; But here&amp;rsquo;s the thing, the guy basically invented political science Twitter 200 years early.&lt;/p&gt;
+&lt;h2 id=&#34;everyones-equal-but-also-not&#34;&gt;Everyone&amp;rsquo;s Equal But Also Not&lt;/h2&gt;
+&lt;p&gt;The main thing Tocqueville noticed was that Americans were &lt;em&gt;obsessed&lt;/em&gt; with equality. Not like &amp;ldquo;everyone has the same stuff&amp;rdquo; equality Americans were definitely trying to get rich, but more like &amp;ldquo;nobody&amp;rsquo;s inherently better than anyone else&amp;rdquo; equality. No aristocrats! No inherited titles! Your dad could be a farmer and you could become president! (Or, more realistically, open a small business that fails, but still.)&lt;/p&gt;
+&lt;p&gt;This is weird! Most of human history is just, like, &amp;ldquo;some people are nobles and some people are peasants and that&amp;rsquo;s how it is.&amp;rdquo; Americans were like, &amp;ldquo;what if&amp;hellip; not that?&amp;rdquo; Revolutionary, literally.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s where it gets interesting. Tocqueville noticed that Americans loved equality &lt;em&gt;more than freedom&lt;/em&gt;. Like if you said, &amp;ldquo;you can have freedom OR equality,&amp;rdquo; they&amp;rsquo;d pick equality. Which seems paradoxical? But actually makes sense when you think about it. I mean, what good is freedom if some duke can just show up and be like &amp;ldquo;actually I own you&amp;rdquo;?&lt;/p&gt;
+&lt;h2 id=&#34;the-genius-of-doing-stuff-together&#34;&gt;The Genius of Doing Stuff Together&lt;/h2&gt;
+&lt;p&gt;Okay so here&amp;rsquo;s my favorite Tocqueville observation. In France, if people wanted something done, they&amp;rsquo;d petition the king. In America, if people wanted something done, they&amp;rsquo;d just&amp;hellip; form a committee. Need a library? Form a library association. Want to ban alcohol? Start a temperance society. Think your neighbor&amp;rsquo;s fence is too high? Obviously you need a Fence Height Regulation Society.&lt;/p&gt;
+&lt;p&gt;This sounds dumb but it&amp;rsquo;s actually genius? Like, instead of waiting for the government to solve problems, Americans just got together and solved them. It&amp;rsquo;s basically decentralized problem-solving. Very Web3, if you think about it. (I&amp;rsquo;m kidding. Sort of.)&lt;/p&gt;
+&lt;p&gt;The voluntary association thing is &lt;em&gt;everywhere&lt;/em&gt; in American life. Churches, bowling leagues, PTAs, HOAs that tell you your mailbox is the wrong shade of beige, it&amp;rsquo;s all the same impulse. Tocqueville thought this was America&amp;rsquo;s superpower: you don&amp;rsquo;t need a strong government if everyone&amp;rsquo;s constantly forming little governments.&lt;/p&gt;
+&lt;h2 id=&#34;the-majority-can-be-terrifying-actually&#34;&gt;The Majority Can Be Terrifying, Actually&lt;/h2&gt;
+&lt;p&gt;But here&amp;rsquo;s the dark side, and Tocqueville was &lt;em&gt;really&lt;/em&gt; worried about this: what if the majority decides to be terrible?&lt;/p&gt;
+&lt;p&gt;In the old days, if the king was terrible, at least you knew who to blame. But in a democracy, if 51% of people decide something awful, that&amp;rsquo;s just&amp;hellip; democracy working as intended? The majority isn&amp;rsquo;t just politically powerful; it&amp;rsquo;s &lt;em&gt;socially&lt;/em&gt; powerful. If everyone thinks you&amp;rsquo;re wrong, you start to wonder if maybe you&amp;rsquo;re wrong. Social pressure is more effective than laws.&lt;/p&gt;
+&lt;p&gt;Think about it like this: in a monarchy, you can hate the king and everyone knows you hate the king and that&amp;rsquo;s fine, you&amp;rsquo;re just a dissenter. In a democracy, if you hate what everyone voted for, you&amp;rsquo;re weird. You&amp;rsquo;re antisocial. You&amp;rsquo;re not a team player. The peer pressure is &lt;em&gt;intense&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;american-contradictions-are-hilarious&#34;&gt;American Contradictions Are Hilarious&lt;/h2&gt;
+&lt;p&gt;Tocqueville kept noticing these bizarre contradictions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Americans are super individualistic (&amp;ldquo;I don&amp;rsquo;t need anyone!&amp;rdquo;) but also conformist (&amp;ldquo;Why is everyone looking at me weird?&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;They hate aristocracy but desperately want to get rich&lt;/li&gt;
+&lt;li&gt;They&amp;rsquo;re religious but also frantically materialistic&lt;/li&gt;
+&lt;li&gt;They believe in equality but, uh, slavery exists&lt;/li&gt;
+&lt;li&gt;They&amp;rsquo;re locally engaged but nationally? Total mess&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s like America was speedrunning every possible political contradiction at once.&lt;/p&gt;
+&lt;h2 id=&#34;the-slavery-thing-is-going-to-be-a-problem&#34;&gt;The Slavery Thing Is Going to Be a Problem&lt;/h2&gt;
+&lt;p&gt;Speaking of contradictions! Tocqueville took one look at slavery and was like, &amp;ldquo;guys, this is going to end badly.&amp;rdquo; You can&amp;rsquo;t have a democracy based on equality while literally owning people. The math doesn&amp;rsquo;t math. He predicted this would cause, shall we say, some issues. (Spoiler alert: it did.)&lt;/p&gt;
+
+
+&lt;div
+    class=&#34;youtube-lite&#34;
+    data-videoid=&#34;Rzr3AOtFA8o&#34;
+    style=&#34;background-image: url(&#39;https://i.ytimg.com/vi/Rzr3AOtFA8o/hqdefault.jpg&#39;);&#34;
+&gt;
+    &lt;a
+        href=&#34;https://youtube.com/watch?v=Rzr3AOtFA8o&#34;
+        target=&#34;_blank&#34;
+        rel=&#34;noopener&#34;
+        class=&#34;youtube-lite-link&#34;
+        aria-label=&#34;Watch on YouTube: YouTube Video&#34;
+    &gt;
+        &lt;div class=&#34;youtube-lite-playbtn&#34; aria-label=&#34;Play Video: YouTube Video&#34;&gt;&lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;style&gt;
+    .youtube-lite {
+        position: relative;
+        display: block;
+        contain: content;
+        background-position: center center;
+        background-size: cover;
+        cursor: pointer;
+        border-radius: var(--image-radius, 6px);
+        overflow: hidden;
+        margin: 2em 0;
+    }
+     
+    .youtube-lite::before {
+        content: &#34;&#34;;
+        display: block;
+        padding-bottom: 56.25%;  
+    }
+    .youtube-lite &gt; iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 0;
+    }
+     
+    .youtube-lite-playbtn {
+        width: 68px;
+        height: 48px;
+        position: absolute;
+        cursor: pointer;
+        transform: translate3d(-50%, -50%, 0);
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url(&#39;data:image/svg+xml;utf8,&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 68 48&#34;&gt;&lt;path d=&#34;M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z&#34; fill=&#34;red&#34;/&gt;&lt;path d=&#34;M45 24 27 14v20&#34; fill=&#34;white&#34;/&gt;&lt;/svg&gt;&#39;);
+        filter: grayscale(100%);
+        transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+    }
+    .youtube-lite:hover .youtube-lite-playbtn {
+        filter: none;
+    }
+     
+    .youtube-lite-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+&lt;/style&gt;
+
+&lt;script&gt;
+    function initYouTubeLite() {
+        const youtubeLiteContainers = document.querySelectorAll(&#34;.youtube-lite&#34;);
+        youtubeLiteContainers.forEach((container) =&gt; {
+            container.addEventListener(
+                &#34;click&#34;,
+                () =&gt; {
+                    const iframe = document.createElement(&#34;iframe&#34;);
+                    iframe.setAttribute(&#34;frameborder&#34;, &#34;0&#34;);
+                    iframe.setAttribute(&#34;allowfullscreen&#34;, &#34;&#34;);
+                    iframe.setAttribute(
+                        &#34;allow&#34;,
+                        &#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;,
+                    );
+                    iframe.setAttribute(
+                        &#34;src&#34;,
+                        `https://www.youtube.com/embed/${container.dataset.videoid}?autoplay=1`,
+                    );
+                    container.innerHTML = &#34;&#34;;
+                    container.appendChild(iframe);
+                },
+                { once: true },
+            );
+        });
+    }
+    
+    document.addEventListener(&#34;DOMContentLoaded&#34;, initYouTubeLite);
+&lt;/script&gt;
+&lt;h2 id=&#34;calling-his-shots&#34;&gt;Calling His Shots&lt;/h2&gt;
+&lt;p&gt;The really wild thing is how much Tocqueville got right about the future:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two Superpowers Thing&lt;/strong&gt;: He said America and Russia would end up dominating the world. In 1835! Before Russia had even industrialized! Before America was even really a major power! That&amp;rsquo;s like predicting in 1995 that TikTok would be important.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Democratic Contagion&lt;/strong&gt;: He said democracy would spread everywhere eventually. Not because it&amp;rsquo;s better (though he thought it might be), but because once people see equality is possible, you can&amp;rsquo;t put that genie back in the bottle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Administrative State&lt;/strong&gt;: He predicted democratic governments would get bigger and more centralized over time, even though Americans hated centralization. Why? Because equal citizens want equal treatment, and that requires standardization, and standardization requires bureaucracy. You want equal rights? Great, here&amp;rsquo;s your 500-page regulation on rights implementation.&lt;/p&gt;
+&lt;h2 id=&#34;the-ultimate-take&#34;&gt;The Ultimate Take&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s Tocqueville&amp;rsquo;s bottom line: Democracy is probably inevitable, but it&amp;rsquo;s not inevitably good. It&amp;rsquo;s like a tool that can build or destroy depending on how you use it.&lt;/p&gt;
+&lt;p&gt;For democracy to work, you need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;People actually participating (not just tweeting about it)&lt;/li&gt;
+&lt;li&gt;Strong local institutions (your boring town council matters!)&lt;/li&gt;
+&lt;li&gt;Some kind of moral framework (religion, philosophy, whatever)&lt;/li&gt;
+&lt;li&gt;Protection for minorities (the majority can be mean!)&lt;/li&gt;
+&lt;li&gt;Balance between equality and freedom (you need both)&lt;/li&gt;
+&lt;li&gt;Constant vigilance against becoming either anarchic OR despotic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The thing is, American democracy wasn&amp;rsquo;t perfect, it was deeply flawed, actually, but it was &lt;em&gt;interesting&lt;/em&gt;. It was trying something new. And Tocqueville was like a management consultant showing up to study this weird startup called America and being like, &amp;ldquo;your business model makes no sense but somehow you&amp;rsquo;re growing 30% year-over-year?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The meta-lesson is: democracy is weird, America is weirder, and somehow it kind of works? But also might not? But probably will? Unless it doesn&amp;rsquo;t?&lt;/p&gt;
+&lt;p&gt;Classic America, honestly.&lt;/p&gt;
+</content:encoded>
     </item>
     <item>
       <title>Machiavelli&#39;s Other Book Is About Republics Actually</title>
       <link>http://localhost:1313/exp/posts/discourses-on-livy/</link>
-      <pubDate>Wed, 28 Aug 2024 12:00:00 -0700</pubDate>
+      <pubDate>Wed, 28 Aug 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/discourses-on-livy/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/mach_hu_f270cbdbb26a2c47.webp 480w, http://localhost:1313/exp/images/mach_hu_123ec754a53d6360.webp 800w, http://localhost:1313/exp/images/mach_hu_f390de7f39131c50.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/mach_hu_a3d08da120e1a446.jpg 480w, http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg 800w, http://localhost:1313/exp/images/mach_hu_8e88ae4ace028879.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;460&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;Machiavelli and his domain&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-context-thing&#34;&gt;The Context Thing&lt;/h2&gt;&#xA;&lt;p&gt;So here&amp;rsquo;s a fun story about Niccolò Machiavelli. Everyone knows him as the &amp;ldquo;ends justify the means&amp;rdquo; guy who wrote &lt;em&gt;The Prince&lt;/em&gt;, that cynical handbook about how to be a ruthless dictator. But here&amp;rsquo;s the thing: Machiavelli actually preferred republics! I know! The guy whose name literally became an adjective for scheming political manipulation spent most of his intellectual energy writing a massive love letter to republican government. It&amp;rsquo;s like finding out that Gordon Gekko&amp;rsquo;s favorite book was actually about credit unions.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/mach_hu_f270cbdbb26a2c47.webp 480w, http://localhost:1313/exp/images/mach_hu_123ec754a53d6360.webp 800w, http://localhost:1313/exp/images/mach_hu_f390de7f39131c50.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/mach_hu_a3d08da120e1a446.jpg 480w, http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg 800w, http://localhost:1313/exp/images/mach_hu_8e88ae4ace028879.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;460&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Machiavelli and his domain&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-context-thing&#34;&gt;The Context Thing&lt;/h2&gt;
+&lt;p&gt;So here&amp;rsquo;s a fun story about Niccolò Machiavelli. Everyone knows him as the &amp;ldquo;ends justify the means&amp;rdquo; guy who wrote &lt;em&gt;The Prince&lt;/em&gt;, that cynical handbook about how to be a ruthless dictator. But here&amp;rsquo;s the thing: Machiavelli actually preferred republics! I know! The guy whose name literally became an adjective for scheming political manipulation spent most of his intellectual energy writing a massive love letter to republican government. It&amp;rsquo;s like finding out that Gordon Gekko&amp;rsquo;s favorite book was actually about credit unions.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/mach_hu_f270cbdbb26a2c47.webp 480w, http://localhost:1313/exp/images/mach_hu_123ec754a53d6360.webp 800w, http://localhost:1313/exp/images/mach_hu_f390de7f39131c50.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/mach_hu_a3d08da120e1a446.jpg 480w, http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg 800w, http://localhost:1313/exp/images/mach_hu_8e88ae4ace028879.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/mach_hu_404cc7e9c29ff765.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;460&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Machiavelli and his domain&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-context-thing&#34;&gt;The Context Thing&lt;/h2&gt;
+&lt;p&gt;So here&amp;rsquo;s a fun story about Niccolò Machiavelli. Everyone knows him as the &amp;ldquo;ends justify the means&amp;rdquo; guy who wrote &lt;em&gt;The Prince&lt;/em&gt;, that cynical handbook about how to be a ruthless dictator. But here&amp;rsquo;s the thing: Machiavelli actually preferred republics! I know! The guy whose name literally became an adjective for scheming political manipulation spent most of his intellectual energy writing a massive love letter to republican government. It&amp;rsquo;s like finding out that Gordon Gekko&amp;rsquo;s favorite book was actually about credit unions.&lt;/p&gt;
+&lt;p&gt;The book is called &lt;em&gt;Discourses on the First Ten Books of Titus Livy&lt;/em&gt;, which, okay, is not exactly a beach read title. Machiavelli wrote it between 1513 and 1519, roughly the same time as &lt;em&gt;The Prince&lt;/em&gt;, but the circumstances matter here. See, Machiavelli had what we in the finance industry call a &amp;ldquo;career event.&amp;rdquo; In 1512, the Medici family rolled back into Florence after the republican government collapsed, and Machiavelli, who&amp;rsquo;d been Secretary to the Second Chancery of the Republic of Florence, basically a senior bureaucrat and diplomat was immediately:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fired&lt;/li&gt;
+&lt;li&gt;Exiled&lt;/li&gt;
+&lt;li&gt;Tortured (they used something called the strappado, which I will not describe)&lt;/li&gt;
+&lt;li&gt;Eventually released to his farm to write angry books&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is sub-optimal career progression.&lt;/p&gt;
+&lt;h2 id=&#34;the-unemployed-guy-writing-about-management&#34;&gt;The Unemployed Guy Writing About Management&lt;/h2&gt;
+&lt;p&gt;So there&amp;rsquo;s Machiavelli, sitting on his farm, professionally destroyed, personally humiliated, and what does he do? He writes TWO books about politics. It&amp;rsquo;s like getting fired from Goldman Sachs and immediately starting a Substack about optimal banking regulation.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Prince&lt;/em&gt; was his job application dedicated to Lorenzo de&amp;rsquo; Medici, essentially saying &amp;ldquo;hey, I know you guys tortured me, but I&amp;rsquo;m really good at this politics stuff, maybe hire me?&amp;rdquo; (Spoiler: they didn&amp;rsquo;t.) But the &lt;em&gt;Discourses&lt;/em&gt; was different. This was Machiavelli writing for his friends, for posterity, for the sheer intellectual pleasure of figuring out how republics actually work.&lt;/p&gt;
+&lt;p&gt;The structure is delightfully weird. Livy was a Roman historian who wrote about the early Roman Republic, and Machiavelli uses Livy&amp;rsquo;s history as a jumping-off point to talk about&amp;hellip; everything. It&amp;rsquo;s like if someone today wrote a book called &amp;ldquo;Thoughts on Reading Michael Lewis&amp;rdquo; and used it to explain their entire theory of financial markets. Actually, that&amp;rsquo;s not a bad idea.&lt;/p&gt;
+&lt;h2 id=&#34;the-republican-machine&#34;&gt;The Republican Machine&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what Machiavelli figured out, and it&amp;rsquo;s kind of brilliant: republics are     &lt;a href=&#34;https://en.wikipedia.org/wiki/Antifragile_%28book%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;antifragile&lt;/a&gt;
+ (to use Nassim Taleb&amp;rsquo;s word, which Machiavelli would have loved).&lt;/p&gt;
+&lt;p&gt;The basic Machiavellian insight about republics goes like this: You know how in &lt;em&gt;The Prince&lt;/em&gt; he says rulers need to be feared rather than loved? Well, in republics, the whole system runs on controlled conflict. You&amp;rsquo;ve got:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The nobles (who want to oppress everyone)&lt;/li&gt;
+&lt;li&gt;The people (who want not to be oppressed)&lt;/li&gt;
+&lt;li&gt;Some kind of institutional structure that lets them fight it out without actually killing each other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s like checks and balances, but messier and more honest about human nature. Machiavelli looks at Rome and says: &amp;ldquo;These guys were constantly having internal conflicts between patricians and plebeians, and that&amp;rsquo;s     &lt;a href=&#34;https://www.historyskills.com/classroom/ancient-history/anc-conflict-of-the-orders-reading/?srsltid=AfmBOorfPhbn1DorhVCrgu-mZbEDhU0NqkDZFypa_fGheiVJB13snlx0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WHY they succeeded, not despite it&amp;rdquo;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is counterintuitive! The conventional wisdom in Machiavelli&amp;rsquo;s time (and honestly, in our time too) is that you want unity, harmony, everyone pulling in the same direction. Machiavelli is like: &amp;ldquo;No, no, no you want productive tension. You want the investment bankers and the regulators to be in permanent conflict, because that&amp;rsquo;s how you get a system that actually works.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;the-startup-founders-guide-to-ancient-rome&#34;&gt;The Startup Founder&amp;rsquo;s Guide to Ancient Rome&lt;/h2&gt;
+&lt;p&gt;What makes the &lt;em&gt;Discourses&lt;/em&gt; fascinating is that Machiavelli treats Rome like a case study at Harvard Business School. He&amp;rsquo;s constantly asking practical questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you set up institutions that channel ambition productively?&lt;/li&gt;
+&lt;li&gt;What do you do when your republic gets too successful and rich? (Spoiler: it&amp;rsquo;s bad)&lt;/li&gt;
+&lt;li&gt;How do you prevent some charismatic strongman from taking over?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s the optimal amount of inequality? (Some, but not too much)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And here&amp;rsquo;s the kicker: unlike &lt;em&gt;The Prince&lt;/em&gt;, where Machiavelli is explaining how one person can gain and keep power, the &lt;em&gt;Discourses&lt;/em&gt; is about how to build systems that don&amp;rsquo;t depend on one person being good at their job. It&amp;rsquo;s the difference between &amp;ldquo;how to be a successful day trader&amp;rdquo; and &amp;ldquo;how to build a functioning stock market.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;the-fortune-thing&#34;&gt;The Fortune Thing&lt;/h2&gt;
+&lt;p&gt;Machiavelli has this whole riff about Fortune (which he personifies as a woman, because 16th century) that&amp;rsquo;s way more sophisticated in the &lt;em&gt;Discourses&lt;/em&gt; than in &lt;em&gt;The Prince&lt;/em&gt;. In &lt;em&gt;The Prince&lt;/em&gt;, Fortune controls half of everything and you just have to be bold and grab her. Very trading-floor energy.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/swot_hu_433a6a3986938e56.webp 480w, http://localhost:1313/exp/images/swot_hu_e68517cd83b27d5f.webp 800w, http://localhost:1313/exp/images/swot_hu_a2318501feba8416.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/swot_hu_48a96b843ea73173.jpg 480w, http://localhost:1313/exp/images/swot_hu_8f79ae163ea0c4aa.jpg 800w, http://localhost:1313/exp/images/swot_hu_bbe8e6137593db46.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/swot_hu_8f79ae163ea0c4aa.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;900&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;But in the &lt;em&gt;Discourses&lt;/em&gt;, he&amp;rsquo;s like: &amp;ldquo;Actually, good institutions can hedge against Fortune better than any individual prince.&amp;rdquo; A republic with strong institutions, good laws, and that productive internal conflict we talked about? That&amp;rsquo;s diversification, baby. One bad leader won&amp;rsquo;t tank the whole system.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters-the-money-paragraph&#34;&gt;Why This Matters (The Money Paragraph)&lt;/h2&gt;
+&lt;p&gt;Look, the reason people should care about the &lt;em&gt;Discourses&lt;/em&gt; today isn&amp;rsquo;t because we need another take on Roman history. It&amp;rsquo;s because Machiavelli is asking the fundamental question: How do you build political systems that account for the fact that people are, generally speaking, the worst?&lt;/p&gt;
+&lt;p&gt;His answer which is republics with lots of institutional conflict, checks on power, and channels for ambition feels weirdly modern. Or maybe modern democracy feels weirdly Machiavellian. Either way, the &lt;em&gt;Discourses&lt;/em&gt; is Machiavelli saying: &amp;ldquo;Look, I told you how the sausage gets made in &lt;em&gt;The Prince&lt;/em&gt;, but if you actually want good governance that lasts, you need a republic.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The irony is delicious. The guy whose name means &amp;ldquo;evil schemer&amp;rdquo; actually thought the best government was one where no single schemer could win. It&amp;rsquo;s like if Bernie Madoff&amp;rsquo;s secret passion project was designing better SEC regulations.&lt;/p&gt;
+&lt;h2 id=&#34;the-lesson&#34;&gt;The Lesson&lt;/h2&gt;
+&lt;p&gt;So Machiavelli is sitting there in exile, career destroyed, probably drinking whatever the 16th-century Italian equivalent of whiskey was, and he writes two books. One (&lt;em&gt;The Prince&lt;/em&gt;) makes him infamous forever as an amoral monster. The other (&lt;em&gt;Discourses&lt;/em&gt;) contains his actual political philosophy: that republics are better than principalities, that conflict can be productive, and that good institutions matter more than good leaders.&lt;/p&gt;
+&lt;p&gt;The lesson here is either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Be careful which book of yours gets famous, or&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re going to get tortured and exiled anyway, you might as well write what you really think&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also, maybe read the &lt;em&gt;Discourses&lt;/em&gt;? It&amp;rsquo;s actually pretty good, and way less likely to get you called Machiavellian at parties.&lt;/p&gt;
+</content:encoded>
     </item>
     <item>
       <title>Hobbes&#39;s Leviathan or How to Not Murder Each Other Over Politics</title>
       <link>http://localhost:1313/exp/posts/leviathan/</link>
-      <pubDate>Fri, 28 Jun 2024 12:00:00 -0700</pubDate>
+      <pubDate>Fri, 28 Jun 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/leviathan/</guid>
-      <description>&lt;h2 id=&#34;the-context-or-why-everyone-was-so-upset&#34;&gt;The Context, or Why Everyone Was So Upset&lt;/h2&gt;&#xA;&lt;p&gt;So it&amp;rsquo;s 1651 and Thomas Hobbes has just watched England tear itself apart for like a decade.The English Civil War (1642-1651)    &lt;a href=&#34;https://www.britannica.com/event/English-Civil-Wars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;&#xA; was basically what happens when you take the question &amp;ldquo;who should be in charge?&amp;rdquo; and answer it with &amp;ldquo;let&amp;rsquo;s find out with swords.&amp;rdquo; King Charles I thought God wanted him to run everything. Parliament thought, no, actually, we should have a say. The Puritans thought everyone else was doing Christianity wrong. The Catholics were nervous. The Scots were involved somehow. It was a mess.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;the-context-or-why-everyone-was-so-upset&#34;&gt;The Context, or Why Everyone Was So Upset&lt;/h2&gt;
+&lt;p&gt;So it&amp;rsquo;s 1651 and Thomas Hobbes has just watched England tear itself apart for like a decade.The English Civil War (1642-1651)    &lt;a href=&#34;https://www.britannica.com/event/English-Civil-Wars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;
+ was basically what happens when you take the question &amp;ldquo;who should be in charge?&amp;rdquo; and answer it with &amp;ldquo;let&amp;rsquo;s find out with swords.&amp;rdquo; King Charles I thought God wanted him to run everything. Parliament thought, no, actually, we should have a say. The Puritans thought everyone else was doing Christianity wrong. The Catholics were nervous. The Scots were involved somehow. It was a mess.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;the-context-or-why-everyone-was-so-upset&#34;&gt;The Context, or Why Everyone Was So Upset&lt;/h2&gt;
+&lt;p&gt;So it&amp;rsquo;s 1651 and Thomas Hobbes has just watched England tear itself apart for like a decade.The English Civil War (1642-1651)    &lt;a href=&#34;https://www.britannica.com/event/English-Civil-Wars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;
+ was basically what happens when you take the question &amp;ldquo;who should be in charge?&amp;rdquo; and answer it with &amp;ldquo;let&amp;rsquo;s find out with swords.&amp;rdquo; King Charles I thought God wanted him to run everything. Parliament thought, no, actually, we should have a say. The Puritans thought everyone else was doing Christianity wrong. The Catholics were nervous. The Scots were involved somehow. It was a mess.&lt;/p&gt;
+&lt;p&gt;Imagine if Twitter disputes could kill you. That was basically England in the 1640s.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/eng-civil-war_hu_3742c0752e178b5.webp 480w, http://localhost:1313/exp/images/eng-civil-war_hu_b4bef6be4a36ed6a.webp 800w, http://localhost:1313/exp/images/eng-civil-war_hu_d105b701b9951dac.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/eng-civil-war_hu_eab83a6f44f8af11.jpg 480w, http://localhost:1313/exp/images/eng-civil-war_hu_8d8a14f1ade3ab42.jpg 800w, http://localhost:1313/exp/images/eng-civil-war_hu_8e0a02f85faee734.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/eng-civil-war_hu_8d8a14f1ade3ab42.jpg&#34;
+        alt=&#34;The English Civil War&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;590&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;English Civil War&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hobbes, who was hanging out in Paris because England was too stabby, watched all this and thought: &amp;ldquo;You know what? This is what happens when you don&amp;rsquo;t have clear rules about who&amp;rsquo;s the boss.&amp;rdquo; So he wrote &lt;em&gt;Leviathan&lt;/em&gt;, which is essentially a very long argument that goes: Look, humans are terrible, and without a really strong government, we&amp;rsquo;ll all murder each other over stupid stuff. So let&amp;rsquo;s agree to have an absolute sovereign, because even tyranny is better than civil war.&lt;/p&gt;
+&lt;h2 id=&#34;the-state-of-nature-or-why-your-neighbors-would-eat-you&#34;&gt;The State of Nature, or Why Your Neighbors Would Eat You&lt;/h2&gt;
+&lt;p&gt;The core insight of &lt;em&gt;Leviathan&lt;/em&gt; starts with what Hobbes calls the &amp;ldquo;state of nature    &lt;a href=&#34;https://plato.stanford.edu/entries/hobbes-moral/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;
+.&amp;rdquo; This is his thought experiment about what life would be like without government. His conclusion? It would be &amp;ldquo;solitary, poor, nasty, brutish, and short.&amp;rdquo; Not &amp;ldquo;maybe occasionally unpleasant.&amp;rdquo; Not &amp;ldquo;somewhat suboptimal.&amp;rdquo; Nasty. Brutish. Short.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s Hobbes&amp;rsquo;s logic, translated to modern terms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Everyone basically wants the same stuff (food, safety, Netflix passwords)&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s not enough stuff for everyone to have all they want&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re all roughly equal in our ability to hurt each other&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Therefore, without rules, we&amp;rsquo;d constantly fight over everything&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Think about Black Friday shopping, but for literally everything, all the time, and everyone has weapons.&lt;/p&gt;
+&lt;p&gt;The thing is, Hobbes argues, in this state of nature, you can&amp;rsquo;t even trust contracts. If I promise to trade you my cow for your chickens next week, what stops me from just keeping my cow and stealing your chickens? There&amp;rsquo;s no court system. There&amp;rsquo;s no police. There&amp;rsquo;s just you, me, and whoever has more friends with sharp objects.&lt;/p&gt;
+&lt;h2 id=&#34;the-social-contract-or-the-deal-nobody-remembers-signing&#34;&gt;The Social Contract, or The Deal Nobody Remembers Signing&lt;/h2&gt;
+&lt;p&gt;So Hobbes proposes a solution: everyone should agree to give up their right to violence to one absolute sovereign. This is the &amp;ldquo;social contract    &lt;a href=&#34;https://iep.utm.edu/soc-cont/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;
+,&amp;rdquo; though importantly, Hobbes thinks this isn&amp;rsquo;t really a contract in the normal sense. It&amp;rsquo;s more like a mathematical proof of what rational people would do.&lt;/p&gt;
+&lt;p&gt;The logic goes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Life without government is terrible&lt;/li&gt;
+&lt;li&gt;Any government is better than no government&lt;/li&gt;
+&lt;li&gt;The strongest government is the best because it can actually keep the peace&lt;/li&gt;
+&lt;li&gt;Therefore, we should have an absolute monarchy (or something similar)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s like if everyone in a bar fight simultaneously realized that bar fights are stupid and agreed that the bouncer should have absolute authority. Except the bouncer can also tax you, conscript you into the army, and censor your pamphlets. But hey, at least you&amp;rsquo;re not getting stabbed over theological disputes anymore!&lt;/p&gt;
+&lt;h2 id=&#34;the-sovereign-or-why-your-king-can-do-whatever-he-wants&#34;&gt;The Sovereign, or Why Your King Can Do Whatever He Wants&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s where Hobbes gets controversial (well, more controversial). He argues the sovereign, whether it&amp;rsquo;s a king, parliament, or whatever should have basically unlimited power. The sovereign can&amp;rsquo;t commit injustice against the subjects because the sovereign &lt;em&gt;defines&lt;/em&gt; what justice is. The sovereign is above the law because the sovereign &lt;em&gt;makes&lt;/em&gt; the law.&lt;/p&gt;
+&lt;p&gt;Modern readers usually go: &amp;ldquo;Wait, what about checks and balances? What about human rights? What about constitutional limits?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;And Hobbes would say: &amp;ldquo;Did you see the English Civil War? That&amp;rsquo;s what your &amp;lsquo;checks and balances&amp;rsquo; get you. A bunch of people checking and balancing each other with muskets.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;why-this-mattered-then-and-kind-of-still-does&#34;&gt;Why This Mattered Then (And Kind of Still Does)&lt;/h2&gt;
+&lt;p&gt;The genius of &lt;em&gt;Leviathan&lt;/em&gt; wasn&amp;rsquo;t that Hobbes was right about everything. He wasn&amp;rsquo;t.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The genius was that he tried to build political philosophy from first principles, like a mathematical proof. Instead of saying &amp;ldquo;Kings should rule because God says so&amp;rdquo; or &amp;ldquo;Parliament should rule because of ancient English traditions,&amp;rdquo; he said, &amp;ldquo;Let&amp;rsquo;s think about what rational people would agree to.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This was revolutionary. It made political authority a human creation, not a divine mandate. Even if you disagreed with Hobbes&amp;rsquo;s conclusions (and basically everyone did), you had to engage with his method.&lt;/p&gt;
+&lt;p&gt;Plus, Hobbes was writing when people were literally killing each other over political theory. His book was essentially saying: &amp;ldquo;Look, I&amp;rsquo;ve done the math, and the math says you should all stop stabbing each other and pick someone to be in charge. I don&amp;rsquo;t really care who, just pick someone and stick with it.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;the-reception-or-how-to-annoy-everyone-simultaneously&#34;&gt;The Reception, or How to Annoy Everyone Simultaneously&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Leviathan&lt;/em&gt; managed to upset basically everyone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Royalists hated it because it said kings ruled by social contract, not divine right&lt;/li&gt;
+&lt;li&gt;Parliamentarians hated it because it supported absolute sovereignty    &lt;a href=&#34;https://en.wikipedia.org/wiki/Absolute_monarchy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Religious authorities hated it because it subordinated church to state&lt;/li&gt;
+&lt;li&gt;Pretty much everyone hated it because it was aggressively materialist and seemed kind of atheist-y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s like writing a book today that simultaneously argues for and against every political position, but with math.&lt;/p&gt;
+&lt;h2 id=&#34;the-legacy-or-why-we-still-read-this-thing&#34;&gt;The Legacy, or Why We Still Read This Thing&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_49fec83acabcceb7.webp 480w, http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_2d56e0e77c1d0cb9.webp 800w, http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_e3e3f081079cb3c2.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_eaa7dde62e79d574.jpg 480w, http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_491a42ca0d54336c.jpg 800w, http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_f37ecd58ee9b71a0.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/detail-from-the-cover-of-leviathan-by-thomas-hobbes-e1606300942498_hu_491a42ca0d54336c.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;372&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Leviathan&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the thing: nobody really buys Hobbes&amp;rsquo;s whole program anymore. We don&amp;rsquo;t think absolute sovereignty is necessary. We&amp;rsquo;ve figured out ways to have functioning governments with checks and balances.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; We don&amp;rsquo;t even really buy his super pessimistic view of human nature.&lt;/p&gt;
+&lt;p&gt;But Hobbes gave us the tools to think about political authority without invoking God or tradition. He made us think about what we&amp;rsquo;re really agreeing to when we accept government authority. And his basic insight that the alternative to government might be really, really bad, still resonates when you look at failed states and civil wars.&lt;/p&gt;
+&lt;p&gt;Plus, his writing is weirdly compelling for a 17th-century philosophy text. The man could turn a phrase. &amp;ldquo;Nasty, brutish, and short&amp;rdquo; is honestly great copy.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Yes, some people are stronger than others, but Hobbes points out that even the weakest person can kill the strongest one while they&amp;rsquo;re sleeping. It&amp;rsquo;s oddly democratic, in a murdery sort of way.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;For instance, his theory of human psychology was basically that we&amp;rsquo;re all robots made of meat, which was a bit reductive even for the 1650s.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Most of the time. Results may vary. Please consult your local constitutional crisis for details.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
     <item>
       <title>My thinking for the 2025</title>
       <link>http://localhost:1313/exp/posts/my-thinking/</link>
-      <pubDate>Fri, 28 Jun 2024 12:00:00 -0700</pubDate>
+      <pubDate>Fri, 28 Jun 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/my-thinking/</guid>
-      <description>&lt;p&gt;I don’t know where to start, but lets say this is not something I need to write but I think circumstances asked for it.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_b2c00f12c522326b.webp 480w, http://localhost:1313/exp/images/thinking-2025_hu_9db7063b0f6d1659.webp 800w, http://localhost:1313/exp/images/thinking-2025_hu_154aa2e2679aee88.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_e99153ee3b4914a0.jpg 480w, http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg 800w, http://localhost:1313/exp/images/thinking-2025_hu_78ced4ab1cef1342.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg&#34;&#xA;        alt=&#34;this is how this year feels like&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;605&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;iframe&#xA;  src=&#34;https://open.spotify.com/embed/album/71nSsMDGcGFwHqknIELTe8&#34;&#xA;  width=&#34;300&#34;&#xA;  height=&#34;380&#34;&#xA;  frameborder=&#34;0&#34;&#xA;  allowtransparency=&#34;true&#34;&#xA;  allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;&#xA;  loading=&#34;lazy&#34;&#xA;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;and this is how a github gist looks like&lt;/p&gt;&#xA;&lt;p&gt;Hello! I have read your notes, and I have to say: &lt;strong&gt;you have excellent intuition for how Git works.&lt;/strong&gt; You have correctly identified the core logic (the &amp;ldquo;happy path&amp;rdquo;) of saving work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I don’t know where to start, but lets say this is not something I need to write but I think circumstances asked for it.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_b2c00f12c522326b.webp 480w, http://localhost:1313/exp/images/thinking-2025_hu_9db7063b0f6d1659.webp 800w, http://localhost:1313/exp/images/thinking-2025_hu_154aa2e2679aee88.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_e99153ee3b4914a0.jpg 480w, http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg 800w, http://localhost:1313/exp/images/thinking-2025_hu_78ced4ab1cef1342.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg&#34;
+        alt=&#34;this is how this year feels like&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;605&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;iframe
+  src=&#34;https://open.spotify.com/embed/album/71nSsMDGcGFwHqknIELTe8&#34;
+  width=&#34;300&#34;
+  height=&#34;380&#34;
+  frameborder=&#34;0&#34;
+  allowtransparency=&#34;true&#34;
+  allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;
+  loading=&#34;lazy&#34;
+&gt;&lt;/iframe&gt;
+&lt;p&gt;and this is how a github gist looks like&lt;/p&gt;
+&lt;p&gt;Hello! I have read your notes, and I have to say: &lt;strong&gt;you have excellent intuition for how Git works.&lt;/strong&gt; You have correctly identified the core logic (the &amp;ldquo;happy path&amp;rdquo;) of saving work.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;I don’t know where to start, but lets say this is not something I need to write but I think circumstances asked for it.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_b2c00f12c522326b.webp 480w, http://localhost:1313/exp/images/thinking-2025_hu_9db7063b0f6d1659.webp 800w, http://localhost:1313/exp/images/thinking-2025_hu_154aa2e2679aee88.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/thinking-2025_hu_e99153ee3b4914a0.jpg 480w, http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg 800w, http://localhost:1313/exp/images/thinking-2025_hu_78ced4ab1cef1342.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/thinking-2025_hu_89351d77fa827160.jpg&#34;
+        alt=&#34;this is how this year feels like&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;605&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;iframe
+  src=&#34;https://open.spotify.com/embed/album/71nSsMDGcGFwHqknIELTe8&#34;
+  width=&#34;300&#34;
+  height=&#34;380&#34;
+  frameborder=&#34;0&#34;
+  allowtransparency=&#34;true&#34;
+  allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;
+  loading=&#34;lazy&#34;
+&gt;&lt;/iframe&gt;
+&lt;p&gt;and this is how a github gist looks like&lt;/p&gt;
+&lt;p&gt;Hello! I have read your notes, and I have to say: &lt;strong&gt;you have excellent intuition for how Git works.&lt;/strong&gt; You have correctly identified the core logic (the &amp;ldquo;happy path&amp;rdquo;) of saving work.&lt;/p&gt;
+&lt;p&gt;As your teacher, I’m going to go through your points one by one to validate what you got right, make a few small but important corrections, and answer your specific questions.&lt;/p&gt;
+&lt;p&gt;Here is the breakdown:&lt;/p&gt;
+&lt;h3 id=&#34;1-the-staging-and-committing-workflow&#34;&gt;1. The Staging and Committing Workflow&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;you add new files&amp;hellip; git add . &amp;hellip; this is called staging process&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Verdict: 100% Correct.&lt;/strong&gt;
+You are absolutely right. &lt;code&gt;git add&lt;/code&gt; moves files into the &lt;strong&gt;Staging Area&lt;/strong&gt;. Think of staging like packing a box before moving houses. You put items in the box (&lt;code&gt;git add&lt;/code&gt;), but you haven&amp;rsquo;t taped the box shut yet.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;and if I need to commit this to the remote repository I need to commit these files with a message&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Teacher’s Note:&lt;/strong&gt; You are &lt;em&gt;almost&lt;/em&gt; there, but there is a crucial distinction.
+When you run &lt;code&gt;git commit -m &amp;quot;message&amp;quot;&lt;/code&gt;, you are &lt;strong&gt;not&lt;/strong&gt; saving to the remote repository yet. You are only saving that &amp;ldquo;box&amp;rdquo; permanently to your &lt;strong&gt;local computer&amp;rsquo;s&lt;/strong&gt; history.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Correction:&lt;/strong&gt; &lt;code&gt;git commit&lt;/code&gt; saves to your &lt;em&gt;local&lt;/em&gt; repo. &lt;code&gt;git push&lt;/code&gt; sends that commit to the &lt;em&gt;remote&lt;/em&gt; repo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-what-is-git-origin-main&#34;&gt;2. &amp;ldquo;What is &lt;code&gt;git origin main&lt;/code&gt;?&amp;rdquo;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;then what is git origin main?&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Answer:&lt;/strong&gt;
+This usually appears in the command &lt;code&gt;git push origin main&lt;/code&gt;. Let&amp;rsquo;s break it into two words:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;origin&lt;/code&gt;&lt;/strong&gt;: This is just a nickname for the URL of the remote repository (like GitHub or GitLab). Instead of typing &lt;code&gt;https://github.com/myname/project.git&lt;/code&gt; every time, Git lets you just say &lt;code&gt;origin&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;main&lt;/code&gt;&lt;/strong&gt;: This is the name of the specific branch you are pushing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, &lt;code&gt;git push origin main&lt;/code&gt; literally translates to: &lt;em&gt;&amp;ldquo;Upload my changes to the server nicknamed &lt;strong&gt;origin&lt;/strong&gt; and put them on the &lt;strong&gt;main&lt;/strong&gt; branch.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-fetch-vs-pull-the-intermediate-state&#34;&gt;3. Fetch vs. Pull (The &amp;ldquo;Intermediate State&amp;rdquo;)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;what is git fetch. is it like intermediary state of git pull&amp;hellip; like you fetch the remote repo to an intermediate state&amp;hellip; I can do git pull ; is this correct ?&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Answer:&lt;/strong&gt;
+You have the concept exactly right! Here is the formula you should memorize:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;git pull&lt;/code&gt; = &lt;code&gt;git fetch&lt;/code&gt; + &lt;code&gt;git merge&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git fetch&lt;/code&gt;&lt;/strong&gt;: This goes to the remote server and says, &amp;ldquo;Show me what has changed,&amp;rdquo; but it &lt;strong&gt;does not touch your working files&lt;/strong&gt;. It downloads the new data safely into a hidden folder so you can look at it first. (This is the &amp;ldquo;intermediate state&amp;rdquo; you mentioned).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git merge&lt;/code&gt;&lt;/strong&gt;: This takes that fetched data and actually updates the code files you are looking at on your screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/strong&gt;: This is the &amp;ldquo;lazy&amp;rdquo; command that does both steps at once. It downloads the changes and immediately tries to force them into your files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/li_hu_22145ad01d67f407.webp 480w, http://localhost:1313/exp/images/li_hu_29890ec4ae595cb2.webp 800w, http://localhost:1313/exp/images/li_hu_cf744a573b162dbf.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/li_hu_c8d82c13ada993d8.jpg 480w, http://localhost:1313/exp/images/li_hu_523ea6b2388c730f.jpg 800w, http://localhost:1313/exp/images/li_hu_72560a7979718502.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/li_hu_523ea6b2388c730f.jpg&#34;
+        alt=&#34;image of a handwritten goodnotes page&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;1129&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;hand written goodnotes page can be nice a input to gemini&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;4-creating-branches&#34;&gt;4. Creating Branches&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;then if I need to make a new branch. I can do git -b branch-name&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Correction:&lt;/strong&gt; The syntax here is slightly off.
+To create a branch &lt;em&gt;and&lt;/em&gt; switch to it immediately, the command is:
+&lt;code&gt;git checkout -b branch-name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(Just &lt;code&gt;git -b&lt;/code&gt; won&amp;rsquo;t work).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: In newer versions of Git, you can also use &lt;code&gt;git switch -c branch-name&lt;/code&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5-what-about-git-checkout&#34;&gt;5. &amp;ldquo;What about &lt;code&gt;git checkout&lt;/code&gt;?&amp;rdquo;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Your notes:&lt;/strong&gt; &amp;ldquo;then what about git checkout?&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Answer:&lt;/strong&gt;
+&lt;code&gt;git checkout&lt;/code&gt; is the command used to &lt;strong&gt;switch focus&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Switching Branches:&lt;/strong&gt; If you are on the &lt;code&gt;main&lt;/code&gt; branch and want to work on &lt;code&gt;feature-A&lt;/code&gt;, you type &lt;code&gt;git checkout feature-A&lt;/code&gt;. Git replaces all the files in your folder with the version from that branch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Travel:&lt;/strong&gt; You can also checkout a specific point in time (a commit ID) to see what your project looked like last week!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;summary-for-your-notes&#34;&gt;Summary for your notes:&lt;/h3&gt;
+&lt;p&gt;You are doing great. Your mental model is solid. Just remember: &lt;strong&gt;Committing is local (saving your work), Pushing is remote (sharing your work).&lt;/strong&gt; Keep going!&lt;/p&gt;
+&lt;p&gt;That is a fantastic set of follow-up questions! You have moved past the basics and are now asking the &amp;ldquo;safety&amp;rdquo; questions—how to fix mistakes and how to work with a team.&lt;/p&gt;
+&lt;p&gt;Here is the breakdown, addressing your points and filling in the gaps.&lt;/p&gt;
+&lt;h3 id=&#34;1-how-to-undo-a-commit-you-already-pushed&#34;&gt;1. How to undo a commit you already pushed?&lt;/h3&gt;
+&lt;p&gt;This is the most dangerous scenario in Git, so listen closely! Since you have already &lt;strong&gt;pushed&lt;/strong&gt; the commit to the remote repo (where others can see it), &lt;strong&gt;you should not delete it.&lt;/strong&gt; If you delete it, you break the history for everyone else on your team.&lt;/p&gt;
+&lt;p&gt;Instead, we create a &lt;strong&gt;new commit that is the exact opposite&lt;/strong&gt; of the bad one. This is called a &amp;ldquo;Revert.&amp;rdquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Command:&lt;/strong&gt; &lt;code&gt;git revert &amp;lt;commit-id&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What it does:&lt;/strong&gt; If your bad commit added a line of code, &lt;code&gt;git revert&lt;/code&gt; creates a &lt;em&gt;new&lt;/em&gt; commit that deletes that line. It preserves history so everyone can see &amp;ldquo;Oh, he made a mistake, and here is the fix.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Teacher’s Tip:&lt;/strong&gt; If you haven&amp;rsquo;t pushed yet (it&amp;rsquo;s only local), you can use &lt;code&gt;git reset&lt;/code&gt;, but once you push, always use &lt;code&gt;git revert&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-how-to-do-time-travel&#34;&gt;2. How to do &amp;ldquo;Time Travel&amp;rdquo;?&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Time travel&amp;rdquo; is useful if a bug appears and you want to see what the code looked like last week to figure out when it broke.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1: Get the map.&lt;/strong&gt;
+Run &lt;code&gt;git log&lt;/code&gt;. This shows you a list of all commits. Each one has a weird ID code (called a hash), like &lt;code&gt;a1b2c3d...&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2: Go to the past.&lt;/strong&gt;
+Run &lt;code&gt;git checkout &amp;lt;commit-id&amp;gt;&lt;/code&gt; (e.g., &lt;code&gt;git checkout a1b2c3d&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Consequence (Detached HEAD):&lt;/strong&gt;
+Git will warn you that you are in a &amp;ldquo;Detached HEAD state.&amp;rdquo; Don&amp;rsquo;t panic! This just means you are in &lt;strong&gt;Museum Mode&lt;/strong&gt;. You can look around and run the code, but you shouldn&amp;rsquo;t save new changes here because they won&amp;rsquo;t belong to any branch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3: Return to the present.&lt;/strong&gt;
+Run &lt;code&gt;git checkout main&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-what-about-put-requests-correction-pull-requests&#34;&gt;3. &amp;ldquo;What about put requests?&amp;rdquo; (Correction: Pull Requests)&lt;/h3&gt;
+&lt;p&gt;I believe you mean &lt;strong&gt;Pull Requests (PRs)&lt;/strong&gt;. (A &amp;ldquo;Put request&amp;rdquo; is a web development term, not a Git term).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What are they?&lt;/strong&gt;
+A Pull Request is &lt;strong&gt;not&lt;/strong&gt; a Git command. You cannot type &lt;code&gt;git pull-request&lt;/code&gt; in your terminal. It is a feature on websites like GitHub or GitLab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Workflow:&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;You do work on your separate branch (&lt;code&gt;feature-login&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;You push that branch to GitHub.&lt;/li&gt;
+&lt;li&gt;On the GitHub website, you click &amp;ldquo;Create Pull Request.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Meaning:&lt;/strong&gt; You are saying to the project manager: &lt;em&gt;&amp;ldquo;I have finished my work on my branch. I am &lt;strong&gt;Requesting&lt;/strong&gt; that you &lt;strong&gt;Pull&lt;/strong&gt; my code into the main branch.&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;This allows your team to review your code, comment on it, and approve it before it merges.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-am-i-missing-something-please-list-all-of-them&#34;&gt;4. &amp;ldquo;Am I missing something? Please list all of them.&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;You have covered 90% of the daily workflow! However, there are &lt;strong&gt;three critical concepts&lt;/strong&gt; missing from your notes that you &lt;em&gt;will&lt;/em&gt; encounter eventually:&lt;/p&gt;
+&lt;h4 id=&#34;a-merge-conflicts-the-headache&#34;&gt;A. Merge Conflicts (The Headache)&lt;/h4&gt;
+&lt;p&gt;Sometimes, you edit line 10 of a file, and your teammate edits line 10 of the &lt;em&gt;same&lt;/em&gt; file. When you try to merge or pull, Git panics because it doesn&amp;rsquo;t know whose line is correct.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What happens:&lt;/strong&gt; Git stops and asks you to manually open the file and choose which code to keep.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;b-gitignore-the-bouncer&#34;&gt;B. &lt;code&gt;.gitignore&lt;/code&gt; (The Bouncer)&lt;/h4&gt;
+&lt;p&gt;There are files you never want to upload to the internet (passwords, API keys, huge video files, temporary system files).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The solution:&lt;/strong&gt; You create a simple text file named &lt;code&gt;.gitignore&lt;/code&gt; and list the file names you want Git to ignore. Git will pretend they don&amp;rsquo;t exist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;c-git-status-the-gps&#34;&gt;C. &lt;code&gt;git status&lt;/code&gt; (The GPS)&lt;/h4&gt;
+&lt;p&gt;This is actually the command you will use more than any other.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Command:&lt;/strong&gt; &lt;code&gt;git status&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What it does:&lt;/strong&gt; It tells you exactly what is going on. Are files staged? Are they modified? What branch are you on?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teacher&amp;rsquo;s Rule:&lt;/strong&gt; Whenever you feel lost, type &lt;code&gt;git status&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Summary of your progress:&lt;/strong&gt;
+You now understand the lifecycle (add/commit/push), the collaboration (fetch/pull/PRs), and the safety nets (revert/time travel). You are ready to start coding!&lt;/p&gt;
+</content:encoded>
     </item>
     <item>
       <title>Australia Is Running a Weird Experiment in Coasting</title>
       <link>http://localhost:1313/exp/posts/lucky-country/</link>
-      <pubDate>Fri, 10 May 2024 12:00:00 -0700</pubDate>
+      <pubDate>Fri, 10 May 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/lucky-country/</guid>
-      <description>&lt;h2 id=&#34;the-lucky-country-thing&#34;&gt;The Lucky Country Thing&lt;/h2&gt;&#xA;&lt;p&gt;So there&amp;rsquo;s this thing about Australia. In 1964, a journalist named Donald Horne wrote a book called &amp;ldquo;The Lucky Country&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&amp;rdquo; and here&amp;rsquo;s the funny part, everyone thinks it&amp;rsquo;s a compliment. It&amp;rsquo;s not!. The whole point was that Australia was lucky, not good. Lucky is what you are when you&amp;rsquo;re not particularly competent but things work out anyway. It&amp;rsquo;s like being a hedge fund manager in a bull market.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;the-lucky-country-thing&#34;&gt;The Lucky Country Thing&lt;/h2&gt;
+&lt;p&gt;So there&amp;rsquo;s this thing about Australia. In 1964, a journalist named Donald Horne wrote a book called &amp;ldquo;The Lucky Country&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&amp;rdquo; and here&amp;rsquo;s the funny part, everyone thinks it&amp;rsquo;s a compliment. It&amp;rsquo;s not!. The whole point was that Australia was lucky, not good. Lucky is what you are when you&amp;rsquo;re not particularly competent but things work out anyway. It&amp;rsquo;s like being a hedge fund manager in a bull market.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;the-lucky-country-thing&#34;&gt;The Lucky Country Thing&lt;/h2&gt;
+&lt;p&gt;So there&amp;rsquo;s this thing about Australia. In 1964, a journalist named Donald Horne wrote a book called &amp;ldquo;The Lucky Country&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&amp;rdquo; and here&amp;rsquo;s the funny part, everyone thinks it&amp;rsquo;s a compliment. It&amp;rsquo;s not!. The whole point was that Australia was lucky, not good. Lucky is what you are when you&amp;rsquo;re not particularly competent but things work out anyway. It&amp;rsquo;s like being a hedge fund manager in a bull market.&lt;/p&gt;
+&lt;p&gt;Horne&amp;rsquo;s thesis, basically was Australia is run by second-rate people who are coasting on the country&amp;rsquo;s natural advantages like massive mineral wealth, distance from world conflicts, nice beaches, scary animals that keep out the riffraff, etc. The full quote that everyone forgets the second half of is, &amp;ldquo;Australia is a lucky country run mainly by second-rate people who share its luck.&amp;rdquo; Ouch!&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/lucky-country_hu_297998f2b8b80763.webp 480w, http://localhost:1313/exp/images/lucky-country_hu_2b3ff69adf0c3668.webp 800w, http://localhost:1313/exp/images/lucky-country_hu_f849a8adc6a63626.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/lucky-country_hu_9c8321db930429d7.jpg 480w, http://localhost:1313/exp/images/lucky-country_hu_853d9a67334e0268.jpg 800w, http://localhost:1313/exp/images/lucky-country_hu_1782d60d9de1a276.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/lucky-country_hu_853d9a67334e0268.jpg&#34;
+        alt=&#34;the cover of Donald Horne&amp;rsquo;s book by Penguin&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;1214&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Lucky Country™&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;context-is-everything-or-why-was-everyone-so-mad-in-1964&#34;&gt;Context Is Everything (or Why Was Everyone So Mad in 1964?)&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the context that matters, Horne was writing during the Menzies era, when Australia had been governed by the same conservative coalition for basically forever (okay, since 1949, but in democracy years that&amp;rsquo;s like three centuries). The country was doing fine economically,riding the sheep&amp;rsquo;s back, as they say, which is apparently something Australians say, but Horne thought this was despite, not because of, its leadership.&lt;/p&gt;
+&lt;p&gt;The 1960s context is crucial. This was when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Australia still had the     &lt;a href=&#34;https://www.nma.gov.au/defining-moments/resources/white-australia-policy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;White Australia Policy&lt;/a&gt;
+, yikes&lt;/li&gt;
+&lt;li&gt;The country was culturally cringing at Britain while economically snuggling up to America&lt;/li&gt;
+&lt;li&gt;Everyone was making money from minerals and wool without really trying&lt;/li&gt;
+&lt;li&gt;Innovation was something that happened in other countries&lt;/li&gt;
+&lt;li&gt;The ruling class went to the right schools, joined the right clubs, and thought the whole arrangement was just splendid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-ironic-afterlife&#34;&gt;The Ironic Afterlife&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s where it gets really good. The phrase &amp;ldquo;Lucky Country&amp;rdquo; immediately got repurposed as a patriotic slogan. It&amp;rsquo;s like if &amp;ldquo;Eat the Rich&amp;rdquo; became a wealth management firm&amp;rsquo;s tagline. Politicians started using it in speeches to mean the opposite of what Horne intended. This drove him absolutely nuts, which he spent the rest of his life pointing out to anyone who would listen.&lt;/p&gt;
+&lt;p&gt;The book became one of those cultural touchstones that everyone references but nobody reads, like &amp;ldquo;The Wealth of Nations&amp;rdquo; or your company&amp;rsquo;s code of conduct. Australians would say &amp;ldquo;we&amp;rsquo;re the Lucky Country&amp;rdquo; with pride, and Horne would be somewhere grinding his teeth.&lt;/p&gt;
+&lt;h2 id=&#34;the-expanded-universe&#34;&gt;The Expanded Universe&lt;/h2&gt;
+&lt;p&gt;Horne wasn&amp;rsquo;t done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The 1971 edition&lt;/strong&gt;: Added new chapters where he basically said, &amp;ldquo;Hey, remember when I said you were coasting? Still doing it!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The 1976 edition&lt;/strong&gt;: Vietnam had happened, Whitlam had happened, and Horne was like, &amp;ldquo;Okay, some things changed, but fundamentally you&amp;rsquo;re still not getting it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Later editions through the 1990s&lt;/strong&gt;: Each time returning to say, essentially, &amp;ldquo;You guys know I was insulting you, right? Right??&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The 50th anniversary edition (2014)&lt;/strong&gt;: By this point, Horne had died, but others picked up the torch to point out that Australia was &lt;strong&gt;still&lt;/strong&gt; getting the quote wrong, though at least now they had good coffee.&lt;/p&gt;
+&lt;h2 id=&#34;the-modern-relevance-or-still-lucky-after-all-these-years&#34;&gt;The Modern Relevance (or Still Lucky After All These Years)&lt;/h2&gt;
+&lt;p&gt;The wild thing is, the critique kind of still works? Australia today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Still makes bank from digging stuff up and selling it to China (iron ore is the new wool)&lt;/li&gt;
+&lt;li&gt;Still has a political class that seems surprised when they have to do actual work&lt;/li&gt;
+&lt;li&gt;Still treats &amp;ldquo;she&amp;rsquo;ll be right&amp;rdquo; as a governing philosophy&lt;/li&gt;
+&lt;li&gt;Has somehow avoided recession for 30 years mostly through luck and Chinese demand for rocks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s like a country-sized experiment in what happens when you give a C+ student an inheritance and good weather.&lt;/p&gt;
+&lt;h2 id=&#34;the-lessons-here&#34;&gt;The Lessons Here&lt;/h2&gt;
+&lt;p&gt;What can we learn from all this? a few things&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Irony doesn&amp;rsquo;t translate at scale.&lt;/strong&gt; Once a phrase enters the discourse, it belongs to the discourse, not to you. Horne discovered what every songwriter who&amp;rsquo;s had their protest song played at political rallies learns, you don&amp;rsquo;t control the meaning anymore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lucky vs. Good is actually a crucial distinction.&lt;/strong&gt; Did your portfolio go up because you&amp;rsquo;re smart or because everyone&amp;rsquo;s portfolio went up? Australia&amp;rsquo;s been running this experiment at a national level for 60 years.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;    &lt;a href=&#34;https://melbourneinstitute.unimelb.edu.au/publications/working-papers/search/result?paper=2156386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Natural resources&lt;/a&gt;
+ are like a trust fund.&lt;/strong&gt; They can make you rich without making you smart. Saudi Arabia knows this. Norway knows this and actually did something about it. Australia knows this but prefers not to think about it too hard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cultural criticism ages weirdly.&lt;/strong&gt; Some of Horne&amp;rsquo;s specific complaints seem quaint now (he was very worried about Australian theater), while others remain evergreen (mediocre leadership coasting on circumstances).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;the-punchline&#34;&gt;The Punchline&lt;/h2&gt;
+&lt;p&gt;The ultimate joke is that being the &amp;ldquo;Lucky Country&amp;rdquo; in Horne&amp;rsquo;s insulting sense might actually be&amp;hellip; fine? Like, if you can coast on natural advantages, steady democracy, and geographic isolation from most of the world&amp;rsquo;s problems, why wouldn&amp;rsquo;t you? It&amp;rsquo;s like critiquing someone for inheriting money. Sure, they didn&amp;rsquo;t earn it, but they&amp;rsquo;re still rich.&lt;/p&gt;
+&lt;p&gt;Australia took an insult, misunderstood it as a compliment, and then proceeded to prove both interpretations correct simultaneously. They&amp;rsquo;re lucky (they have enormous natural advantages), they&amp;rsquo;re Lucky Country™ (they&amp;rsquo;ve turned this into a brand), and they&amp;rsquo;re &amp;ldquo;lucky&amp;rdquo; in Horne&amp;rsquo;s sense (often mediocre leadership that doesn&amp;rsquo;t matter because the fundamentals are so good).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s actually kind of genius? Though probably not on purpose, which I guess is Horne&amp;rsquo;s whole point.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The thing about national myths is they don&amp;rsquo;t have to be true, or even coherent. They just have to be repeated enough times that everyone forgets to question them. Australia&amp;rsquo;s been dining out on being &amp;ldquo;lucky&amp;rdquo; for so long that whether it&amp;rsquo;s a compliment or an insult has ceased to matter. They&amp;rsquo;re like that friend who embraced their embarrassing nickname from college and now puts it on their business cards. At some point, you have to respect the commitment to the bit.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
     <item>
       <title>Ovid&#39;s Metamorphoses or How to Get Exiled for Writing Fanfiction</title>
       <link>http://localhost:1313/exp/posts/metamorphasis-ovid/</link>
-      <pubDate>Sun, 28 Apr 2024 12:00:00 -0700</pubDate>
+      <pubDate>Sun, 28 Apr 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/metamorphasis-ovid/</guid>
-      <description>&lt;p&gt;Look, so around 8 CE, Publius Ovidius Naso, Ovid to his friends, probably &amp;ldquo;that guy who won&amp;rsquo;t shut up about Zeus turning into animals&amp;rdquo; to everyone else finished writing what is essentially the world&amp;rsquo;s most ambitious mythological cinematic universe. The &lt;em&gt;Metamorphoses&lt;/em&gt; is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_e985115385346ef4.webp 480w, http://localhost:1313/exp/images/ovid_hu_485ac3cc0118d36b.webp 800w, http://localhost:1313/exp/images/ovid_hu_d519ad9a4025fad5.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_20b3ead6d4dfd282.jpg 480w, http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg 800w, http://localhost:1313/exp/images/ovid_hu_c7a91b82c7bcd8fd.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;557&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;Ovid side profile&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Look, so around 8 CE, Publius Ovidius Naso, Ovid to his friends, probably &amp;ldquo;that guy who won&amp;rsquo;t shut up about Zeus turning into animals&amp;rdquo; to everyone else finished writing what is essentially the world&amp;rsquo;s most ambitious mythological cinematic universe. The &lt;em&gt;Metamorphoses&lt;/em&gt; is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_e985115385346ef4.webp 480w, http://localhost:1313/exp/images/ovid_hu_485ac3cc0118d36b.webp 800w, http://localhost:1313/exp/images/ovid_hu_d519ad9a4025fad5.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_20b3ead6d4dfd282.jpg 480w, http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg 800w, http://localhost:1313/exp/images/ovid_hu_c7a91b82c7bcd8fd.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;557&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Ovid side profile&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Look, so around 8 CE, Publius Ovidius Naso, Ovid to his friends, probably &amp;ldquo;that guy who won&amp;rsquo;t shut up about Zeus turning into animals&amp;rdquo; to everyone else finished writing what is essentially the world&amp;rsquo;s most ambitious mythological cinematic universe. The &lt;em&gt;Metamorphoses&lt;/em&gt; is 15 books of people turning into things, gods behaving badly, and what happens when you give shapeshifting powers to entities with impulse control problems.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_e985115385346ef4.webp 480w, http://localhost:1313/exp/images/ovid_hu_485ac3cc0118d36b.webp 800w, http://localhost:1313/exp/images/ovid_hu_d519ad9a4025fad5.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/ovid_hu_20b3ead6d4dfd282.jpg 480w, http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg 800w, http://localhost:1313/exp/images/ovid_hu_c7a91b82c7bcd8fd.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/ovid_hu_a1e2b8e24af84e53.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;557&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Ovid side profile&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-context-is-everything&#34;&gt;The Context Is Everything&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the thing about writing in Augustan Rome: Augustus Caesar had just spent decades transforming Rome from &amp;ldquo;republic that&amp;rsquo;s definitely still a republic, why do you ask?&amp;rdquo; into &amp;ldquo;empire but we don&amp;rsquo;t say the E-word out loud.&amp;rdquo; The whole Roman project at this point was about transformation, transforming chaos into order, transforming a mess of civil wars into the Pax Romana, transforming Augustus from &amp;ldquo;guy who proscribed his enemies&amp;rdquo; into &amp;ldquo;Father of the Fatherland.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;So naturally Ovid writes a book where transformation is chaotic, uncontrollable, and mostly happens because Jupiter saw someone attractive and thought, &amp;ldquo;You know what would improve this situation? Me, as a swan.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The timing here is &lt;em&gt;chef&amp;rsquo;s kiss&lt;/em&gt; perfect. Augustus is pushing this whole moral reform agenda, the &lt;em&gt;Lex Julia&lt;/em&gt; laws about marriage and adultery, trying to bring back old-fashioned Roman values, making Rome great again, etc. Meanwhile, Ovid is writing 250 myths where the gods commit approximately 247 acts that would violate these laws. It&amp;rsquo;s like if someone wrote a book about SEC violations while Gary Gensler was trying to reform crypto. Actually, wait, that happens every day.&lt;/p&gt;
+&lt;h2 id=&#34;the-business-model-of-ancient-poetry&#34;&gt;The Business Model of Ancient Poetry&lt;/h2&gt;
+&lt;p&gt;Anyway, the economics of being a poet in ancient Rome were weird. You needed a patron,basically a rich guy who would fund your lifestyle in exchange for you writing nice things about him. It&amp;rsquo;s sort of like being a Substack writer, except instead of paid subscribers you had one very important subscriber who could have you killed.&lt;/p&gt;
+&lt;p&gt;Ovid was actually pretty good at this game initially. He came from money (equestrian class think upper middle management), got a solid education, and was supposed to go into law or politics. Instead, he decided to write love poetry. His early stuff the &lt;em&gt;Amores&lt;/em&gt;, the &lt;em&gt;Ars Amatoria&lt;/em&gt; was basically &amp;ldquo;how to have affairs in Rome,&amp;rdquo; which was extremely popular with everyone except the guy trying to legislate against adultery.&lt;/p&gt;
+&lt;h2 id=&#34;the-product&#34;&gt;The Product&lt;/h2&gt;
+&lt;p&gt;So what actually is the &lt;em&gt;Metamorphoses&lt;/em&gt;? Imagine if someone decided to write a continuous history of the world from the creation of the universe to the present day, but insisted on only including stories where someone turns into something else. Also, imagine this person had ADHD and kept getting distracted by really interesting tangents. Also, imagine they were brilliant.&lt;/p&gt;
+&lt;p&gt;The poem starts with chaos transforming into cosmos and ends with Julius Caesar transforming into a god. In between, we get:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Approximately 50 different ways gods seduce mortals (success rate: disturbingly high)&lt;/li&gt;
+&lt;li&gt;Multiple instances of people turning into trees to avoid said gods (success rate: medium)&lt;/li&gt;
+&lt;li&gt;The world&amp;rsquo;s first recorded instance of someone being turned into a spider for winning a weaving contest (seems harsh but okay)&lt;/li&gt;
+&lt;li&gt;Philosophical discussions about whether you&amp;rsquo;re still you if all your atoms get replaced (Theseus&amp;rsquo;s ship paradox, but with actual people)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The whole thing is written in dactylic hexameter, which is the poetry equivalent of choosing to code everything in assembly language when Python exists. But Ovid makes it look easy, probably because he was annoyingly talented.&lt;/p&gt;
+&lt;h2 id=&#34;the-innovation&#34;&gt;The Innovation&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s actually clever about the &lt;em&gt;Metamorphoses&lt;/em&gt;: Ovid took every myth anyone had ever heard and created a unified theory of mythology. Everything connects to everything else through transformation. It&amp;rsquo;s like someone creating a Marvel Cinematic Universe out of every public domain superhero, except the Hulk turns into a flower at the end and stays that way.&lt;/p&gt;
+&lt;p&gt;The transitions between stories are &lt;em&gt;incredible&lt;/em&gt;. He&amp;rsquo;ll be telling you about someone turning into a bird, and then mention that this bird flew over a place where oh, funny story about that place, actually and before you know it you&amp;rsquo;re 300 lines into a completely different myth. It&amp;rsquo;s the narrative equivalent of     &lt;a href=&#34;https://xkcd.com/214/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia rabbit holes&lt;/a&gt;
+, except intentional and in Latin.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_3be48c8800b78e89.webp 480w, http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_912916118a1320e7.webp 800w, http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_d2c6de20432d2751.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_88ad9869c10f5593.jpg 480w, http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_3edef32054a325.jpg 800w, http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_66603c0ef8544e2.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/1200px-Wikipedia_Rabbit_Hole_hu_3edef32054a325.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;851&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;wikipedia rabbit hole&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;risk-management&#34;&gt;Risk Management&lt;/h2&gt;
+&lt;p&gt;Now, you might think writing barely-veiled criticism of autocracy while living under an autocrat is bad risk management. You would be correct! In 8 CE, the same year the &lt;em&gt;Metamorphoses&lt;/em&gt; was published, Augustus exiled Ovid to     &lt;a href=&#34;https://maps.app.goo.gl/AxKQiWEW23BxHGVr9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tomis on the Black Sea&lt;/a&gt;
+ (modern-day Romania). The official reason was &amp;ldquo;a poem and a mistake.&amp;rdquo; The poem was probably the &lt;em&gt;Ars Amatoria&lt;/em&gt; (his pickup artist manual), and the mistake was&amp;hellip; well, we don&amp;rsquo;t know. Maybe he saw something he shouldn&amp;rsquo;t have. Maybe he was involved in a plot. Maybe Augustus just really didn&amp;rsquo;t like the implications of all those transformation stories.&lt;/p&gt;
+&lt;p&gt;Ovid spent the last decade of his life in Tomis writing sad poems about how much Tomis sucked and begging to come home. He never did. The &lt;em&gt;Metamorphoses&lt;/em&gt;, which he tried to burn before leaving Rome, became one of the most influential works in Western literature.&lt;/p&gt;
+&lt;h2 id=&#34;the-legacy&#34;&gt;The Legacy&lt;/h2&gt;
+&lt;p&gt;Look, the weird thing about the &lt;em&gt;Metamorphoses&lt;/em&gt; is that it won. Augustus wanted to create an eternal city and eternal values and Ovid created an eternal poem about how everything changes. Augustus&amp;rsquo;s moral reforms didn&amp;rsquo;t stick; Ovid&amp;rsquo;s immoral stories did. Every Renaissance painter who needed an excuse to paint nude figures, every poet looking for a classical allusion, every writer who wanted to retell an old story they, all went to Ovid.&lt;/p&gt;
+&lt;p&gt;Shakespeare stole from it constantly. Dante made Ovid one of his guides. Bernini sculpted Apollo and Daphne mid-transformation. The whole Western canon is basically     &lt;a href=&#34;https://tvtropes.org/pmwiki/pmwiki.php/Main/AllMythsAreTrue&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ovid fanfiction&lt;/a&gt;
+ all the way down.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/appollo-daphne-resized_hu_ea0ddaf50ef3ea5a.webp 480w, http://localhost:1313/exp/images/appollo-daphne-resized_hu_f40336a4b45b4317.webp 800w, http://localhost:1313/exp/images/appollo-daphne-resized_hu_eb330f179d52ec2b.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/appollo-daphne-resized_hu_13b8befcc3cdb107.jpg 480w, http://localhost:1313/exp/images/appollo-daphne-resized_hu_db55383deafa130c.jpg 800w, http://localhost:1313/exp/images/appollo-daphne-resized_hu_c506950f38013e1c.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/appollo-daphne-resized_hu_db55383deafa130c.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;504&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;this is on every version of this book&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-lesson&#34;&gt;The Lesson&lt;/h2&gt;
+&lt;p&gt;So what&amp;rsquo;s the trade here? Ovid wrote a book that was simultaneously:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Completely aligned with his era&amp;rsquo;s interests (transformation was THE theme)&lt;/li&gt;
+&lt;li&gt;Completely opposed to his era&amp;rsquo;s politics (chaos vs. order)&lt;/li&gt;
+&lt;li&gt;Technically perfect (the meter is &lt;em&gt;flawless&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Wildly entertaining (gods behaving badly never gets old)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s the equivalent of writing a perfectly-structured derivatives manual that&amp;rsquo;s also a savage critique of Wall Street and also somehow fun to read. You&amp;rsquo;d probably get fired, but people would still be reading it in 2,000 years.&lt;/p&gt;
+&lt;p&gt;The meta-joke, of course, is that Ovid&amp;rsquo;s book about transformation transformed literature, transformed him from Roman poet to exile, and transformed Augustus&amp;rsquo;s attempt at moral reform into source material for centuries of erotic art. The only thing that didn&amp;rsquo;t transform was Ovid&amp;rsquo;s exile status, which remained frustratingly static until he died.&lt;/p&gt;
+&lt;p&gt;Anyway, that&amp;rsquo;s &lt;em&gt;Metamorphoses&lt;/em&gt;. Come for the mythological MCU, stay for the subversive political commentary, leave because you&amp;rsquo;ve been exiled to the Black Sea. Classic career move, honestly.&lt;/p&gt;
+</content:encoded>
     </item>
     <item>
       <title> Aristotle&#39;s Nicomachean Ethics or How to Not Be a Jerk</title>
       <link>http://localhost:1313/exp/posts/nicomachean-ethics/</link>
-      <pubDate>Thu, 28 Mar 2024 12:00:00 -0700</pubDate>
+      <pubDate>Thu, 28 Mar 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/nicomachean-ethics/</guid>
-      <description>&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a75957d765e54b8c.webp 480w, http://localhost:1313/exp/images/zero_hu_b82b6302d9bd4490.webp 800w, http://localhost:1313/exp/images/zero_hu_3ecfb9e82a45a0eb.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a1f0d1c5f5a62775.jpg 480w, http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg 800w, http://localhost:1313/exp/images/zero_hu_14dfc8f860daff81.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;471&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;Ethics or what?&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;programming-note&#34;&gt;Programming Note&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re reading this expecting tips on tax-efficient charitable giving strategies, I have bad news. Nicomachean Ethics is not about the tax code. It&amp;rsquo;s about how to live a good life, which, depending on your perspective, might be either more or less complicated than the tax code.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a75957d765e54b8c.webp 480w, http://localhost:1313/exp/images/zero_hu_b82b6302d9bd4490.webp 800w, http://localhost:1313/exp/images/zero_hu_3ecfb9e82a45a0eb.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a1f0d1c5f5a62775.jpg 480w, http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg 800w, http://localhost:1313/exp/images/zero_hu_14dfc8f860daff81.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;471&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Ethics or what?&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;programming-note&#34;&gt;Programming Note&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this expecting tips on tax-efficient charitable giving strategies, I have bad news. Nicomachean Ethics is not about the tax code. It&amp;rsquo;s about how to live a good life, which, depending on your perspective, might be either more or less complicated than the tax code.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a75957d765e54b8c.webp 480w, http://localhost:1313/exp/images/zero_hu_b82b6302d9bd4490.webp 800w, http://localhost:1313/exp/images/zero_hu_3ecfb9e82a45a0eb.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/zero_hu_a1f0d1c5f5a62775.jpg 480w, http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg 800w, http://localhost:1313/exp/images/zero_hu_14dfc8f860daff81.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/zero_hu_3bb9351d47791857.jpg&#34;
+        alt=&#34;&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;471&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Ethics or what?&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;programming-note&#34;&gt;Programming Note&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this expecting tips on tax-efficient charitable giving strategies, I have bad news. Nicomachean Ethics is not about the tax code. It&amp;rsquo;s about how to live a good life, which, depending on your perspective, might be either more or less complicated than the tax code.&lt;/p&gt;
+&lt;h2 id=&#34;the-basic-trade&#34;&gt;The Basic Trade&lt;/h2&gt;
+&lt;p&gt;Look, here&amp;rsquo;s the fundamental problem Aristotle was trying to solve. Everyone wants to be happy, right? But nobody can agree on what happiness &lt;em&gt;is&lt;/em&gt;. Some people think happiness is money. These people work at investment banks.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Other people think happiness is pleasure. These people also work at investment banks, but in different departments. Still others think happiness is honor, which, I mean, good luck with that in 2024.&lt;/p&gt;
+&lt;p&gt;Aristotle&amp;rsquo;s insight and this is why people still read this stuff 2,300 years later, is that happiness (&lt;em&gt;eudaimonia&lt;/em&gt; if you want to impress people at parties&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;) isn&amp;rsquo;t a feeling or a thing you get. It&amp;rsquo;s an &lt;em&gt;activity&lt;/em&gt;. Specifically, it&amp;rsquo;s the activity of living excellently according to virtue.&lt;/p&gt;
+&lt;p&gt;This is like saying the point of basketball isn&amp;rsquo;t to feel good about basketball or to own basketballs; it&amp;rsquo;s to play basketball well. Except instead of basketball, it&amp;rsquo;s your entire life. No pressure.&lt;/p&gt;
+&lt;h2 id=&#34;virtue-capital&#34;&gt;Virtue Capital&lt;/h2&gt;
+&lt;p&gt;So what&amp;rsquo;s virtue? Aristotle divides it into two buckets, like a philosophical asset allocation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Intellectual virtues&lt;/strong&gt; are things like wisdom, understanding, and prudence. You get these by learning and experience. Think of these as your human capital: they take time to develop, they&amp;rsquo;re hard to transfer, and they depreciate if you spend too much time on Twitter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Moral virtues&lt;/strong&gt; are things like courage, temperance, and justice. You get these by practice and habit. These are more like muscle memory, or how a trader develops an instinct for when a deal smells funny. You can&amp;rsquo;t learn courage from a book any more than you can learn to ride a bike from a PowerPoint presentation.&lt;/p&gt;
+&lt;p&gt;The clever bit (and this is peak Aristotle) is that moral virtues are all about finding the &lt;em&gt;mean&lt;/em&gt; between extremes. Not &amp;ldquo;mean&amp;rdquo; like average, but mean like the     &lt;a href=&#34;https://en.wikipedia.org/wiki/Flow_%28psychology%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sweet spot&lt;/a&gt;
+. It&amp;rsquo;s portfolio optimization for your character.&lt;/p&gt;
+&lt;p&gt;Take courage. Too little and you&amp;rsquo;re a coward. Too much and you&amp;rsquo;re reckless, probably running a crypto exchange. The virtue is in the middle: being appropriately afraid of actually scary things (bankruptcy, death, regulators) while not being afraid of things that aren&amp;rsquo;t actually scary (public speaking, commitment, switching to dark mode).&lt;/p&gt;
+&lt;h2 id=&#34;the-doctrine-of-the-mean-not-that-kind-of-mean&#34;&gt;The Doctrine of the Mean (Not That Kind of Mean)&lt;/h2&gt;
+&lt;p&gt;This &amp;ldquo;doctrine of the mean&amp;rdquo; sounds simple but gets complicated fast. The right amount of anger, for instance, depends on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who you&amp;rsquo;re angry at&lt;/li&gt;
+&lt;li&gt;What you&amp;rsquo;re angry about&lt;/li&gt;
+&lt;li&gt;How angry you are&lt;/li&gt;
+&lt;li&gt;How long you stay angry&lt;/li&gt;
+&lt;li&gt;What you do about it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Being virtuous means getting all of these right, which is harder than pricing options. At least with options you have Black-Scholes.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Also, the mean is relative to the person. The right amount of food for me is not the right amount of food for LeBron James. The right amount of risk for a 25-year-old software engineer is not the right amount of risk for a retired schoolteacher. Unless the schoolteacher is running a leveraged vol strategy in her IRA, which, honestly, happens more than you&amp;rsquo;d think.&lt;/p&gt;
+&lt;h2 id=&#34;choice-architecture&#34;&gt;Choice Architecture&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s where Aristotle gets really interesting. Not every action counts as virtuous or vicious. For Aristotle, moral responsibility requires:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Voluntariness&lt;/strong&gt;: You have to actually choose to do the thing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge&lt;/strong&gt;: You have to know what you&amp;rsquo;re doing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intent&lt;/strong&gt;: You have to do it &lt;em&gt;because&lt;/em&gt; it&amp;rsquo;s virtuous, not by accident&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is basically the mens rea requirement for virtue.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; If you donate to charity because you misclicked on a website, that doesn&amp;rsquo;t make you generous. If you avoid stealing only because you think the security cameras are on, you&amp;rsquo;re not really just.&lt;/p&gt;
+&lt;p&gt;This creates some weird edge cases. Like, what if you&amp;rsquo;re drunk? Aristotle says you&amp;rsquo;re still responsible because you chose to get drunk. But what if someone spiked your drink? Then you&amp;rsquo;re off the hook. What if you grew up in a society that taught you wrong things about virtue? Aristotle kind of hand-waves this, which, fair enough, they didn&amp;rsquo;t have behavioral economics yet.&lt;/p&gt;
+&lt;h2 id=&#34;friendship-as-a-three-way-merger&#34;&gt;Friendship as a Three-Way Merger&lt;/h2&gt;
+&lt;p&gt;The back half of the Nicomachean Ethics is largely about friendship, which seems random until you realize that for Aristotle, you literally cannot be happy without friends. This isn&amp;rsquo;t &amp;ldquo;aw, friendship is nice&amp;rdquo; stuff. This is &amp;ldquo;friendship is a necessary condition for human flourishing&amp;rdquo; stuff.&lt;/p&gt;
+&lt;p&gt;Aristotle identifies three types of friendship:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Utility friendships&lt;/strong&gt;: You&amp;rsquo;re friends because you&amp;rsquo;re useful to each other. This is basically every professional relationship you have.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pleasure friendships&lt;/strong&gt;: You&amp;rsquo;re friends because you enjoy hanging out. This is your group chat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtue friendships&lt;/strong&gt;: You&amp;rsquo;re friends because you recognize and appreciate each other&amp;rsquo;s good character. This is&amp;hellip; rare.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first two types are unstable. Once the utility disappears or the pleasure fades, so does the friendship. It&amp;rsquo;s like a SPAC: looks like a real company, but once you examine the fundamentals, there&amp;rsquo;s not much there.&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Real friendship—virtue friendship—requires that both people are actually virtuous, which is already a high bar, and that they spend time together, which in our remote-work world is an even higher bar. Aristotle thought you could only have a few real friends, which anticipated Dunbar&amp;rsquo;s number by two millennia.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/good_laugh_hu_52034358088ddb5e.webp 480w, http://localhost:1313/exp/images/good_laugh_hu_a994bfdbbf1b995c.webp 800w, http://localhost:1313/exp/images/good_laugh_hu_3177a478a605cbab.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/good_laugh_hu_69d104de92f3ce.jpg 480w, http://localhost:1313/exp/images/good_laugh_hu_75ffbde9b6843785.jpg 800w, http://localhost:1313/exp/images/good_laugh_hu_f8a4af9d5a23d879.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/good_laugh_hu_75ffbde9b6843785.jpg&#34;
+        alt=&#34;image of two women laughing and one feeding a baby&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;595&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;what a beautiful world&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-practical-wisdom-arbitrage&#34;&gt;The Practical Wisdom Arbitrage&lt;/h2&gt;
+&lt;p&gt;The linchpin of the whole system is     &lt;a href=&#34;https://en.wikipedia.org/wiki/Phronesis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;phronesis&lt;/em&gt;&lt;/a&gt;
+, or practical wisdom. This is the intellectual virtue that lets you figure out what the virtuous action is in any particular situation. It&amp;rsquo;s like judgment, but for your entire life instead of just for bond trading.&lt;/p&gt;
+&lt;p&gt;The problem is you can&amp;rsquo;t develop     &lt;a href=&#34;https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;practical wisdom&lt;/a&gt;
+ without already being virtuous, but you can&amp;rsquo;t reliably be virtuous without practical wisdom. This is Aristotle&amp;rsquo;s version of &amp;ldquo;you need experience to get a job, but you need a job to get experience.&amp;rdquo; His solution is that you start by imitating virtuous people and following good rules, and eventually you develop the judgment to know when to break the rules.&lt;/p&gt;
+&lt;p&gt;This is actually how a lot of professional development works. Junior bankers start by following templates and checklists. Eventually they develop the judgment to know when the template doesn&amp;rsquo;t apply. Then they become MDs and forget everything they learned, but that&amp;rsquo;s a different problem.&lt;/p&gt;
+&lt;h2 id=&#34;the-happiness-portfolio&#34;&gt;The Happiness Portfolio&lt;/h2&gt;
+&lt;p&gt;At the end of the day, Aristotle&amp;rsquo;s vision of the good life looks something like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You have developed both intellectual and moral virtues through education and practice&lt;/li&gt;
+&lt;li&gt;You exercise these virtues in activity, not just in theory&lt;/li&gt;
+&lt;li&gt;You have good friends who are also virtuous&lt;/li&gt;
+&lt;li&gt;You have enough external goods (money, health, not being ugly&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;) to not be constantly distracted by their absence&lt;/li&gt;
+&lt;li&gt;You live in a reasonably just society that allows you to flourish&lt;/li&gt;
+&lt;li&gt;You keep this up for your entire life, not just for a quarter or two&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The payoff is &lt;em&gt;eudaimonia&lt;/em&gt;: human flourishing, the good life, true happiness. Not the fleeting pleasure of a good trade or the temporary high of a promotion, but the deep satisfaction of living well.&lt;/p&gt;
+&lt;p&gt;Is this realistic? I mean, probably not. Aristotle was teaching the sons of aristocrats who had slaves to handle the boring stuff. His ideal person spends a lot of time contemplating eternal truths, which is hard to do when you have Slack notifications.&lt;/p&gt;
+&lt;p&gt;But the core insight holds up: happiness isn&amp;rsquo;t something that happens to you, it&amp;rsquo;s something you do. And you do it by developing good habits, making good choices, and building good relationships. It&amp;rsquo;s simple, but not easy. Like index investing, everyone knows what they should do, but somehow we all end up checking Robinhood at 3 AM anyway.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The Nicomachean Ethics is basically Aristotle&amp;rsquo;s attempt to create a systematic framework for not being a terrible person. Does it work? Kind of! It&amp;rsquo;s coherent, it&amp;rsquo;s comprehensive, and it&amp;rsquo;s influenced basically all of Western philosophy since.&lt;/p&gt;
+&lt;p&gt;But it&amp;rsquo;s also the product of a very different world. Aristotle thought some people were natural slaves, that women were inferior to men, and that the best life was sitting around thinking about philosophy. (Okay, that last one might be right.)&lt;/p&gt;
+&lt;p&gt;Still, the basic framework, that virtue is about finding the right balance, that happiness comes from activity not passivity, that you need friends to flourish remains surprisingly relevant. It&amp;rsquo;s like double-entry bookkeeping: invented ages ago, seems primitive, but actually still the foundation of everything.&lt;/p&gt;
+&lt;p&gt;Plus, unlike most ancient philosophy, it&amp;rsquo;s genuinely practical. Aristotle isn&amp;rsquo;t trying to prove that motion is impossible or that everything is made of water. He&amp;rsquo;s just trying to figure out how to live well. Which, let&amp;rsquo;s be honest, most of us could use some help with.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;This is unfair. Some of them work at private equity firms.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Do not actually do this at parties.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;You don&amp;rsquo;t really have Black-Scholes either, but at least you can pretend.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;For non-lawyers: mens rea is the &amp;ldquo;guilty mind&amp;rdquo; requirement in criminal law. You generally can&amp;rsquo;t be convicted of a crime unless you intended to do the crime. This is why &amp;ldquo;I didn&amp;rsquo;t know I couldn&amp;rsquo;t do that&amp;rdquo; is sometimes a real defense, though not as often as people think.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;I&amp;rsquo;m being unfair to SPACs. Some SPACs are great. But you know what I mean.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Aristotle actually says being extremely ugly is an impediment to happiness, which is mean but probably not wrong.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
     <item>
       <title>Progress and Poverty or Why Does Everything Get Worse When It Gets Better?</title>
       <link>http://localhost:1313/exp/posts/progress-and-poverty/</link>
-      <pubDate>Sat, 27 Jan 2024 12:00:00 -0700</pubDate>
+      <pubDate>Sat, 27 Jan 2024 12:00:00 -0700</pubDate><author>Lochana Perera</author>
       <guid>http://localhost:1313/exp/posts/progress-and-poverty/</guid>
-      <description>&lt;h2 id=&#34;the-rent-is-too-damn-high-1879-edition&#34;&gt;    &lt;a href=&#34;https://www.youtube.com/watch?v=OUx_32ABtw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Rent Is Too Damn High&lt;/a&gt;&#xA; (1879 Edition)&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;picture&gt;&#xA;    &lt;source&#xA;        type=&#34;image/webp&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_a5a55c14ee824a1b.webp 480w, http://localhost:1313/exp/images/robber-barons_hu_970b6a79cee914c4.webp 800w, http://localhost:1313/exp/images/robber-barons_hu_9e190a851a3ed50d.webp 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;source&#xA;        type=&#34;image/jpeg&#34;&#xA;        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_4b9af52f9e9b6af3.jpg 480w, http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg 800w, http://localhost:1313/exp/images/robber-barons_hu_4e1f5cc41485db03.jpg 1200w&#34;&#xA;        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;&#xA;    /&gt;&#xA;    &lt;img&#xA;        src=&#34;http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg&#34;&#xA;        alt=&#34;Robber barrons eating the world or America at the time&#34;&#xA;        class=&#34;&#34;&#xA;        width=&#34;800&#34;&#xA;        height=&#34;537&#34;&#xA;        loading=&#34;lazy&#34;&#xA;    /&gt;&#xA;&lt;/picture&gt; &#xA;    &lt;figcaption&gt;Robber barrons eating the world or America at the time&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;So here&amp;rsquo;s a weird thing that happened in 1879. A guy named Henry George looked around San Francisco, hich was having a absolutely bonkers real estate boom thanks to railroads and gold and general Western expansion vibes and asked a question that sounds extremely familiar: Why is it that the more prosperous society gets, the more impossible it becomes for regular people to afford anything?&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;the-rent-is-too-damn-high-1879-edition&#34;&gt;    &lt;a href=&#34;https://www.youtube.com/watch?v=OUx_32ABtw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Rent Is Too Damn High&lt;/a&gt;
+ (1879 Edition)&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_a5a55c14ee824a1b.webp 480w, http://localhost:1313/exp/images/robber-barons_hu_970b6a79cee914c4.webp 800w, http://localhost:1313/exp/images/robber-barons_hu_9e190a851a3ed50d.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_4b9af52f9e9b6af3.jpg 480w, http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg 800w, http://localhost:1313/exp/images/robber-barons_hu_4e1f5cc41485db03.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg&#34;
+        alt=&#34;Robber barrons eating the world or America at the time&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;537&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Robber barrons eating the world or America at the time&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So here&amp;rsquo;s a weird thing that happened in 1879. A guy named Henry George looked around San Francisco, hich was having a absolutely bonkers real estate boom thanks to railroads and gold and general Western expansion vibes and asked a question that sounds extremely familiar: Why is it that the more prosperous society gets, the more impossible it becomes for regular people to afford anything?&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;the-rent-is-too-damn-high-1879-edition&#34;&gt;    &lt;a href=&#34;https://www.youtube.com/watch?v=OUx_32ABtw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Rent Is Too Damn High&lt;/a&gt;
+ (1879 Edition)&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;figure&gt;
+    &lt;picture&gt;
+    &lt;source
+        type=&#34;image/webp&#34;
+        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_a5a55c14ee824a1b.webp 480w, http://localhost:1313/exp/images/robber-barons_hu_970b6a79cee914c4.webp 800w, http://localhost:1313/exp/images/robber-barons_hu_9e190a851a3ed50d.webp 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;source
+        type=&#34;image/jpeg&#34;
+        srcset=&#34;http://localhost:1313/exp/images/robber-barons_hu_4b9af52f9e9b6af3.jpg 480w, http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg 800w, http://localhost:1313/exp/images/robber-barons_hu_4e1f5cc41485db03.jpg 1200w&#34;
+        sizes=&#34;(max-width: 800px) 90vw, 800px&#34;
+    /&gt;
+    &lt;img
+        src=&#34;http://localhost:1313/exp/images/robber-barons_hu_c8023afb0a51770a.jpg&#34;
+        alt=&#34;Robber barrons eating the world or America at the time&#34;
+        class=&#34;&#34;
+        width=&#34;800&#34;
+        height=&#34;537&#34;
+        loading=&#34;lazy&#34;
+    /&gt;
+&lt;/picture&gt; 
+    &lt;figcaption&gt;Robber barrons eating the world or America at the time&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So here&amp;rsquo;s a weird thing that happened in 1879. A guy named Henry George looked around San Francisco, hich was having a absolutely bonkers real estate boom thanks to railroads and gold and general Western expansion vibes and asked a question that sounds extremely familiar: Why is it that the more prosperous society gets, the more impossible it becomes for regular people to afford anything?&lt;/p&gt;
+&lt;p&gt;Like, you&amp;rsquo;d think naively! that when society invents trains and telegraphs and factories and all sorts of productivity-enhancing stuff, everyone would get richer. That&amp;rsquo;s sort of the whole pitch, right? &amp;ldquo;Hey, let&amp;rsquo;s do capitalism and industrial revolution, everyone will be better off.&amp;rdquo; And yet George noticed that actually what happens is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;society gets way more productive&lt;/li&gt;
+&lt;li&gt;land prices go absolutely ballistic&lt;/li&gt;
+&lt;li&gt;regular workers somehow end up roughly as poor as before, just in newer, more modern ways&lt;/li&gt;
+&lt;li&gt;landowners get hilariously, stupendously rich for doing exactly nothing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Seems bad!&lt;/p&gt;
+&lt;h2 id=&#34;a-guy-walks-into-an-economic-crisis&#34;&gt;A Guy Walks Into An Economic Crisis&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the context, which is absolutely essential because George wasn&amp;rsquo;t writing in a vacuum, he was writing in a world that looked completely insane. The 1870s were &lt;em&gt;wild&lt;/em&gt;. You had:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Long Depression&lt;/strong&gt; (1873-1879): Yeah, before the Great Depression got all the naming rights, this was the worst economic crisis anyone had seen. Banks failing everywhere, unemployment through the roof, the usual &amp;ldquo;financial innovation leads to catastrophe&amp;rdquo; story that we&amp;rsquo;re all familiar with by now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robber Barons Doing Robber Baron Things&lt;/strong&gt;: The Gilded Age was in full swing. Guys like Jay Gould were manipulating entire markets for fun and profit. Railroad monopolies were charging whatever they wanted. Standard Oil was Standard Oil-ing. Income inequality was at levels that would make today&amp;rsquo;s billionaires say &amp;ldquo;okay maybe tone it down a bit.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Urbanization Going Nuts&lt;/strong&gt;: Everyone was moving to cities, which meant urban land was becoming insanely valuable. San Francisco, where George lived, grew from 57,000 people in 1860 to 234,000 in 1880. That&amp;rsquo;s like a 4x in twenty years! The land underneath those people? Worth approximately infinity dollars.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Labor Getting Squeezed&lt;/strong&gt;: Despite all this &amp;ldquo;progress,&amp;rdquo; workers were getting absolutely destroyed. Twelve-hour workdays, child labor, the Great Railroad Strike of 1877 where federal troops literally shot striking workers. Not great!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;George looked at all this and was like: &amp;ldquo;Wait a minute, this makes no sense. We have more wealth than ever before. We can produce more stuff more efficiently than at any point in human history. WHY IS EVERYONE EXCEPT LANDOWNERS STILL POOR?&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;the-theory-its-always-the-land&#34;&gt;The Theory (It&amp;rsquo;s Always The Land)&lt;/h2&gt;
+&lt;p&gt;So here&amp;rsquo;s George&amp;rsquo;s big insight, translated into modern financial blogger speak:&lt;/p&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re a regular person in 1870s San Francisco. You work at some job, doesn&amp;rsquo;t matter what, maybe you make widgets or whatever. Thanks to PROGRESS™, widget-making technology gets better. You can now make twice as many widgets per hour! Amazing! You&amp;rsquo;re gonna be rich!&lt;/p&gt;
+&lt;p&gt;Except&amp;hellip; no. Here&amp;rsquo;s what actually happens:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;More productive workers means more profitable businesses&lt;/li&gt;
+&lt;li&gt;More profitable businesses means they can afford to pay more for land&lt;/li&gt;
+&lt;li&gt;Landowners raise rents to capture all that extra productivity&lt;/li&gt;
+&lt;li&gt;You, the widget-maker, end up with exactly the same purchasing power as before&lt;/li&gt;
+&lt;li&gt;The landowner, who did literally nothing except own land that they probably inherited or bought cheap decades ago, captures all the gains&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s like if every time you got a raise, your landlord somehow knew about it and immediately raised your rent by exactly that amount. Except it&amp;rsquo;s not just your apartment, it&amp;rsquo;s the land your employer rents, the land the stores rent, the land everything sits on. The entire economy becomes a machine for transferring productivity gains to landowners.&lt;/p&gt;
+&lt;p&gt;George called this the &amp;ldquo;law of rent&amp;rdquo; and honestly? Kind of checks out.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Scenario&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Worker (Makes Widgets)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Business (Sells Widgets)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Landowner (Owns the Dirt)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Before Progress&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Earns a basic wage&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Makes a standard profit&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Collects a standard rent&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;After Progress&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Gets a small raise, but cost of living (rent) goes up by the same amount. No net gain.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Makes more profit initially, but has to pay higher rent for their factory/office. No net gain.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Does nothing. Raises the rent to capture all the new value created by the workers and businesses. Gets very rich.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;the-solution-this-is-where-it-gets-spicy&#34;&gt;The Solution (This Is Where It Gets Spicy)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Now, most economists who notice a problem go: &amp;ldquo;Well, that&amp;rsquo;s unfortunate, but what can you do? Market forces, invisible hand, etc.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Not Henry George! This absolute madman proposed something called the Single Tax, which is exactly what it sounds like: replace all taxes with one giant tax on land values. Income tax? Gone. Sales tax? Eliminated. Capital gains tax? In the trash. Just tax land, baby!&lt;/p&gt;
+&lt;p&gt;The logic is actually pretty elegant:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Land isn&amp;rsquo;t produced by anyone (it&amp;rsquo;s just&amp;hellip; there)&lt;/li&gt;
+&lt;li&gt;Land values are created by society collectively (your land is valuable because of what&amp;rsquo;s around it)&lt;/li&gt;
+&lt;li&gt;Therefore society should capture those values&lt;/li&gt;
+&lt;li&gt;This would make speculation impossible and force productive use of land&lt;/li&gt;
+&lt;li&gt;Plus you wouldn&amp;rsquo;t discourage actual productive activity with taxes on labor or capital&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s simultaneously the most radical and most conservative idea ever. Radical because it would completely reshape property rights. Conservative because it&amp;rsquo;s basically just making markets work better by removing a massive source of rent-seeking (literally).&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters-now-spoiler-everything-is-still-exactly-the-same&#34;&gt;Why This Matters Now (Spoiler: Everything Is Still Exactly The Same)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Economic Factor&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;1870s San Francisco&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;2020s Tech Hubs (SF, Austin, etc.)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Source of Progress&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Railroads, Telegraph, Factories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Internet, AI, Software&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Impact on Productivity&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Massive Increase&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Massive Increase&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Primary Beneficiary&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Landowners&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Landowners &amp;amp; Real Estate Investors&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Worker Experience&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Wages stagnate as rents rise&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Salaries feel stagnant as housing costs consume gains&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;The Hot Commodity&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Urban Land&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Urban Land&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;The Public Cry&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;The Rent Is Too Damn High!&amp;rdquo;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;The Rent Is Too Damn High!&amp;rdquo;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Here&amp;rsquo;s the thing that&amp;rsquo;s absolutely bananas about &amp;ldquo;Progress and Poverty&amp;rdquo;: George was describing 1870s San Francisco, but he could have been describing 2020s San Francisco and basically nothing would need to change.&lt;/p&gt;
+&lt;p&gt;Tech companies create trillions in value? Flows to Bay Area landowners. Remote work means people can live anywhere? Flows to landowners in Austin and Miami. Productivity improvements from AI? You already know where this is going.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve literally spent 150 years getting more productive and the basic pattern George identified, productivity gains flow to landowners rather than workers or even capital hasn&amp;rsquo;t changed. We just got better at obscuring it with financial engineering and complexity.&lt;/p&gt;
+&lt;h2 id=&#34;the-reception-everyone-loved-it-except-people-who-mattered&#34;&gt;The Reception (Everyone Loved It Except People Who Mattered)&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Progress and Poverty&amp;rdquo; became one of the best-selling books of the 19th century. It outsold everything except the Bible. George became a celebrity, almost got elected mayor of New York, and inspired political movements worldwide.&lt;/p&gt;
+&lt;p&gt;And then&amp;hellip; nothing happened. Well, not nothing,a few places implemented land value taxes (parts of Pennsylvania, Taiwan, Singapore kind of), and they worked pretty well! But mostly the people who owned land were like &amp;ldquo;hmm, interesting theory, definitely food for thought&amp;rdquo; and then continued owning land and collecting rents.&lt;/p&gt;
+&lt;p&gt;Because here&amp;rsquo;s the fundamental problem with George&amp;rsquo;s solution: the people who would need to implement it (politicians) are elected by people who vote, and the people who vote are disproportionately people who own property, and people who own property don&amp;rsquo;t typically vote to tax themselves into oblivion. Seems predictable!&lt;/p&gt;
+&lt;h2 id=&#34;the-lesson&#34;&gt;The Lesson&lt;/h2&gt;
+&lt;p&gt;The real lesson of &amp;ldquo;Progress and Poverty&amp;rdquo; isn&amp;rsquo;t necessarily that we should implement a single tax on land (though George would disagree). It&amp;rsquo;s that sometimes the most important economic insights come from asking really obvious questions that everyone else is too sophisticated to ask.&lt;/p&gt;
+&lt;p&gt;Like: &amp;ldquo;Hey, if we&amp;rsquo;re all getting so much richer, why is everyone still poor?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sometimes the answer is complicated. Sometimes it&amp;rsquo;s just rent.&lt;/p&gt;
+&lt;p&gt;By the way I decided take this very issue with chatGPT and you can find the discussion     &lt;a href=&#34;https://chatgpt.com/share/68a178e6-876c-800f-9405-9617356234e1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+ with Australia as the context, very interesting one indeed.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Disclaimer: This is not investment advice. Unless you&amp;rsquo;re investing in land, in which case Henry George would like a word. Also, past performance of 19th-century economic theories does not guarantee future results. The value of your land may go up or down, but probably up, which is kind of the whole problem.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content:encoded>
     </item>
   </channel>
 </rss>

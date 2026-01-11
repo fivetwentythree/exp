@@ -14,3 +14,15 @@ defaultTwitterImage = "images/social/twitter-default.jpg"                       
 twitter = "YourTwitterHandle" # Your Twitter/X username (without the @)
 # You can add more here later, like:
 github = "github"
+
+# RSS Configuration
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+mediaType = "application/rss+xml"
+baseName = "index"
+
+[params.rss]
+fullContent = true
