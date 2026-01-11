@@ -3,11 +3,6 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    <!-- 3D Bookshelf Section -->
-    <section id="3d-bookshelf" style="height: 400px; position: relative;">
-        <canvas id="bookshelf-canvas" style="width: 100%; height: 100%;"></canvas>
-    </section>
-
     {{/* List the 5 most recent posts from the 'posts' section */}}
     <h2 class="mn2">Recent Writings</h2>
     <ul>
@@ -25,74 +20,4 @@
     </p>
 
 </article>
-
-<script>
-// 3D Bookshelf Script
-const init3DBookshelf = () => {
-    const canvas = document.getElementById('bookshelf-canvas');
-    if (!canvas) return;
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
-    renderer.setSize(canvas.clientWidth, canvas.clientHeight);
-
-    // Lights
-    const ambientLight = new THREE.AmbientLight(0x404040, 0.6);
-    scene.add(ambientLight);
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-    directionalLight.position.set(1, 1, 1);
-    scene.add(directionalLight);
-
-    // Books
-    const books = [];
-    const bookTitles = ['Leviathan', 'Discourses on Livy', 'The Prince', 'Nicomachean Ethics', 'Progress and Poverty'];
-
-    for (let i = 0; i < 5; i++) {
-        const geometry = new THREE.BoxGeometry(0.8, 1.2, 0.15);
-        const material = new THREE.MeshStandardMaterial({ color: new THREE.Color().setHSL(i * 0.2, 0.7, 0.5) });
-        const book = new THREE.Mesh(geometry, material);
-        book.position.x = (i - 2) * 1.2;
-        book.position.z = -3;
-        scene.add(book);
-        books.push(book);
-    }
-
-    camera.position.z = 5;
-
-    // Scroll animation
-    let scrollPercent = 0;
-    const updateScroll = () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        scrollPercent = scrollTop / docHeight;
-        books.forEach((book, index) => {
-            book.rotation.y = scrollPercent * Math.PI * 2 + index * 0.1;
-        });
-    };
-
-    window.addEventListener('scroll', updateScroll);
-    updateScroll();
-
-    // Animation loop
-    const animate = () => {
-        requestAnimationFrame(animate);
-        renderer.render(scene, camera);
-    };
-    animate();
-
-    // Resize
-    window.addEventListener('resize', () => {
-        camera.aspect = canvas.clientWidth / canvas.clientHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(canvas.clientWidth, canvas.clientHeight);
-    });
-};
-
-if (typeof THREE !== 'undefined') {
-    init3DBookshelf();
-} else {
-    console.error('Three.js not loaded');
-}
-</script>
 {{ end }}

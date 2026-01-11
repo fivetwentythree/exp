@@ -12,7 +12,8 @@
         <meta name="keywords" content="philosophy, ethics, virtue, wisdom, blog" />
 
         
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="/fonts/Lora-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/fonts/BerkeleyMonoVariable-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
         
         
@@ -91,12 +92,21 @@
         <meta name="theme-color" content="#ffffff" />
         
         
-        <link
-            rel="stylesheet"
-            href="/exp/styles.cc1448663be17be59942e9e0e6fdef2b8007a5f0d681d32ffc30ccf20ede0e0e.css"
-            integrity="sha256-zBRIZjvhe&#43;WZQung5v3vK4AHpfDWgdMv/DDM8g7eDg4="
-        />
-        <noscript><link rel="stylesheet" href="/exp/styles.cc1448663be17be59942e9e0e6fdef2b8007a5f0d681d32ffc30ccf20ede0e0e.css" /></noscript>
+        <link rel="stylesheet" href="/exp/styles.min.a3f4b77425627ef29c793fe5d802dac12bb21dca9280acc959b4ae8b89221906.css" integrity="sha256-o/S3dCVifvKceT/l2ALawSuyHcqSgKzJWbSui4kiGQY=" />
+
+        
+        <script>
+            (function() {
+                var savedTheme = localStorage.getItem("theme");
+                var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+                    document.documentElement.classList.add("theme-dark");
+                }
+                if (localStorage.getItem("font") === "sans") {
+                    document.documentElement.classList.add("font-sans");
+                }
+            })();
+        </script>
 
         <link rel="preload" as="image" href="http://localhost:1313/exp/images/social/og-default_hu_a7feb6ba6a79035b.jpg"></head>
 
@@ -466,74 +476,41 @@ You now understand the lifecycle (add/commit/push), the collaboration (fetch/pul
         <script>
             const themeToggle = document.getElementById("theme-toggle");
             const fontToggle = document.getElementById("font-toggle");
-            const body = document.body;
+            const root = document.documentElement;
 
-            
             const setTheme = (theme) => {
                 if (theme === "dark") {
-                    body.classList.add("theme-dark");
+                    root.classList.add("theme-dark");
                     localStorage.setItem("theme", "dark");
                 } else {
-                    body.classList.remove("theme-dark");
+                    root.classList.remove("theme-dark");
                     localStorage.setItem("theme", "light");
                 }
             };
 
-            
             const setFont = (font) => {
                 if (font === "sans") {
-                    body.classList.add("font-sans");
+                    root.classList.add("font-sans");
                     localStorage.setItem("font", "sans");
                 } else {
-                    body.classList.remove("font-sans");
+                    root.classList.remove("font-sans");
                     localStorage.setItem("font", "serif");
                 }
             };
 
-            
-            const savedTheme = localStorage.getItem("theme");
-            const prefersDark = window.matchMedia(
-                "(prefers-color-scheme: dark)",
-            ).matches;
-
-            if (savedTheme) {
-                setTheme(savedTheme);
-            } else if (prefersDark) {
-                setTheme("dark");
-            }
-
-            
-            const savedFont = localStorage.getItem("font");
-            if (savedFont === "sans") {
-                setFont("sans");
-            } else {
-                setFont("serif");
-            }
-
-            
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
-                    if (body.classList.contains("theme-dark")) {
-                        setTheme("light");
-                    } else {
-                        setTheme("dark");
-                    }
+                    setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
                 });
             }
 
-            
             if (fontToggle) {
                 fontToggle.addEventListener("click", () => {
-                    if (body.classList.contains("font-sans")) {
-                        setFont("serif");
-                    } else {
-                        setFont("sans");
-                    }
+                    setFont(root.classList.contains("font-sans") ? "serif" : "sans");
                 });
             }
         </script>
 
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
     </body>
 </html>

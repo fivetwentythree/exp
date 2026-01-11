@@ -11,8 +11,9 @@
         <meta name="author" content="{{ .Site.Params.author }}" />
         <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}" />
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Preload critical fonts -->
+        <link rel="preload" href="{{ "/fonts/Lora-Regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ "/fonts/BerkeleyMonoVariable-Regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 
         <!-- Open Graph / Facebook -->
         {{ partial "opengraph.html" . }}
@@ -39,14 +40,23 @@
         <link rel="manifest" href="{{ "/site.webmanifest" | relLangURL }}" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
-        <!-- Your existing (and better) CSS method -->
-        {{ $styles := resources.Get "styles.css" | resources.Fingerprint }}
-        <link
-            rel="stylesheet"
-            href="{{ $styles.RelPermalink }}"
-            integrity="{{ $styles.Data.Integrity }}"
-        />
-        <noscript><link rel="stylesheet" href="{{ $styles.RelPermalink }}" /></noscript>
+        <!-- Minified CSS with fingerprinting -->
+        {{ $styles := resources.Get "styles.css" | resources.Minify | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+
+        <!-- Inline critical theme script to prevent FOUC -->
+        <script>
+            (function() {
+                var savedTheme = localStorage.getItem("theme");
+                var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+                    document.documentElement.classList.add("theme-dark");
+                }
+                if (localStorage.getItem("font") === "sans") {
+                    document.documentElement.classList.add("font-sans");
+                }
+            })();
+        </script>
 
         <!-- Preload critical images -->
         {{- $imagePath := .Params.image | default .Site.Params.defaultSocialImage -}}
@@ -73,74 +83,41 @@
         <script>
             const themeToggle = document.getElementById("theme-toggle");
             const fontToggle = document.getElementById("font-toggle");
-            const body = document.body;
+            const root = document.documentElement;
 
-            // Function to set the theme
             const setTheme = (theme) => {
                 if (theme === "dark") {
-                    body.classList.add("theme-dark");
+                    root.classList.add("theme-dark");
                     localStorage.setItem("theme", "dark");
                 } else {
-                    body.classList.remove("theme-dark");
+                    root.classList.remove("theme-dark");
                     localStorage.setItem("theme", "light");
                 }
             };
 
-            // Function to set the font
             const setFont = (font) => {
                 if (font === "sans") {
-                    body.classList.add("font-sans");
+                    root.classList.add("font-sans");
                     localStorage.setItem("font", "sans");
                 } else {
-                    body.classList.remove("font-sans");
+                    root.classList.remove("font-sans");
                     localStorage.setItem("font", "serif");
                 }
             };
 
-            // Check for saved theme in localStorage or user's system preference
-            const savedTheme = localStorage.getItem("theme");
-            const prefersDark = window.matchMedia(
-                "(prefers-color-scheme: dark)",
-            ).matches;
-
-            if (savedTheme) {
-                setTheme(savedTheme);
-            } else if (prefersDark) {
-                setTheme("dark");
-            }
-
-            // Check for saved font preference, default to serif
-            const savedFont = localStorage.getItem("font");
-            if (savedFont === "sans") {
-                setFont("sans");
-            } else {
-                setFont("serif");
-            }
-
-            // Add click event listener to theme toggle
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
-                    if (body.classList.contains("theme-dark")) {
-                        setTheme("light");
-                    } else {
-                        setTheme("dark");
-                    }
+                    setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
                 });
             }
 
-            // Add click event listener to font toggle
             if (fontToggle) {
                 fontToggle.addEventListener("click", () => {
-                    if (body.classList.contains("font-sans")) {
-                        setFont("serif");
-                    } else {
-                        setFont("sans");
-                    }
+                    setFont(root.classList.contains("font-sans") ? "serif" : "sans");
                 });
             }
         </script>
 
-        <!-- Three.js for 3D effects -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
     </body>
 </html>
