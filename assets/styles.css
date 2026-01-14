@@ -1342,10 +1342,15 @@ img.outline {
 a {
     color: var(--color-tx-normal);
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--color-ui-normal);
+    transition: text-decoration-thickness 0.2s ease, text-decoration-color 0.2s ease, color 0.2s ease;
 }
 a:hover {
     color: var(--color-action);
-    border-color: var(--color-action);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-action);
 }
 a:focus {
     outline: none;
