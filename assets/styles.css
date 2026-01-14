@@ -1763,4 +1763,22 @@ select {
     }
 }
 
+/* --- Drop Caps --- */
+article .drop-cap::first-letter {
+    float: left;
+    font-size: 4.2em;
+    line-height: 0.75;
+    padding-right: 0.08em;
+    margin-top: 0.05em;
+    margin-bottom: -0.15em;
+    color: var(--flexoki-orange-600);
+    font-weight: 400;
+    font-family: var(--font-serif);
+    font-style: italic;
+}
+
+.theme-dark article .drop-cap::first-letter {
+    color: var(--flexoki-orange-400);
+}
+
 

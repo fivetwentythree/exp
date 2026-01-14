@@ -96,6 +96,23 @@
                     setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
                 });
             }
+
+            // Drop cap: find first paragraph with substantial text starting with a letter
+            const content = document.querySelector("article .mn2");
+            if (content) {
+                const paragraphs = content.querySelectorAll("p");
+                for (const p of paragraphs) {
+                    const text = p.textContent.trim();
+                    // Need substantial text starting with a letter
+                    if (text.length > 50 && /^[A-Za-z]/.test(text)) {
+                        // If paragraph has a figure, we can't use ::first-letter properly
+                        if (!p.querySelector("figure, img")) {
+                            p.classList.add("drop-cap");
+                            break;
+                        }
+                    }
+                }
+            }
         </script>
 
 

@@ -92,7 +92,7 @@
         <meta name="theme-color" content="#ffffff" />
         
         
-        <link rel="stylesheet" href="/exp/styles.min.e2b07bd706b1c690a71a5820d8a00d94529b45d56892d2ec95e2a63494ee8f9b.css" integrity="sha256-4rB71waxxpCnGlgg2KANlFKbRdVoktLsleKmNJTuj5s=" />
+        <link rel="stylesheet" href="/exp/styles.min.04da48bb63767c08d7bda722c1154e08ad1e66a29d892f28c2b81091360d9cdf.css" integrity="sha256-BNpIu2N2fAjXvaciwRVOCK0eZqKdiS8owrgQkTYNnN8=" />
 
         
         <script>
@@ -455,6 +455,23 @@
                 themeToggle.addEventListener("click", () => {
                     setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
                 });
+            }
+
+            
+            const content = document.querySelector("article .mn2");
+            if (content) {
+                const paragraphs = content.querySelectorAll("p");
+                for (const p of paragraphs) {
+                    const text = p.textContent.trim();
+                    
+                    if (text.length > 50 && /^[A-Za-z]/.test(text)) {
+                        
+                        if (!p.querySelector("figure, img")) {
+                            p.classList.add("drop-cap");
+                            break;
+                        }
+                    }
+                }
             }
         </script>
 
