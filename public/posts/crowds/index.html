@@ -92,7 +92,7 @@
         <meta name="theme-color" content="#ffffff" />
         
         
-        <link rel="stylesheet" href="/exp/styles.min.a3f4b77425627ef29c793fe5d802dac12bb21dca9280acc959b4ae8b89221906.css" integrity="sha256-o/S3dCVifvKceT/l2ALawSuyHcqSgKzJWbSui4kiGQY=" />
+        <link rel="stylesheet" href="/exp/styles.min.e2b07bd706b1c690a71a5820d8a00d94529b45d56892d2ec95e2a63494ee8f9b.css" integrity="sha256-4rB71waxxpCnGlgg2KANlFKbRdVoktLsleKmNJTuj5s=" />
 
         
         <script>
@@ -101,9 +101,6 @@
                 var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
                 if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
                     document.documentElement.classList.add("theme-dark");
-                }
-                if (localStorage.getItem("font") === "sans") {
-                    document.documentElement.classList.add("font-sans");
                 }
             })();
         </script>
@@ -172,33 +169,7 @@
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
         </button>
-        
-        <button id="font-toggle" class="font-toggle" aria-label="Toggle font style">
-            <svg
-                class="serif-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            >
-                <text x="12" y="16" text-anchor="middle" font-family="serif" font-size="14">S</text>
-            </svg>
-            <svg
-                class="sans-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            >
-                <text x="12" y="16" text-anchor="middle" font-family="sans-serif" font-size="14">S</text>
-            </svg>
-        </button>
+
     </div>
 </nav>
 
@@ -354,7 +325,6 @@ So here&rsquo;s a fun thing about human nature, Elias Canetti spent thirty-five 
         
         <script>
             const themeToggle = document.getElementById("theme-toggle");
-            const fontToggle = document.getElementById("font-toggle");
             const root = document.documentElement;
 
             const setTheme = (theme) => {
@@ -367,25 +337,9 @@ So here&rsquo;s a fun thing about human nature, Elias Canetti spent thirty-five 
                 }
             };
 
-            const setFont = (font) => {
-                if (font === "sans") {
-                    root.classList.add("font-sans");
-                    localStorage.setItem("font", "sans");
-                } else {
-                    root.classList.remove("font-sans");
-                    localStorage.setItem("font", "serif");
-                }
-            };
-
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
                     setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
-                });
-            }
-
-            if (fontToggle) {
-                fontToggle.addEventListener("click", () => {
-                    setFont(root.classList.contains("font-sans") ? "serif" : "sans");
                 });
             }
         </script>

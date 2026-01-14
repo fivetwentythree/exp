@@ -52,9 +52,6 @@
                 if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
                     document.documentElement.classList.add("theme-dark");
                 }
-                if (localStorage.getItem("font") === "sans") {
-                    document.documentElement.classList.add("font-sans");
-                }
             })();
         </script>
 
@@ -79,10 +76,9 @@
 
         {{ partial "footer.html" . }}
 
-        <!-- Theme and Font Toggle Scripts -->
+        <!-- Theme Toggle Script -->
         <script>
             const themeToggle = document.getElementById("theme-toggle");
-            const fontToggle = document.getElementById("font-toggle");
             const root = document.documentElement;
 
             const setTheme = (theme) => {
@@ -95,25 +91,9 @@
                 }
             };
 
-            const setFont = (font) => {
-                if (font === "sans") {
-                    root.classList.add("font-sans");
-                    localStorage.setItem("font", "sans");
-                } else {
-                    root.classList.remove("font-sans");
-                    localStorage.setItem("font", "serif");
-                }
-            };
-
             if (themeToggle) {
                 themeToggle.addEventListener("click", () => {
                     setTheme(root.classList.contains("theme-dark") ? "light" : "dark");
-                });
-            }
-
-            if (fontToggle) {
-                fontToggle.addEventListener("click", () => {
-                    setFont(root.classList.contains("font-sans") ? "serif" : "sans");
                 });
             }
         </script>
