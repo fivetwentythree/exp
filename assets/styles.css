@@ -302,7 +302,7 @@ template {
 }
 :root,
 .theme-light {
-    --color-bg-primary: #F5F5F5;
+    --color-bg-primary: #FAF9F5;
     --color-bg-primary-rgb: var(--flexoki-paper-rgb);
     --color-inverted-rgb: var(--flexoki-black-rgb);
     --color-bg-secondary: var(--flexoki-50);
@@ -661,7 +661,7 @@ body {
     line-height: var(--line-height);
     padding: 2rem 0 24rem;
     overflow-x: hidden;
-    font-size: 20px;
+    font-size: 17px;
     color: var(--color-tx-normal);
 }
 @media (max-width: 600px) {
